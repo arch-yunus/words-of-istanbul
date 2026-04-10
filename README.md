@@ -1,17 +1,29 @@
-# ?? Words of Istanbul (İstanbul'un Sözleri) v1.5.0-SOVEREIGN
+# ?? Words of Istanbul (İstanbul'un Sözleri) v2.0.0-INTELLIGENCE
 
 ![Words of Istanbul Banner](assets/banner.png)
 
-> *"Kaostan beslenmeyen, İstanbul'da sadece konuktur."*
+> *"İstanbul, üzerinde yaşadığımız bir şehir değil; bizi içine hapseden devasa bir tılsımdır."*
 
 **Words of Istanbul**, kentsel kaosun, stratejik risklerin ve derin psikolojik katmanların kesişim noktasıdır. Bu depo, bir arşivden ziyade, İstanbul'un karmaşık dokusunu çözmek ve bu dokunun içinde **manevra kabiliyeti** kazanmak için tasarlanmış bir **Sovereign Intelligence System** (Egemen İstihbarat Sistemi) çalışmasıdır.
 
 ---
 
-## ?? Intelligence Engine v2.0 (CLI)
+## ?? The Intelligence Dashboard (v2.0-ULTIMATE)
 
-Depo içeriğini analiz eden ve stratejik içörüler sunan **Istanbul Intelligence Engine**'i kullanın. Bu sürüm, veri yoğunluğunu ve analiz kapasitesini maksimize eder.
+Artık İstanbul'un ruhunu görsel olarak analiz edebilirsiniz. Projeye dahil edilen **Sovereign Dashboard**, verileri interaktif bir harita ve dinamik grafiklerle sunar.
 
+### Nasıl Çalıştırılır?
+Terminalden aşağıdaki komutu girerek yerel sunucuyu başlatın:
+```bash
+python istanbul.py --web
+```
+*Bu komut, http://localhost:8000/dashboard/ adresinde interaktif paneli açacaktır.*
+
+---
+
+## ?? Intelligence Engine CLI
+
+Terminal tabanlı analiz ve istihbarat aracı:
 ```bash
 # Rastgele bir yüksek yoğunluklu (High-Density) içörü getir
 python istanbul.py --random
@@ -21,16 +33,13 @@ python istanbul.py --stats
 
 # Tüm arşivi stilize edilmiş bir metin dosyası olarak dışa aktar
 python istanbul.py --export
-
-# Belirli bir mod veya kategori üzerinden derin arama yap
-python istanbul.py --search "Imperial Power"
 ```
 
 ---
 
 ## ?? Sovereign Operasyonel Modüller
 
-İstanbul'un en derin ve teknik katmanlarını analiz eden Masterclass içerik birimleri:
+İstanbul'un derin katmanlarını analiz eden Masterclass içerik birimleri:
 
 | Modül | Odak Alanı | Stratejik Yaklaşım |
 | :--- | :--- | :--- |
@@ -38,27 +47,15 @@ python istanbul.py --search "Imperial Power"
 | [**?? Kentsel Mekanik**](core/kentsel-mekanik-ve-nevroz.md) | Altyapı & Şehir Nevrozu | Makine-Şehir Analizi |
 | [**?? Psikocoğrafya**](core/psikocografya-ve-derive.md) | Kentsel Sürükleniş | Zihinsel Haritalama |
 | [**?? Sessiz Cehennem**](core/sessiz-cehennem.md) | Varoluşsal Sürtünme | Shelby Doktrini |
-| [**?? Edebi İzler**](core/edebi-izler.md) | Şiirsel Miras | Kültürel Hafıza |
-| [**?? İmparatorluk**](core/imparatorluk-yankilari.md) | Jeopolitik İktidar | Napoleon & Fatih |
 
 ---
 
 ## ?? Veri Mimarisi & Standartlar
 
-Bu depo, **Meta-Engineering** ve **Sovereign-Core** standartlarına göre yapılandırılmıştır:
-
-- **Structured Data:** [archive/quotes.json](archive/quotes.json) (18+ High-Density Inputs)
-- **Engine Logic:** [istanbul.py](istanbul.py) (Argparse & Analytics)
-- **Governance:** [meta/GOVERNANCE.md](meta/GOVERNANCE.md) (Masterclass Kalite Standartları)
-
----
-
-## ?? Geliştirme Yol Haritası (Roadmap)
-
-- [x] Phase 1: Temel Arşiv ve Görsel Kimlik
-- [x] Phase 2: Deep-Structure & CLI Entegrasyonu
-- [x] Phase 3: **The Sovereign Core (Mevcut Durum)**
-- [ ] Phase 4: İstanbul Real-Time Analytics (Gelecek Vizyon)
+- **Structured Data:** [archive/quotes.json](archive/quotes.json)
+- **Engine Logic:** [istanbul.py](istanbul.py)
+- **Visual Dashboard:** [dashboard/index.html](dashboard/index.html)
+- **Governance:** [meta/GOVERNANCE.md](meta/GOVERNANCE.md)
 
 ---
 

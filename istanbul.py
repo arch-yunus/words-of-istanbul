@@ -11,6 +11,10 @@ import random
 import argparse
 import sys
 import os
+import webbrowser
+import http.server
+import socketserver
+import threading
 from datetime import datetime
 
 # Configuration
@@ -76,12 +80,32 @@ def export_data(data):
             f.write("-" * 40 + "\n\n")
     print(f"?? Intelligence export completed: {export_path}")
 
+def launch_dashboard():
+    port = 8000
+    dashboard_dir = os.path.join(BASE_DIR, 'dashboard')
+    os.chdir(BASE_DIR) # Ensure we are in root for path ../archive/ to work
+    
+    handler = http.server.SimpleHTTPRequestHandler
+    
+    print(f"?? Launching Intelligence Dashboard on http://localhost:{port}/dashboard/")
+    print("?? Press Ctrl+C to stop the server.")
+    
+    # Run server in a thread so it doesn't block (though here it's fine)
+    with socketserver.TCPServer(("", port), handler) as httpd:
+        webbrowser.open(f"http://localhost:{port}/dashboard/index.html")
+        try:
+            httpd.serve_forever()
+        except KeyboardInterrupt:
+            print("\n?? Server stopped.")
+            httpd.shutdown()
+
 def main():
     parser = argparse.ArgumentParser(description="Istanbul Intelligence Engine CLI")
     parser.add_argument('-r', '--random', action='store_true', help='Display a random Masterclass insight')
     parser.add_argument('-s', '--search', type=str, help='Search insights by mood or category')
     parser.add_argument('--stats', action='store_true', help='Show intelligence distribution statistics')
     parser.add_argument('--export', action='store_true', help='Export intelligence archive to text file')
+    parser.add_argument('--web', action='store_true', help='Launch the Sovereign Intelligence Dashboard')
     
     args = parser.parse_args()
     data = load_data()
@@ -103,6 +127,8 @@ def main():
         show_stats(data)
     elif args.export:
         export_data(data)
+    elif args.web:
+        launch_dashboard()
     else:
         parser.print_help()
 

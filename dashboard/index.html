@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words of Istanbul | Intelligence Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="subtitle">Sovereign Urban Intelligence</div>
+            <h1>WORDS OF ISTANBUL</h1>
+        </header>
+
+        <div class="grid">
+            <!-- Map Card -->
+            <div class="card map-card">
+                <h2>Interactive Psychogeography Map</h2>
+                <div class="map-container" id="istanbul-map">
+                    <!-- SVG Map will be injected here or hardcoded -->
+                    <svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+                        <path id="peninsula" d="M300,300 L350,280 L400,320 L380,380 L320,370 Z" fill="#1a1a3a" stroke="#c5a059" stroke-width="2" />
+                        <text x="310" y="340" fill="white" font-size="12">Yarımada</text>
+                        
+                        <path id="beyoglu" d="M380,260 L430,220 L480,250 L450,300 L400,280 Z" fill="#1a1a3a" stroke="#c5a059" stroke-width="2" />
+                        <text x="410" y="260" fill="white" font-size="12">Beyoğlu</text>
+                        
+                        <path id="kadikoy" d="M500,350 L560,330 L600,380 L550,420 L490,400 Z" fill="#1a1a3a" stroke="#c5a059" stroke-width="2" />
+                        <text x="520" y="380" fill="white" font-size="12">Kadıköy</text>
+                        
+                        <path id="bogazici" d="M480,250 L520,150 L550,180 L510,280 Z" fill="#1a1a3a" stroke="#c5a059" stroke-width="2" />
+                        <text x="500" y="210" fill="white" font-size="12">Boğaziçi</text>
+                        
+                        <path id="uskudar" d="M500,350 L480,280 L540,260 L560,330 Z" fill="#1a1a3a" stroke="#c5a059" stroke-width="2" />
+                        <text x="505" y="310" fill="white" font-size="12">Üsküdar</text>
+                    </svg>
+                </div>
+                <p id="map-target" style="margin-top: 1rem; color: var(--primary-gold);"></p>
+            </div>
+
+            <!-- Stats Card -->
+            <div class="card stats-card">
+                <h2>Mood Analytics</h2>
+                <canvas id="moodChart"></canvas>
+            </div>
+
+            <!-- Feed Card -->
+            <div class="card feed-card">
+                <h2>Intelligence Feed</h2>
+                <div id="feed-container">
+                    <!-- Insights will be injected here -->
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Words of Istanbul | Built for The Sovereign Mind</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
