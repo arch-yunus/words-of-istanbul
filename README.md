@@ -1,38 +1,25 @@
-# ?? Words of Istanbul: Ruhun Şehirleşmiş Hali v2.2.0-SOUL
+# ?? Words of Istanbul: Ruhun Şehirleşmiş Hali
 
 ![Words of Istanbul Banner](assets/banner.png)
 
 > *"Ruhumu eritip de kalıpta dondurmuşlar; / Onu İstanbul diye toprağa kondurmuşlar."* — **Necip Fazıl Kısakürek**
 
-**Words of Istanbul**, Üstad Necip Fazıl'ın İstanbul'a duyduğu sarsıcı aşktan doğan bir **Dijital İstihbarat & Ruhani Arşiv** projesidir. Bu deponun **doğuş kıvılcımı**, İstanbul'u sadece bir mekan değil, bir "ruh ve mana merkezi" olarak gören o metafizik vizyondur.
+**Words of Istanbul**, Üstad Necip Fazıl'ın İstanbul'a duyduğu sarsıcı aşktan doğan bir **Dijital Edebiyat Antolojisi ve Manevi Arşiv** projesidir. Bu deponun **doğuş kıvılcımı**, İstanbul'u sadece bir mekan değil, bir "ruh ve mana merkezi" olarak gören o metafizik vizyondur.
 
 ---
 
-## ?? Doğuş Kıvılcımı & Felsefe
+## ?? Doğuş Kıvılcımı & Edebi Felsefe
 
-Bu projenin her satırı, İstanbul'un yedi tepesindeki o kadim sırrı keşfetmek için yazıldı. Şehri binalardan ve trafikten ibaret gören modern bakışın aksine, biz İstanbul'u bir "yaşam pratiği" ve "egemen zihin" aynası olarak konumlandırıyoruz.
+Bu projenin her kelimesi, İstanbul'un yedi tepesindeki o kadim sırrı keşfetmek için buradadır. Şehri beton yığınlarından ibaret gören modern bakışın aksine, biz İstanbul'u bir "yaşam pratiği" ve "egemen zihin" aynası olarak konumlandırıyoruz.
 
 - [**?? Doğuş Kıvılcımı Bildirgesi**](core/felsefe-ve-kivilcim.md) — Projenin ruhu ve varoluş amacı.
+- [**?? İstanbul Külliyatı (Ana Antoloji)**](archive/kulliyat.md) — Şehrin ruhundan damlamış en seçkin sözler ve analizler.
 
 ---
 
-## ?? Intelligence Engine: Ruhun Sesi
+## ?? Mertebeler (Edebi Modüller)
 
-Terminalden İstanbul'un manevi ve stratejik derinliğini soluyun. CLI aracı artık Üstad'ın vizyonuna uygun bir "Sovereign Greeting" ile açılmaktadır.
-
-```bash
-# İstanbul'un ruhundan bir mısra ve içörü getir
-python istanbul.py --random
-
-# Sovereign Dashboard'u (v2.0) başlat
-python istanbul.py --web
-```
-
----
-
-## ?? Mertebeler (Operasyonel Modüller)
-
-İstanbul'u anlamak için geçilmesi gereken manevi ve teknik katmanlar:
+İstanbul'un derin katmanlarını analiz eden Masterclass içerik birimleri:
 
 | Mertebe | Odak Alanı | Doktrin |
 | :--- | :--- | :--- |
@@ -45,15 +32,17 @@ python istanbul.py --web
 
 ---
 
-## ?? Veri Mimarisi & Standartlar
+## ?? Proje Yapısı
 
-Bu depo, **Meta-Engineering** ve **Sovereign-Core** standartlarına göre yapılandırılmıştır:
-
-- **Structured Data:** [archive/quotes.json](archive/quotes.json) (21+ High-Density Inputs)
-- **Engine Logic:** [istanbul.py](istanbul.py) (Spiritual Banner v2.2)
-- **Visual Dashboard:** [dashboard/index.html](dashboard/index.html)
+```text
+words-of-istanbul/
+├── core/                # Edebi ve felsefi analiz modülleri
+├── archive/             # Ana antoloji (Külliyat) ve veri seti
+├── assets/              # Premium görsel varlıklar
+└── meta/                # Katkı ve yönetim esasları
+```
 
 ---
 
 **Derleyen:** [Yunus Emre] & **Antigravity AI**
-*Bu depo, kentsel kaosun içindeki "mukaddes çileyi" keşfetmek isteyen egemen zihinler için bir pusuladır.*
+*Bu depo, kentsel kaosun içindeki "mukaddes çileyi" keşfetmek isteyen egemen zihinler için dijital bir sığınaktır.*
