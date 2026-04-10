@@ -21,7 +21,7 @@ MATRIX_PATH = os.path.join(BASE_DIR, 'archive', 'matrix.json')
 GLITCH_BORDER = "X" + "="*70 + "X"
 SOUL_BANNER = f"""
 {GLITCH_BORDER}
-    ?? RUH v3.0: THE SOUL ENGINE ??
+    ⚡ RUH v3.0: THE SOUL ENGINE ⚡
     "Ruhun Şehirleşmiş Hali - The Eternal Matrix"
 {GLITCH_BORDER}
 """
@@ -43,7 +43,7 @@ def stream_text(text, delay=0.01):
 
 def display_insight(m):
     print(f"\n[LAYER: {m['layer'].upper()}] [MOOD: {m['mood'].upper()}]")
-    stream_text(f"?? {m['content']}", 0.02)
+    stream_text(f"📜 {m['content']}", 0.02)
     print(f"   - [Strat: {m['strat']}/10] [Depth: {m['depth']}/10] [Cat: {m['category']}]")
     print("-" * 72)
 
@@ -70,13 +70,13 @@ def main():
         else:
             print(f"No nodes found for: {args.analyze}")
     elif args.derive:
-        print("?? Initializing Sovereign Dérive Route Intelligence...")
+        print("🏙️ Initializing Sovereign Dérive Route Intelligence...")
         time.sleep(1)
         nodes = random.sample(matrix, 3)
         print("\nROUTE COMMAND:")
         for i, n in enumerate(nodes):
             print(f"  POINT {i+1}: {n['layer']} -> {n['content'][:50]}...")
-        print("\n?? WARNING: Route may lead to deep 'Sessiz Cehennem' zones.")
+        print("\n⚡ WARNING: Route may lead to deep 'Sessiz Cehennem' zones.")
     else:
         parser.print_help()
 

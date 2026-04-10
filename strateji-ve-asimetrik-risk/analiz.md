@@ -1,8 +1,8 @@
-# ?? İstanbul: Asimetrik Risk ve Stratejik Beka Doktrini v3.0
+# 🏙️ İstanbul: Asimetrik Risk ve Stratejik Beka Doktrini v3.0
 
 İstanbul, tarih boyu medeniyetlerin zirvesi olduğu kadar, asimetrik risklerin de (küçük nedenlerin devasa sonuçlar doğurması) merkez üssü olmuştur. Bu modül, şehrin karşı karşıya olduğu sismik, sosyal ve ekonomik riskleri **Sovereign-S6 Masterclass** standartlarında analiz eder.
 
-## ?? 1. Sismik Determinizm: Büyük Reset
+## 🏢 1. Sismik Determinizm: Büyük Reset
 
 İstanbul için deprem bir "ihtimal" değil, matematiksel bir "kesinliktir."
 *   **Enerji Birikimi:** Kuzey Anadolu Fay Hattı'nın (KAF) Adalar segmentinde biriken gerilim, şehrin tüm altyapısını bir gecede resetleme potansiyeline sahiptir.
@@ -10,7 +10,7 @@
 
 ---
 
-## ?? 2. Sosyal Türbülans ve Asimetri
+## 🏢 2. Sosyal Türbülans ve Asimetri
 
 20 milyonluk bir metropolde, sosyal dokudaki en küçük bir çatlak, saniyeler içinde kentsel bir felce dönüşebilir.
 *   **Görünmez Gerilimler:** Sessiz Cehennem katmanında biriken psikolojik yıpranma, toplumsal olaylarda katalizör görevi görür.
@@ -18,7 +18,7 @@
 
 ---
 
-## ?? 3. Antifrajilite: Kaosta Ayakta Kalma
+## 🏢 3. Antifrajilite: Kaosta Ayakta Kalma
 
 Nassim Taleb'in **Antifrajilite** teorisine göre, kırılganlık kaosun içinde yok olurken, egemen zihin kaostan güçlenerek çıkar.
 *   **Manevra Alanı:** Tek bir yaşam alanına veya teknolojiye bağımlı kalmamak.
@@ -26,7 +26,7 @@ Nassim Taleb'in **Antifrajilite** teorisine göre, kırılganlık kaosun içinde
 
 ---
 
-## ?? 4. Stratejik Sonuç
+## 🏢 4. Stratejik Sonuç
 
 İstanbul'da yaşamak, her an bir kriz yönetimi pratiği yapmaktır. Bu şehir, zayıf zihinleri öğütürken, egemen zihinleri tarihin en dayanıklı ve esnek bireylerine dönüştürür.
 
