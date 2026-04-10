@@ -22,12 +22,18 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ARCHIVE_PATH = os.path.join(BASE_DIR, 'archive', 'quotes.json')
 
 # UI Elements
-BORDER = "???" + "="*60 + "???"
+BORDER = "???" + "="*66 + "???"
 BANNER = f"""
 {BORDER}
-    ?? WORDS OF ISTANBUL: SOVEREIGN CORE v2.0.0 ??
-    High-Density Intelligence & Urban Analysis
+    ?? WORDS OF ISTANBUL: RUHUN ŞEHİRLEŞMİŞ HALİ v2.2.0 ??
+    "Ruhumu eritip de kalıpta dondurmuşlar..." - NFK
 {BORDER}
+"""
+
+GREETING = """
+?? İstanbul'un ruhuna hoş geldin kanka. 
+Bu proje, Üstad Necip Fazıl'ın İstanbul aşkından doğan bir kıvılcımdır.
+Şehri sadece binalarıyla değil, manasıyla solumaya hazır mısın?
 """
 
 def load_data():
@@ -112,6 +118,7 @@ def main():
     quotes = data['quotes']
 
     print(BANNER)
+    print(GREETING)
 
     if args.random:
         display_quote(random.choice(quotes))

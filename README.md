@@ -1,64 +1,59 @@
-# ?? Words of Istanbul (İstanbul'un Sözleri) v2.0.0-INTELLIGENCE
+# ?? Words of Istanbul: Ruhun Şehirleşmiş Hali v2.2.0-SOUL
 
 ![Words of Istanbul Banner](assets/banner.png)
 
-> *"İstanbul, üzerinde yaşadığımız bir şehir değil; bizi içine hapseden devasa bir tılsımdır."*
+> *"Ruhumu eritip de kalıpta dondurmuşlar; / Onu İstanbul diye toprağa kondurmuşlar."* — **Necip Fazıl Kısakürek**
 
-**Words of Istanbul**, kentsel kaosun, stratejik risklerin ve derin psikolojik katmanların kesişim noktasıdır. Bu depo, bir arşivden ziyade, İstanbul'un karmaşık dokusunu çözmek ve bu dokunun içinde **manevra kabiliyeti** kazanmak için tasarlanmış bir **Sovereign Intelligence System** (Egemen İstihbarat Sistemi) çalışmasıdır.
-
----
-
-## ?? The Intelligence Dashboard (v2.0-ULTIMATE)
-
-Artık İstanbul'un ruhunu görsel olarak analiz edebilirsiniz. Projeye dahil edilen **Sovereign Dashboard**, verileri interaktif bir harita ve dinamik grafiklerle sunar.
-
-### Nasıl Çalıştırılır?
-Terminalden aşağıdaki komutu girerek yerel sunucuyu başlatın:
-```bash
-python istanbul.py --web
-```
-*Bu komut, http://localhost:8000/dashboard/ adresinde interaktif paneli açacaktır.*
+**Words of Istanbul**, Üstad Necip Fazıl'ın İstanbul'a duyduğu sarsıcı aşktan doğan bir **Dijital İstihbarat & Ruhani Arşiv** projesidir. Bu deponun **doğuş kıvılcımı**, İstanbul'u sadece bir mekan değil, bir "ruh ve mana merkezi" olarak gören o metafizik vizyondur.
 
 ---
 
-## ?? Intelligence Engine CLI
+## ?? Doğuş Kıvılcımı & Felsefe
 
-Terminal tabanlı analiz ve istihbarat aracı:
+Bu projenin her satırı, İstanbul'un yedi tepesindeki o kadim sırrı keşfetmek için yazıldı. Şehri binalardan ve trafikten ibaret gören modern bakışın aksine, biz İstanbul'u bir "yaşam pratiği" ve "egemen zihin" aynası olarak konumlandırıyoruz.
+
+- [**?? Doğuş Kıvılcımı Bildirgesi**](core/felsefe-ve-kivilcim.md) — Projenin ruhu ve varoluş amacı.
+
+---
+
+## ?? Intelligence Engine: Ruhun Sesi
+
+Terminalden İstanbul'un manevi ve stratejik derinliğini soluyun. CLI aracı artık Üstad'ın vizyonuna uygun bir "Sovereign Greeting" ile açılmaktadır.
+
 ```bash
-# Rastgele bir yüksek yoğunluklu (High-Density) içörü getir
+# İstanbul'un ruhundan bir mısra ve içörü getir
 python istanbul.py --random
 
-# İstihbarat metriklerini ve dağılım istatistiklerini görüntüle
-python istanbul.py --stats
-
-# Tüm arşivi stilize edilmiş bir metin dosyası olarak dışa aktar
-python istanbul.py --export
+# Sovereign Dashboard'u (v2.0) başlat
+python istanbul.py --web
 ```
 
 ---
 
-## ?? Sovereign Operasyonel Modüller
+## ?? Mertebeler (Operasyonel Modüller)
 
-İstanbul'un derin katmanlarını analiz eden Masterclass içerik birimleri:
+İstanbul'u anlamak için geçilmesi gereken manevi ve teknik katmanlar:
 
-| Modül | Odak Alanı | Stratejik Yaklaşım |
+| Mertebe | Odak Alanı | Doktrin |
 | :--- | :--- | :--- |
-| [**?? Asimetrik Risk**](core/asimetrik-risk-yonetimi.md) | Sismik & Sosyo-Ekonomik | Antifrajilite & Beka |
-| [**?? Kentsel Mekanik**](core/kentsel-mekanik-ve-nevroz.md) | Altyapı & Şehir Nevrozu | Makine-Şehir Analizi |
-| [**?? Psikocoğrafya**](core/psikocografya-ve-derive.md) | Kentsel Sürükleniş | Zihinsel Haritalama |
 | [**?? Ruhani İstanbul**](core/necip-fazil-ve-ruhani-istanbul.md) | Metafizik & Ruhani Derinlik | Necip Fazıl Doktrini |
-| [**?? Edebi İzler**](core/edebi-izler.md) | Şiirsel Miras | Masterclass Antoloji |
+| [**?? Sessiz Cehennem**](core/sessiz-cehennem.md) | Varoluşsal Sürtünme | Shelby Doktrini |
+| [**?? Psikocoğrafya**](core/psikocografya-ve-derive.md) | Kentsel Sürükleniş | Guy Debord Teorisi |
+| [**?? Kentsel Mekanik**](core/kentsel-mekanik-ve-nevroz.md) | Altyapı & Şehir Nevrozu | Makine-Şehir Analizi |
+| [**?? Asimetrik Risk**](core/asimetrik-risk-yonetimi.md) | Sismik & Stratejik Beka | Antifrajilite |
+| [**?? Efsaneler & Tılsımlar**](core/efsaneler-ve-mitoslar.md) | Kadim Kodlar | Mitoslar & Sırlar |
 
 ---
 
 ## ?? Veri Mimarisi & Standartlar
 
-- **Structured Data:** [archive/quotes.json](archive/quotes.json)
-- **Engine Logic:** [istanbul.py](istanbul.py)
+Bu depo, **Meta-Engineering** ve **Sovereign-Core** standartlarına göre yapılandırılmıştır:
+
+- **Structured Data:** [archive/quotes.json](archive/quotes.json) (21+ High-Density Inputs)
+- **Engine Logic:** [istanbul.py](istanbul.py) (Spiritual Banner v2.2)
 - **Visual Dashboard:** [dashboard/index.html](dashboard/index.html)
-- **Governance:** [meta/GOVERNANCE.md](meta/GOVERNANCE.md)
 
 ---
 
 **Derleyen:** [Yunus Emre] & **Antigravity AI**
-*Bu depo, kentsel kaosun içindeki "sessiz gücü" keşfetmek isteyen egemen zihinler için bir pusuladır.*
+*Bu depo, kentsel kaosun içindeki "mukaddes çileyi" keşfetmek isteyen egemen zihinler için bir pusuladır.*

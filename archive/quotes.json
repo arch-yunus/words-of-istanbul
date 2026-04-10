@@ -55,7 +55,8 @@
       "mood": "Spiritual",
       "strategic_value": 6,
       "psychological_weight": 9,
-      "impact_factor": 0.75
+      "impact_factor": 0.75,
+      "is_foundational": true
     },
     {
       "id": "q6",
@@ -195,7 +196,8 @@
       "mood": "Spiritual",
       "strategic_value": 7,
       "psychological_weight": 10,
-      "impact_factor": 0.95
+      "impact_factor": 0.95,
+      "is_foundational": true
     },
     {
       "id": "q20",
@@ -205,7 +207,8 @@
       "mood": "Eternity",
       "strategic_value": 6,
       "psychological_weight": 9,
-      "impact_factor": 0.88
+      "impact_factor": 0.88,
+      "is_foundational": true
     },
     {
       "id": "q21",
@@ -215,7 +218,8 @@
       "mood": "Responsibility",
       "strategic_value": 8,
       "psychological_weight": 10,
-      "impact_factor": 0.92
+      "impact_factor": 0.92,
+      "is_foundational": true
     }
   ]
 }
