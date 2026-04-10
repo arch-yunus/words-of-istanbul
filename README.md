@@ -57,5 +57,14 @@ Mükemmel bir istihbarat, kusursuz bir veri yapısına dayanır:
 
 ---
 
-**Derleyen:** [Yunus Emre] & **Antigravity AI**
-*Bu depo, İstanbul'un sinesindeki o "mukaddes çileyi" keşfetmek isteyen egemen zihinler için ebedi bir pusuladır.*
+---
+
+## ?? Author & Architecture
+
+Bu sistem, kentsel kaosun dijital bir matrix içerisinde yeniden yorumlanması amacıyla **[Bahattin Yunus Çetin](https://www.linkedin.com/in/bahattinyunus/) (IT Architect)** tarafından tasarlanmış ve yönetilmektedir. Projenin mimarisi, teknik hassasiyet ile edebi derinliğin asimetrik bir sentezidir.
+
+- **GitHub:** [@bahattinyunus](https://github.com/bahattinyunus)
+- **LinkedIn:** [Bahattin Yunus Çetin](https://www.linkedin.com/in/bahattinyunus/)
+- **Vision:** Sovereign Matrix Architect
+
+*Bu depo, İstanbul'un sinesindeki o "mukaddes çileyi" keşfetmek isteyen egemen zihinler için ebedi bir pusuladır. Kelimeler biter, ancak mimarinin bıraktığı mana asla tükenmez.*
