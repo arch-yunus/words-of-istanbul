@@ -4,7 +4,7 @@
   "metadata": {
     "project": "Words of Istanbul",
     "standard": "Sovereign-Core",
-    "total_insights": 18
+    "total_insights": 21
   },
   "quotes": [
     {
@@ -186,6 +186,36 @@
       "strategic_value": 9,
       "psychological_weight": 9,
       "impact_factor": 0.90
+    },
+    {
+      "id": "q19",
+      "content": "Ana gibi yâr olmaz, İstanbul gibi diyâr; Güleni şöyle dursun, ağlayanı bahtiyar.",
+      "author": "Necip Fazıl Kısakürek",
+      "category": "Literary",
+      "mood": "Spiritual",
+      "strategic_value": 7,
+      "psychological_weight": 10,
+      "impact_factor": 0.95
+    },
+    {
+      "id": "q20",
+      "content": "Yedi tepe üstünde zaman bir gergef işler; Yedi renk, yedi sesten sayısız belirişler.",
+      "author": "Necip Fazıl Kısakürek",
+      "category": "Literary",
+      "mood": "Eternity",
+      "strategic_value": 6,
+      "psychological_weight": 9,
+      "impact_factor": 0.88
+    },
+    {
+      "id": "q21",
+      "content": "Vicdanları, her an, İstanbul kadar ağır...",
+      "author": "Necip Fazıl Kısakürek",
+      "category": "Psychology",
+      "mood": "Responsibility",
+      "strategic_value": 8,
+      "psychological_weight": 10,
+      "impact_factor": 0.92
     }
   ]
 }

@@ -46,7 +46,8 @@ python istanbul.py --export
 | [**?? Asimetrik Risk**](core/asimetrik-risk-yonetimi.md) | Sismik & Sosyo-Ekonomik | Antifrajilite & Beka |
 | [**?? Kentsel Mekanik**](core/kentsel-mekanik-ve-nevroz.md) | Altyapı & Şehir Nevrozu | Makine-Şehir Analizi |
 | [**?? Psikocoğrafya**](core/psikocografya-ve-derive.md) | Kentsel Sürükleniş | Zihinsel Haritalama |
-| [**?? Sessiz Cehennem**](core/sessiz-cehennem.md) | Varoluşsal Sürtünme | Shelby Doktrini |
+| [**?? Ruhani İstanbul**](core/necip-fazil-ve-ruhani-istanbul.md) | Metafizik & Ruhani Derinlik | Necip Fazıl Doktrini |
+| [**?? Edebi İzler**](core/edebi-izler.md) | Şiirsel Miras | Masterclass Antoloji |
 
 ---
 
