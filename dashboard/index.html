@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sovereign Intelligence | The Eternal Matrix</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Left Analysis Panel -->
+        <aside class="panel">
+            <div class="panel-header">Urban Metrics</div>
+            <div class="widget">
+                <div class="glitch-text">ANALYTIC_OVERRIDE_ENABLED</div>
+                <canvas id="moodDistribution"></canvas>
+                <div style="margin-top: 2rem;">
+                    <div class="panel-header" style="padding-left: 0;">System Status</div>
+                    <p style="font-size: 0.8rem; color: var(--text-muted);">
+                        Matrix Node: ETERNAL-V3<br>
+                        Sync Status: CALIBRATED<br>
+                        Sovereign Power: ACTIVE
+                    </p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Center Command View -->
+        <main class="main-view">
+            <header class="hero-banner">
+                <h1 class="hero-title">WORDS OF ISTANBUL</h1>
+            </header>
+            
+            <div class="map-viewport">
+                <svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+                    <!-- High-Density Styled SVG Map -->
+                    <path class="district-path" id="historic" d="M300,300 L350,280 L420,320 L380,420 L310,400 Z" />
+                    <text x="310" y="340" fill="white" font-size="10" opacity="0.5">Peninsula</text>
+                    
+                    <path class="district-path" id="pera" d="M380,260 L450,220 L520,250 L480,300 L400,280 Z" />
+                    <text x="410" y="260" fill="white" font-size="10" opacity="0.5">Beyoğlu</text>
+                    
+                    <path class="district-path" id="asian" d="M550,350 L620,330 L650,450 L580,470 L520,420 Z" />
+                    <text x="560" y="380" fill="white" font-size="10" opacity="0.5">Anatolia</text>
+                    
+                    <path class="district-path" id="bosphorus" d="M500,250 L550,150 L580,180 L530,280 Z" />
+                    <text x="520" y="210" fill="white" font-size="10" opacity="0.5">Bosphorus</text>
+                </svg>
+                <div id="zone-intel" style="position: absolute; bottom: 20px; left: 20px; color: var(--accent-gold); font-family: var(--font-serif);">
+                    SELECT_ZONE_FOR_INTELLIGENCE
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Intelligence Feed -->
+        <aside class="panel">
+            <div class="panel-header">Sovereign Feed</div>
+            <div class="widget" id="main-feed">
+                <!-- Intelligence nodes will be injected here -->
+            </div>
+        </aside>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

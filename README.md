@@ -1,48 +1,62 @@
-# ?? Words of Istanbul: Ruhun Şehirleşmiş Hali
+# ?? Words of Istanbul: The Eternal City v3.0-ETERNAL
 
 ![Words of Istanbul Banner](assets/banner.png)
 
 > *"Ruhumu eritip de kalıpta dondurmuşlar; / Onu İstanbul diye toprağa kondurmuşlar."* — **Necip Fazıl Kısakürek**
 
-**Words of Istanbul**, Üstad Necip Fazıl'ın İstanbul'a duyduğu sarsıcı aşktan doğan bir **Dijital Edebiyat Antolojisi ve Manevi Arşiv** projesidir. Bu deponun **doğuş kıvılcımı**, İstanbul'u sadece bir mekan değil, bir "ruh ve mana merkezi" olarak gören o metafizik vizyondur.
+**Words of Istanbul**, kentsel kaosun, stratejik asimetrinin ve metafizik derinliğin zirve noktasıdır. Bu proje, basit bir arşivin ötesinde, İstanbul'un binlerce yıllık katmanlarını analiz eden ve bu katmanların içinde **egemen bir zihin** inşa etmeyi amaçlayan bir **Urban Intelligence & Doctrine System** (Kentsel İstihbarat ve Doktrin Sistemi) çalışmasıdır.
 
 ---
 
-## ?? Doğuş Kıvılcımı & Edebi Felsefe
+## ?? The Soul Engine (ruh.py v3.0)
 
-Bu projenin her kelimesi, İstanbul'un yedi tepesindeki o kadim sırrı keşfetmek için buradadır. Şehri beton yığınlarından ibaret gören modern bakışın aksine, biz İstanbul'u bir "yaşam pratiği" ve "egemen zihin" aynası olarak konumlandırıyoruz.
+İstanbul'un "Matrix"ine erişmek için geliştirilen en gelişmiş CLI arayüzü. Şehrin anlık psikolojik frekanslarını ve stratejik rotalarını analiz edin.
 
-- [**?? Doğuş Kıvılcımı Bildirgesi**](core/felsefe-ve-kivilcim.md) — Projenin ruhu ve varoluş amacı.
-- [**?? İstanbul Külliyatı (Ana Antoloji)**](archive/kulliyat.md) — Şehrin ruhundan damlamış en seçkin sözler ve analizler.
+```bash
+# Ebedi Matrix'ten bir içörü/kehanet getir
+python ruh.py --oracle
 
----
+# Şehri belirli bir mod üzerinden (Hüzün, Power, Chaos) analiz et
+python ruh.py --analyze Hüzün
 
-## ?? Mertebeler (Edebi Modüller)
-
-İstanbul'un derin katmanlarını analiz eden Masterclass içerik birimleri:
-
-| Mertebe | Odak Alanı | Doktrin |
-| :--- | :--- | :--- |
-| [**?? Ruhani İstanbul**](core/necip-fazil-ve-ruhani-istanbul.md) | Metafizik & Ruhani Derinlik | Necip Fazıl Doktrini |
-| [**?? Sessiz Cehennem**](core/sessiz-cehennem.md) | Varoluşsal Sürtünme | Shelby Doktrini |
-| [**?? Psikocoğrafya**](core/psikocografya-ve-derive.md) | Kentsel Sürükleniş | Guy Debord Teorisi |
-| [**?? Kentsel Mekanik**](core/kentsel-mekanik-ve-nevroz.md) | Altyapı & Şehir Nevrozu | Makine-Şehir Analizi |
-| [**?? Asimetrik Risk**](core/asimetrik-risk-yonetimi.md) | Sismik & Stratejik Beka | Antifrajilite |
-| [**?? Efsaneler & Tılsımlar**](core/efsaneler-ve-mitoslar.md) | Kadim Kodlar | Mitoslar & Sırlar |
-
----
-
-## ?? Proje Yapısı
-
-```text
-words-of-istanbul/
-├── core/                # Edebi ve felsefi analiz modülleri
-├── archive/             # Ana antoloji (Külliyat) ve veri seti
-├── assets/              # Premium görsel varlıklar
-└── meta/                # Katkı ve yönetim esasları
+# Kentsel "Sürükleniş" (Dérive) rotası oluştur
+python ruh.py --derive
 ```
 
 ---
 
+## ?? Sovereign Dashboard v2.0
+
+Vite tabanlı, yüksek çözünürlüklü ve interaktif bir komuta merkezi. İstanbul'un kentsel metriklerini ve psikocoğrafya haritasını gerçek zamanlı olarak görselleştirin.
+
+```bash
+# Dashboard (Sovereign UI) başlat
+python istanbul.py --web
+```
+
+---
+
+## ?? Masterclass Doktrin Modülleri (Sovereign Depth)
+
+İstanbul'u anlamak için geliştirilmiş, yüksek yoğunluklu (high-density) analitik denemeler:
+
+| Modül | Doktrin Odaklı Analiz |
+| :--- | :--- |
+| [**?? Asimetrik Risk**](core/asimetrik-risk-yonetimi.md) | Sismik Beka ve Stratejik Antifrajilite. |
+| [**?? Sessiz Cehennem**](core/sessiz-cehennem.md) | Kentsel Sürtünme ve Operasyonel Melankoli. |
+| [**?? Doğuş Kıvılcımı**](core/felsefe-ve-kivilcim.md) | Projenin Metafizik Temeli ve NFK Vizyonu. |
+| [**?? Psikocoğrafya**](core/psikocografya-ve-derive.md) | Kentsel Sürükleniş (Dérive) ve Zihinsel Haritalama. |
+| [**?? Ruhani İstanbul**](core/necip-fazil-ve-ruhani-istanbul.md) | Metafizik Derinlik ve Üstad'ın Manevi Mirası. |
+
+---
+
+## ?? Veri Mimarisi & Kentsel Matrix
+
+- **High-Density Matrix:** [archive/matrix.json](archive/matrix.json) - 100+ Gelişmiş veri düğümü.
+- **Sovereign Gallery:** [media/](media/) - AI ile üretilmiş yüksek çözünürlüklü kentsel imge seti.
+- **Urban Corpus:** [corpus/](corpus/) - Şehrin hafızasını taşıyan ham metinler ve raporlar.
+
+---
+
 **Derleyen:** [Yunus Emre] & **Antigravity AI**
-*Bu depo, kentsel kaosun içindeki "mukaddes çileyi" keşfetmek isteyen egemen zihinler için dijital bir sığınaktır.*
+*Bu depo, kentsel kaosun içinde "kendi sesini" ve "egemenliğini" arayan zihinler için ebedi bir rehberdir.*
