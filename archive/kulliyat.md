@@ -16,6 +16,8 @@ Bu sayfa, İstanbul'un sinesinden süzülmüş en kıymetli edebi, manevi ve san
 ## 📜 Edebi Miras: Şairlerin İstanbul'u
 
 *   **Yahya Kemal Beyatlı:** *"Sana dün bir tepeden baktım aziz İstanbul! Görmedim gezmediğim, sevmediğim hiçbir yer."*
+*   **Nedim:** *"Bu şehr-i Sitanbul ki bî-misl ü bahâdır / Bir sengine yek-pâre 'Acem mülkü fedâdır."*
+*   **Vedat Türkali:** *"Mavi patiskaları yırtan gemilerinle, uzaktan seni düşünürüm İstanbul!"*
 *   **Orhan Veli Kanık:** *"İstanbul'u dinliyorum, gözlerim kapalı."*
 *   **Bedri Rahmi Eyüboğlu:** *"İstanbul deyince aklıma martı gelir; yarısı gümüş, yarısı köpük..."*
 *   **Orhan Pamuk:** *"Hüzün, İstanbul'un dışarıdan görünüşü değil, kendi içine bakışıdır."*

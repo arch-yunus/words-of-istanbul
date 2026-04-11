@@ -1,133 +1,84 @@
-# 🏛️ Words of Istanbul: The Eternal City (v3.6.0-URBAN-CORE)
-
 <div align="center">
 
-![Istanbul Banner](assets/twilight_bosphorus.png)
+![Istanbul Banner](assets/istanbul_omega.png)
 
-### *A High-Density Urban Doctrine & Sovereign Intelligence System* 🌊🏙️🧬
+# 🌊 WORDS OF ISTANBUL (v5.0-OMEGA)
+### *A Unified Urban Intelligence Ecosystem & Sovereign Doctrine* 🏙️🧬🧠
 
-[![Status](https://img.shields.io/badge/PHASE-v3.6--ETERNAL-D4AF37?style=for-the-badge&logo=target)](./)
-[![Architecture](https://img.shields.io/badge/ARCHITECT-Antigravity_x_USER-black?style=for-the-badge&logo=openai)](./)
-[![Matrix](https://img.shields.io/badge/MATRIX-Deep_Synthesis-18453B?style=for-the-badge&logo=cachet)](./archive/matrix.json)
-
-> *"Ruhumu eritip de kalıpta dondurmuşlar; / Onu İstanbul diye toprağa kondurmuşlar."* — **Necip Fazıl Kısakürek**
-
-</div>
+[![Status](https://img.shields.io/badge/VERSION-v5.0--OMEGA-black?style=for-the-badge&logo=target)](./)
+[![Security](https://img.shields.io/badge/ACCESS-Sovereign--S6-18453B?style=for-the-badge&logo=lock)](./)
+[![Matrix](https://img.shields.io/badge/MATRIX-100+_Nodes-00A9E0?style=for-the-badge&logo=gitbook)](./db/matrix.json)
 
 ---
 
-## 🦾 THE ANTIGRAVITY MANIFESTO: URBAN SOVEREIGNTY
-**Words of Istanbul**, yalnızca bir alıntı koleksiyonu değil; dünyanın en karmaşık şehrinin metafizik, psikolojik ve stratejik mimarisini haritalamak için tasarlanmış bir **Sovereign Intelligence System**'dır.
+## 🦾 THE OMEGA MANIFESTO
+**v5.0-OMEGA** is more than a repository; it is an **Integrated Urban Intelligence System**. We have moved beyond simple literary collections into a structured, automated, and high-density matrix that anatomizes the "Soul of the City."
 
-Bu versiyonda (v3.6), odağımızı kişisel duygulardan çekip **şehir bizzat kendisini nasıl anlatıyor?** sorusuna yönelttik. İstanbul'un sokaklarını, dokusunu, ihtişamını ve sosyal gerilimini bizzat betimleyen "City-Centric" eserleri merkeze aldık.
-
----
-
-## 🎨 THE VISUAL SOUL: SOVEREIGN GALLERY
-İstanbul'un özü sadece kelimelerle yakalanamaz. "Visual Soul" modülümüz, şehrin bimodal doğasını —imparatorluk ihtişamı ile modern noir'ın buluşmasını— yansıtmak için yüksek sadakatli AI sentezi kullanır.
-
-<table align="center">
-  <tr>
-    <td align="center"><img src="assets/twilight_bosphorus.png" width="300px"/><br/><b>The Bosphorus Twilight</b><br/><i>Ebedi Sınır</i></td>
-    <td align="center"><img src="assets/galata_noir.png" width="300px"/><br/><b>Galata Noir</b><br/><i>Kentsel Melankoli</i></td>
-    <td align="center"><img src="assets/hagia_sophia_matrix.png" width="300px"/><br/><b>Hagia Sophia Matrix</b><br/><i>Epistemik Sentez</i></td>
-  </tr>
-</table>
+KULLANICI and **Antigravity** cooperation has forged a single source of truth for the metaphysical, topographical, and historical essence of Istanbul.
 
 ---
 
-## 🎼 THE SOUND OF THE CITY: URBAN ESSENCE
+## 🕸️ SYSTEM ARCHITECTURE
 
-### 🌊 Vedat Türkali — Bekle Bizi İstanbul
-*Şehrin sosyal dokusunu, semtlerini ve kentsel mücadelesini bizzat anlatan en güçlü eserlerden biri.*
-
-> Salkım salkım tan yelleri estiğinde;  
-> mavi patiskaları yırtan gemilerinle,  
-> uzaktan seni düşünürüm İstanbul!  
-> Bin bir direkli Haliç'inde akşam,  
-> Adalar'ında bahar,  
-> Süleymaniye'nde güneş...  
-> Hey, sen ne güzelsin kavgamızın şehri!  
-> ...  
-> Yine o bin bir direkli Haliç'inle,  
-> yine o Adalarınla, Süleymaniyenle;  
-> tüm güzelliğinle bekle bizi!
-
-### 🏰 Münir Nurettin Selçuk — Azîz İstanbul
-*Eski İstanbul'un ihtişamlı ve "tepe bakışı" estetiğini yansıtan klasik doktrin.*
-
-> Sana dün bir tepeden baktım azîz İstanbul!  
-> Görmedim gezmediğim, sevmediğim hiçbir yer.  
-> Ömrüm oldukça, gönül tahtıma keyfince kurul!  
-> Sade bir semtini sevmek bile bir ömre değer.
-
----
-
-## 📜 ŞAİRLERİN İSTANBUL'U: ŞEHRİN KANONİK ANATOMİSİ
-
-### 🏛️ Nedim: İstanbul Kasidesi
-*Lale Devri'nin gözünden, İstanbul'un dünya üzerindeki benzersizliğini haykıran klasik eser.*
-
-> Bu şehr-i Sitanbul ki bî-misl ü bahâdır  
-> Bir sengine yek-pâre 'Acem mülkü fedâdır.  
-> Bir gevher-i yek-pâre iki bahr arasında  
-> Hurşîd-i cihân-tâb ile tartılsa sezâdır.  
-> Altında mı üstünde midir cennet-i a'lâ  
-> El-hak bu ne hâlet bu ne hoş âb u hevâdır.
-
-### 🧠 Orhan Veli Kanık: İstanbul'u Dinliyorum
-*Şehrin işitsel ve duyusal gerçekliğini en ince detayına kadar betimleyen modern harita.*
-
-> İstanbul'u dinliyorum, gözlerim kapalı;  
-> Önce hafiften bir rüzgâr esiyor;  
-> Yavaş yavaş sallanıyor  
-> Yapraklar, ağaçlarda;  
-> Uzaklarda, çok uzaklarda,  
-> Sucuların hiç durmayan çıngırakları;  
-> Kuşlar geçiyor, derken;  
-> Yükseklerden, sürü sürü, çığlık çığlık.  
-> Ağlar çekiliyor dalyanlarda;  
-> Bir kadının suya değiyor ayakları...
-
-### 🛡️ Necip Fazıl Kısakürek: Canım İstanbul
-*Şehrin fiziksel formunu metafizik bir ruhla birleştiren doktrin.*
-
-> Çiçeği altın yaldız, suyu telli pulludur;  
-> Ay ve güneş ezelden iki İstanbulludur.  
-> Denizle toprak, yalnız onda ermiş visâle,  
-> Ve kavuşmuş rüyalar, onda, onda misale.  
-> Yedi tepe üstünde zaman bir gergef işler!  
-> Yedi renk, yedi sesten sayısız belirişler...
-
-### ⚠️ Ümit Yaşar Oğuzcan: Üstüme Varma İstanbul
-*Büyük şehrin birey üzerindeki ezici, devasa ve melankolik baskısını betimleyen eser.*
-
-> Bir gün ben de eririm caddelerinde  
-> Çürür kemiklerim adım unutulur  
-> Yine sen kalırsın dipdiri, sımsıcak  
-> Göğün, bulutların, denizlerin kalır  
-> Oynama İstanbul, benimle oynama  
-> Karşında yıkılmış bir duvar gibiyim...
-
----
-
-## ⚡ THE SOUL ENGINE (ruh.py v3.0)
-Şehrin asimetrik doğasını anlamak için standart algoritmalar yetersiz kalır. Şehrin ebedi matrix verilerini işleyen **ruh.py v3.0** motoru, kentsel sürükleniş (Dérive) rotaları oluşturur.
-
-```bash
-# Ebedi Matrix'ten bir içörü/kehanet getir
-python ruh.py --oracle
-
-# Kentsel "Sürükleniş" (Dérive) rotası oluştur
-python ruh.py --derive
+```mermaid
+graph TD
+    A[db/matrix.json] -->|Intelligence Streams| B[src/ruh.py]
+    C[vault/Knowledge Base] -->|Doctrine Analysis| B
+    B -->|Sovereign Insight| D[User Terminal]
+    B -->|Monitoring| E[City Soul State]
+    
+    subgraph "Knowledge Core"
+    C
+    A
+    end
+    
+    subgraph "Soul Engine v5.0"
+    B
+    end
 ```
 
 ---
 
-## 👤 AUTHOR & ARCHITECTURE
-Bu sistem, kentsel kaosun dijital bir matrix içerisinde yeniden yorumlanması amacıyla **[Bahattin Yunus Çetin](https://www.linkedin.com/in/bahattinyunus/) (IT Architect)** tarafından tasarlanmıştır.
+## ⚙️ OMEGA OPERATIONS: THE SOUL ENGINE
 
-[Linkedin](https://linkedin.com/in/bahattinyunuscetin) | [GitHub](https://github.com/bahattinyunus)
+The **Soul Engine (v5.0-OMEGA)** is the primary interface for interacting with the city's matrix.
+
+| Command | Action |
+| :--- | :--- |
+| `python src/ruh.py --monitor` | **Real-time Urban State Monitoring** (Dashboard) |
+| `python src/ruh.py --scan <key>` | **Deep Scan**: Searches matrix and vault modules |
+| `python src/ruh.py --oracle` | **High-Density Insight**: Random access to the matrix |
+| `python src/ruh.py --derive` | **Psychogeographical Route**: Autonomous navigation |
 
 ---
-© 2025 Words of Istanbul / Urban Intelligence Doctrine.
+
+## 🏛️ EPESTEMIC VAULT (CONSOLIDATED)
+
+All knowledge nodes are now consolidated in the [vault/](./vault) directory:
+- [📄 Canon](./vault/canon.md): Iconic literary and poetic works.
+- [📄 Doctrine](./vault/doctrine.md): Strategic risk and kentsel beka analysis.
+- [📄 Compendium](./vault/compendium.md): Master quotes and musical matrix.
+- [📄 Psychology](./vault/psychology.md): Hüzün, collective melancholy, and spatial neurosis.
+- [📄 History](./vault/history.md): Imperial traces and sovereign politics.
+- [📄 Mythology](./vault/mythology.md): Foundation myths and ancient secrets.
+
+---
+
+## 📊 CITY SOUL DASHBOARD (SIMULATED)
+> [!IMPORTANT]
+> **Dominant Mood**: `Sovereign Complexity`
+> **Matrix Density**: `100+ High-Impact Nodes`
+> **Sovereignty Level**: `S6 (Masterclass Grade)`
+
+---
+
+</div>
+
+## 🛠️ HANDOVER PROTOCOL
+1. **Sync**: Finalize all [vault/](./vault) edits.
+2. **Logic**: Validate [src/ruh.py](./src/ruh.py) for path integrity.
+3. **Commit**: `git add . && git commit -m "feat: release v5.0-OMEGA Integrated System"`
+4. **Push**: `git push origin main`
+
+---
+*Istanbul is not a city; it is a way of being.*

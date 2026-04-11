@@ -54,10 +54,16 @@ Tanpınar'ın İstanbul'u, rüya ile gerçek arasında sallanan, derin bir kült
 
 ---
 
-### 🗺️ Edebi Rota & Külliyat
-- **Klasik (Lale Devri):** Nedim (Şehrin neşesi ve sularının şairi)
+### 🗺️ Edebi Rota & v4.0 Sovereign Külliyat
+- **Klasik (Lale Devri):** Nedim (Şehrin neşesi ve "Gevher-i yek-pâre" doktrini)
+- **Sosyal Gerçekçilik:** Vedat Türkali (Haliç ve Süleymaniye'nin toplumsal haritası)
 - **Cumhuriyet:** Sait Faik Abasıyanık (Adalar, deniz, martılar ve "insanı sevmekle başlar her şey" doktrini)
 - **Stratejik:** Sezai Karakoç (Şehrazat'ın ve Mistisizmin modern İstanbul'u)
+
+---
+
+## ⚡ Ruh Engine (v4.0) Entegrasyonu
+Bu antololojideki tüm metinler, `/archive/matrix.json` veri setine "High-Density" düğümler olarak işlenmiştir. `ruh.py` motoru üzerinden `--oracle` veya `--link` bayrakları ile bu eserlerin derin katmanlarına ve kentsel zekasına erişilebilir.
 
 ---
 *Bu antoloji, İstanbul'un sinesindeki o ebedi mananın peşindeki zihinler için bir pusuladır.*
