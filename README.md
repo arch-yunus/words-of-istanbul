@@ -1,16 +1,118 @@
-# 🏛️ Words of Istanbul: The Eternal City (v3.2.0-UNITY)
+# 🏛️ Words of Istanbul: The Eternal City (v3.6.0-URBAN-CORE)
 
-![Istanbul Banner](assets/banner.png)
+<div align="center">
+
+![Istanbul Banner](assets/twilight_bosphorus.png)
+
+### *A High-Density Urban Doctrine & Sovereign Intelligence System* 🌊🏙️🧬
+
+[![Status](https://img.shields.io/badge/PHASE-v3.6--ETERNAL-D4AF37?style=for-the-badge&logo=target)](./)
+[![Architecture](https://img.shields.io/badge/ARCHITECT-Antigravity_x_USER-black?style=for-the-badge&logo=openai)](./)
+[![Matrix](https://img.shields.io/badge/MATRIX-Deep_Synthesis-18453B?style=for-the-badge&logo=cachet)](./archive/matrix.json)
 
 > *"Ruhumu eritip de kalıpta dondurmuşlar; / Onu İstanbul diye toprağa kondurmuşlar."* — **Necip Fazıl Kısakürek**
 
-**Words of Istanbul**, yalnızca rastgele seçilmiş alıntıların alt alta dizildiği sıradan bir metin deposu değildir. Bu proje; Asya ve Avrupa kıtalarının sularla öpüştüğü o ince çizgide kurulan, üç büyük ve kadim imparatorluğa başkentlik yapmış, binlerce yıllık kan, gözyaşı, ihtişam ve çöküş öykülerini sokaklarında barındıran bir şehrin **psikolojik, edebi ve stratejik röntgenidir.** Bu depo, Üstad Necip Fazıl'ın "doğuş kıvılcımı"ndan ilham alan, her satırı titizlikle örülmüş bir **Sovereign Intelligence System** (Egemen İstihbarat Sistemi) çalışmasıdır.
+</div>
 
 ---
 
-## ⚡ The Soul Engine (ruh.py v3.0)
+## 🦾 THE ANTIGRAVITY MANIFESTO: URBAN SOVEREIGNTY
+**Words of Istanbul**, yalnızca bir alıntı koleksiyonu değil; dünyanın en karmaşık şehrinin metafizik, psikolojik ve stratejik mimarisini haritalamak için tasarlanmış bir **Sovereign Intelligence System**'dır.
 
-İstanbul'un asimetrik doğasını anlamak için standart algoritmalar yetersiz kalır. Bu nedenle, şehrin o meşhur "Ruh"unu simüle eden ve ebedi matrix verilerini işleyen **ruh.py v3.0** motorunu geliştirdik.
+Bu versiyonda (v3.6), odağımızı kişisel duygulardan çekip **şehir bizzat kendisini nasıl anlatıyor?** sorusuna yönelttik. İstanbul'un sokaklarını, dokusunu, ihtişamını ve sosyal gerilimini bizzat betimleyen "City-Centric" eserleri merkeze aldık.
+
+---
+
+## 🎨 THE VISUAL SOUL: SOVEREIGN GALLERY
+İstanbul'un özü sadece kelimelerle yakalanamaz. "Visual Soul" modülümüz, şehrin bimodal doğasını —imparatorluk ihtişamı ile modern noir'ın buluşmasını— yansıtmak için yüksek sadakatli AI sentezi kullanır.
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="assets/twilight_bosphorus.png" width="300px"/><br/><b>The Bosphorus Twilight</b><br/><i>Ebedi Sınır</i></td>
+    <td align="center"><img src="assets/galata_noir.png" width="300px"/><br/><b>Galata Noir</b><br/><i>Kentsel Melankoli</i></td>
+    <td align="center"><img src="assets/hagia_sophia_matrix.png" width="300px"/><br/><b>Hagia Sophia Matrix</b><br/><i>Epistemik Sentez</i></td>
+  </tr>
+</table>
+
+---
+
+## 🎼 THE SOUND OF THE CITY: URBAN ESSENCE
+
+### 🌊 Vedat Türkali — Bekle Bizi İstanbul
+*Şehrin sosyal dokusunu, semtlerini ve kentsel mücadelesini bizzat anlatan en güçlü eserlerden biri.*
+
+> Salkım salkım tan yelleri estiğinde;  
+> mavi patiskaları yırtan gemilerinle,  
+> uzaktan seni düşünürüm İstanbul!  
+> Bin bir direkli Haliç'inde akşam,  
+> Adalar'ında bahar,  
+> Süleymaniye'nde güneş...  
+> Hey, sen ne güzelsin kavgamızın şehri!  
+> ...  
+> Yine o bin bir direkli Haliç'inle,  
+> yine o Adalarınla, Süleymaniyenle;  
+> tüm güzelliğinle bekle bizi!
+
+### 🏰 Münir Nurettin Selçuk — Azîz İstanbul
+*Eski İstanbul'un ihtişamlı ve "tepe bakışı" estetiğini yansıtan klasik doktrin.*
+
+> Sana dün bir tepeden baktım azîz İstanbul!  
+> Görmedim gezmediğim, sevmediğim hiçbir yer.  
+> Ömrüm oldukça, gönül tahtıma keyfince kurul!  
+> Sade bir semtini sevmek bile bir ömre değer.
+
+---
+
+## 📜 ŞAİRLERİN İSTANBUL'U: ŞEHRİN KANONİK ANATOMİSİ
+
+### 🏛️ Nedim: İstanbul Kasidesi
+*Lale Devri'nin gözünden, İstanbul'un dünya üzerindeki benzersizliğini haykıran klasik eser.*
+
+> Bu şehr-i Sitanbul ki bî-misl ü bahâdır  
+> Bir sengine yek-pâre 'Acem mülkü fedâdır.  
+> Bir gevher-i yek-pâre iki bahr arasında  
+> Hurşîd-i cihân-tâb ile tartılsa sezâdır.  
+> Altında mı üstünde midir cennet-i a'lâ  
+> El-hak bu ne hâlet bu ne hoş âb u hevâdır.
+
+### 🧠 Orhan Veli Kanık: İstanbul'u Dinliyorum
+*Şehrin işitsel ve duyusal gerçekliğini en ince detayına kadar betimleyen modern harita.*
+
+> İstanbul'u dinliyorum, gözlerim kapalı;  
+> Önce hafiften bir rüzgâr esiyor;  
+> Yavaş yavaş sallanıyor  
+> Yapraklar, ağaçlarda;  
+> Uzaklarda, çok uzaklarda,  
+> Sucuların hiç durmayan çıngırakları;  
+> Kuşlar geçiyor, derken;  
+> Yükseklerden, sürü sürü, çığlık çığlık.  
+> Ağlar çekiliyor dalyanlarda;  
+> Bir kadının suya değiyor ayakları...
+
+### 🛡️ Necip Fazıl Kısakürek: Canım İstanbul
+*Şehrin fiziksel formunu metafizik bir ruhla birleştiren doktrin.*
+
+> Çiçeği altın yaldız, suyu telli pulludur;  
+> Ay ve güneş ezelden iki İstanbulludur.  
+> Denizle toprak, yalnız onda ermiş visâle,  
+> Ve kavuşmuş rüyalar, onda, onda misale.  
+> Yedi tepe üstünde zaman bir gergef işler!  
+> Yedi renk, yedi sesten sayısız belirişler...
+
+### ⚠️ Ümit Yaşar Oğuzcan: Üstüme Varma İstanbul
+*Büyük şehrin birey üzerindeki ezici, devasa ve melankolik baskısını betimleyen eser.*
+
+> Bir gün ben de eririm caddelerinde  
+> Çürür kemiklerim adım unutulur  
+> Yine sen kalırsın dipdiri, sımsıcak  
+> Göğün, bulutların, denizlerin kalır  
+> Oynama İstanbul, benimle oynama  
+> Karşında yıkılmış bir duvar gibiyim...
+
+---
+
+## ⚡ THE SOUL ENGINE (ruh.py v3.0)
+Şehrin asimetrik doğasını anlamak için standart algoritmalar yetersiz kalır. Şehrin ebedi matrix verilerini işleyen **ruh.py v3.0** motoru, kentsel sürükleniş (Dérive) rotaları oluşturur.
 
 ```bash
 # Ebedi Matrix'ten bir içörü/kehanet getir
@@ -22,64 +124,10 @@ python ruh.py --derive
 
 ---
 
-## 🏛️ Mertebeler (Sovereign Depth Modules)
+## 👤 AUTHOR & ARCHITECTURE
+Bu sistem, kentsel kaosun dijital bir matrix içerisinde yeniden yorumlanması amacıyla **[Bahattin Yunus Çetin](https://www.linkedin.com/in/bahattinyunus/) (IT Architect)** tarafından tasarlanmıştır.
 
-İstanbul'u anlamak, her biri ayrı bir mizaç ve tarihsel yük taşıyan katmanları keşfetmektir. Projemiz bu katmanları şu edebi ve stratejik sığınaklarda toplar:
-
-### 🧠 [Şehrin Psikolojisi: Hüzün ve Kaos](psikoloji-ve-huzun/)
-İstanbul, harita üzerinde işaretlenebilecek sıradan bir coğrafya parçası değildir. O, kendi başına yaşayan, öfkeyle köpüren ve her defasında insanı kendine daha güçlü bağlayan şizofrenik bir organizmadır.
-*   [**📜 Sessiz Cehennem**](psikoloji-ve-huzun/sessiz-cehennem.md): Kentsel sürtünme ve varoluşsal gürültünün derinlemesine doktrini.
-*   [**📜 Hüzün ve Melankoli**](psikoloji-ve-huzun/huzun-ve-melankoli.md): Tanpınar ve Pamuk'un perspektifiyle şehrin kederi.
-*   [**📜 Doğuş Kıvılcımı**](psikoloji-ve-huzun/felsefe-ve-kivilcim.md): Projenin metafizik anayasası.
-
-### 📜 [Edebiyat ve Şiir: Kalemlerin Şehri](edebiyat-ve-siir/)
-Kalem ustaları için İstanbul bazen kaprisli bir sevgili, bazen şefkatli bir anadır.
-*   [**📜 Ruhani İstanbul (NFK)**](edebiyat-ve-siir/ruhani-istanbul-nfk.md): Üstad'ın "Ruh ve Kalıp" doktrini.
-*   [**📜 Edebi Antoloji**](edebiyat-ve-siir/antoloji.md): Orhan Veli'den Yahya Kemal'e edebi miras.
-
-### 🏢 [Strateji ve Asimetrik Risk](strateji-ve-asimetrik-risk/)
-Şehrin fiziksel formunun ve tarihsel risklerinin modern zihin üzerindeki manipülatif etkisini araştırır.
-*   [**📜 Asimetrik Risk Analizi**](strateji-ve-asimetrik-risk/analiz.md): Sismik beka ve stratejik antifrajilite.
-*   [**📜 Psikocoğrafya**](strateji-ve-asimetrik-risk/psikocografya.md): Kentsel Sürükleniş ve zihinsel haritalama.
-
-### 🏛️ [İmparatorluklar ve Mitoloji](mitoloji-ve-efsaneler/)
-Şehrin yeraltı sırlarından, cihan hakimiyeti idealine uzanan köprü.
-*   [**📜 Kadim Sırlar**](mitoloji-ve-efsaneler/kadim-sirlar.md): Bizans kehanetlerinden yeraltı tılsımlarına.
-*   [**📜 Tarihi İzler**](imparatorluklar-ve-siyaset/tarihi-izler.md): Fatihlerin ve imparatorların yankıları.
+[Linkedin](https://linkedin.com/in/bahattinyunuscetin) | [GitHub](https://github.com/bahattinyunus)
 
 ---
-
-## 📜 Şairlerin İstanbul'u: Ebedi Antoloji
-
-İstanbul, kalemlerin ucunda eriyen bir mürekkeptir. Bu bölümde, şehrin farklı ruh hallerini en saf haliyle yansıtan şaheserleri bulacaksınız.
-
-### 🏛️ Yahya Kemal Beyatlı: Azîz İstanbul
-> *"Sana dün bir tepeden baktım azîz İstanbul! / Görmedim gezmediğim, sevmediğim hiçbir yer. / Ömrüm oldukça, gönül tahtıma keyfince kurul! / Sade bir semtini sevmek bile bir ömre değer."*
-
-### 🧠 Orhan Veli Kanık: İstanbul'u Dinliyorum
-> *"İstanbul'u dinliyorum, gözlerim kapalı / Önce hafiften bir rüzgar esiyor; / Yavaş yavaş sallanıyor / Yapraklar ağaçlarda; / Sucuların hiç dinmeyen çıngırakları; / İstanbul'u dinliyorum, gözlerim kapalı."*
-
-### 🏛️ Necip Fazıl Kısakürek: Canım İstanbul
-> *"Ruhumu eritip de kalıpta dondurmuşlar; / Onu İstanbul diye toprağa kondurmuşlar. / İçimde tüten bir şey; hava, renk, eda, ses; / Her gün bir başka rüzgarla gelir geçer her nefes. / Gülen şöyle dursun, ağlayanı bahtiyar... / Ana gibi yâr olmaz, İstanbul gibi diyâr!"*
-
----
-
-## 📊 Veri Mimarisi & İstihbarat Külliyatı
-
-Mükemmel bir istihbarat, kusursuz bir veri yapısına dayanır:
-- **High-Density Matrix:** [archive/matrix.json](archive/matrix.json) - 100+ Gelişmiş veri düğümü.
-- **İstanbul Külliyatı:** [archive/kulliyat.md](archive/kulliyat.md) - Şehrin ruhundan damlamış ana antoloji.
-
----
-
----
-
-## 👤 Author & Architecture
-
-Bu sistem, kentsel kaosun dijital bir matrix içerisinde yeniden yorumlanması amacıyla **[Bahattin Yunus Çetin](https://www.linkedin.com/in/bahattinyunus/) (IT Architect)** tarafından tasarlanmış ve yönetilmektedir. Projenin mimarisi, teknik hassasiyet ile edebi derinliğin asimetrik bir sentezidir.
-
-- **GitHub:** [@bahattinyunus](https://github.com/bahattinyunus)
-- **LinkedIn:** [Bahattin Yunus Çetin](https://www.linkedin.com/in/bahattinyunus/)
-- **Vision:** Sovereign Matrix Architect
-
-*Bu depo, İstanbul'un sinesindeki o "mukaddes çileyi" keşfetmek isteyen egemen zihinler için ebedi bir pusuladır. Kelimeler biter, ancak mimarinin bıraktığı mana asla tükenmez.*
+© 2025 Words of Istanbul / Urban Intelligence Doctrine.
