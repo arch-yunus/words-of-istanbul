@@ -1,0 +1,21 @@
+name: validate
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  matrix-and-python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile and validate matrix
+        run: |
+          python -m py_compile ruh.py src/ruh.py copy_assets.py
+          python src/ruh.py --validate

@@ -1,20 +1,71 @@
-import shutil
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Copy optional image assets into ./assets (portable; no machine-specific paths)."""
+
+from __future__ import annotations
+
+import argparse
 import os
+import shutil
+import sys
 
-source_dir = r"C:\Users\bahat\.gemini\antigravity\brain\7f875831-fab9-4ed0-99d5-92af55ea16c9"
-dest_dir = r"g:\Diğer bilgisayarlar\Dizüstü Bilgisayarım\github repolarım\words-of-istanbul\assets"
 
-files = {
-    "istanbul_twilight_bosphorus_1775884077801.png": "twilight_bosphorus.png",
-    "galata_tower_noir_rain_1775884092419.png": "galata_noir.png",
-    "hagia_sophia_mystical_matrix_1775884105477.png": "hagia_sophia_matrix.png"
-}
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Copy named files from SOURCE_DIR into repo assets/ with optional renames."
+    )
+    parser.add_argument(
+        "source_dir",
+        help="Directory containing source image files",
+    )
+    parser.add_argument(
+        "--dest",
+        default="assets",
+        help="Destination directory under repo root (default: assets)",
+    )
+    parser.add_argument(
+        "--map",
+        nargs="*",
+        metavar="SRC=DEST",
+        default=[],
+        help="Rename map entries, e.g. photo1.png=banner.png",
+    )
+    args = parser.parse_args()
 
-for src, dest in files.items():
-    src_path = os.path.join(source_dir, src)
-    dest_path = os.path.join(dest_dir, dest)
-    try:
-        shutil.copy2(src_path, dest_path)
-        print(f"Successfully copied {src} to {dest}")
-    except Exception as e:
-        print(f"Failed to copy {src}: {e}")
+    root = os.path.dirname(os.path.abspath(__file__))
+    dest_dir = os.path.join(root, args.dest)
+    os.makedirs(dest_dir, exist_ok=True)
+
+    mapping: dict[str, str] = {}
+    for item in args.map:
+        if "=" not in item:
+            print(f"Invalid --map entry (use SRC=DEST): {item}", file=sys.stderr)
+            return 2
+        src_name, dest_name = item.split("=", 1)
+        mapping[src_name.strip()] = dest_name.strip()
+
+    if not mapping:
+        print(
+            "No --map given. Example:\n"
+            "  python copy_assets.py /path/to/images "
+            "--map istanbul.png=banner.png galata.png=galata_noir.png",
+            file=sys.stderr,
+        )
+        return 2
+
+    ok = 0
+    for src_name, dest_name in mapping.items():
+        src_path = os.path.join(args.source_dir, src_name)
+        dest_path = os.path.join(dest_dir, dest_name)
+        try:
+            shutil.copy2(src_path, dest_path)
+            print(f"OK: {src_name} -> {dest_path}")
+            ok += 1
+        except OSError as e:
+            print(f"FAIL: {src_name}: {e}", file=sys.stderr)
+
+    return 0 if ok == len(mapping) else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

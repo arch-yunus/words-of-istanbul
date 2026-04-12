@@ -7,7 +7,7 @@
 
 [![Status](https://img.shields.io/badge/VERSION-v5.0--OMEGA-black?style=for-the-badge&logo=target)](./)
 [![Security](https://img.shields.io/badge/ACCESS-Sovereign--S6-18453B?style=for-the-badge&logo=lock)](./)
-[![Matrix](https://img.shields.io/badge/MATRIX-100+_Nodes-00A9E0?style=for-the-badge&logo=gitbook)](./db/matrix.json)
+[![Matrix](https://img.shields.io/badge/MATRIX-25_Nodes-00A9E0?style=for-the-badge&logo=gitbook)](./archive/matrix.json)
 
 ---
 
@@ -22,7 +22,7 @@ KULLANICI and **Antigravity** cooperation has forged a single source of truth fo
 
 ```mermaid
 graph TD
-    A[db/matrix.json] -->|Intelligence Streams| B[src/ruh.py]
+    A[archive/matrix.json] -->|Intelligence Streams| B[src/ruh.py]
     C[vault/Knowledge Base] -->|Doctrine Analysis| B
     B -->|Sovereign Insight| D[User Terminal]
     B -->|Monitoring| E[City Soul State]
@@ -45,10 +45,13 @@ The **Soul Engine (v5.0-OMEGA)** is the primary interface for interacting with t
 
 | Command | Action |
 | :--- | :--- |
-| `python src/ruh.py --monitor` | **Real-time Urban State Monitoring** (Dashboard) |
-| `python src/ruh.py --scan <key>` | **Deep Scan**: Searches matrix and vault modules |
-| `python src/ruh.py --oracle` | **High-Density Insight**: Random access to the matrix |
-| `python src/ruh.py --derive` | **Psychogeographical Route**: Autonomous navigation |
+| `python src/ruh.py --monitor` | **Urban state summary** + doctrine stream sample |
+| `python src/ruh.py --scan <key>` | **Deep scan**: matrix + vault (with excerpt) |
+| `python src/ruh.py --oracle` | **Random insight** from the matrix |
+| `python src/ruh.py --derive` | **Psychogeographical route** (3 nodes) |
+| `python src/ruh.py --stats` | **Analytics**: counts, dominant mood, top layers |
+| `python src/ruh.py --validate` | **Lint** `archive/matrix.json` structure |
+| `python src/ruh.py --serve` | **Local dashboard** at `http://127.0.0.1:8765/dashboard/` |
 
 ---
 
@@ -67,7 +70,7 @@ All knowledge nodes are now consolidated in the [vault/](./vault) directory:
 ## 📊 CITY SOUL DASHBOARD (SIMULATED)
 > [!IMPORTANT]
 > **Dominant Mood**: `Sovereign Complexity`
-> **Matrix Density**: `100+ High-Impact Nodes`
+> **Matrix Density**: `25 curated nodes` (validated via `--validate`)
 > **Sovereignty Level**: `S6 (Masterclass Grade)`
 
 ---
