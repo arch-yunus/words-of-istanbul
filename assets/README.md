@@ -1,2 +1,7 @@
-# Assets Marker
-This directory is for the visual assets of the Words of Istanbul project.
+# Görsel varlıklar
+
+| Dosya | Kullanım |
+| :--- | :--- |
+| `istanbul_soul_banner.png` | README ve dashboard hero |
+
+Yeni banner eklemek için dosyayı bu klasöre koyun; `README.md` ve `dashboard/style.css` yollarını güncelleyin.

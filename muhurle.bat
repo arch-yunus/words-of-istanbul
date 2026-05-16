@@ -1,17 +1,29 @@
 @echo off
-echo [WORDS OF ISTANBUL - MUHURLEME ISLEMI BASLIYOR...]
+chcp 65001 >nul
+echo [WORDS OF ISTANBUL - MUHURLE v6]
 
-:: 1. Banner'ı taşı
-echo [1/2] Banner gorseli tasiyor...
-copy "C:\Users\bahat\.gemini\antigravity\brain\b50fb18e-e996-44db-b75a-2162dec880c7\istanbul_soul_banner_png_1775987950120.png" "assets\istanbul_soul_banner.png"
+cd /d "%~dp0"
 
-:: 2. Git islemleri
-echo [2/2] GitHub senkronizasyonu yapiliyor...
-git add .
-git commit -m "feat: full repository reconstruction v6.0-RESURRECTION (NFK Pivot)"
+echo [1/3] Matrix yeniden uretiliyor...
+python scripts\build_matrix.py
+if errorlevel 1 goto :fail
+
+echo [2/3] Dogrulama...
+python src\ruh.py --validate
+if errorlevel 1 goto :fail
+
+echo [3/3] Git push...
+git add -A
+git commit -m "feat: v6 corpus sync and matrix rebuild"
 git push origin main
+if errorlevel 1 goto :fail
 
 echo.
-echo [ISLEM TAMAMLANDI!]
-echo Istanbul'un ruhu artik GitHub'da.
+echo [TAMAMLANDI] Istanbul'un ruhu senkron.
 pause
+exit /b 0
+
+:fail
+echo [HATA] Islem basarisiz.
+pause
+exit /b 1

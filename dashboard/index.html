@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Words of Istanbul v6 — corpus dashboard">
+    <title>Words of Istanbul | v6 RESURRECTION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <aside class="panel">
+            <div class="panel-header">Metrikler</div>
+            <div class="widget">
+                <p id="meta-line" class="meta"></p>
+                <canvas id="moodChart" aria-label="Katman dağılımı"></canvas>
+                <p id="essay-count" class="meta"></p>
+            </div>
+        </aside>
+
+        <main class="main">
+            <header class="hero">
+                <h1>WORDS OF ISTANBUL</h1>
+                <p class="tagline">v6.0 — RESURRECTION</p>
+            </header>
+            <div class="toolbar">
+                <input type="search" id="q" placeholder="Ara: hüzün, boğaz, Yahya Kemal…" autocomplete="off">
+                <select id="layer-filter"><option value="">Tüm katmanlar</option></select>
+                <button type="button" id="oracle" class="btn">Oracle</button>
+                <button type="button" id="derive" class="btn">Dérive</button>
+            </div>
+            <div class="pillars" id="pillars"></div>
+        </main>
+
+        <aside class="panel">
+            <div class="panel-header">Matrix akışı</div>
+            <div class="widget feed" id="feed"></div>
+            <p id="empty" class="empty hidden">Eşleşme yok.</p>
+        </aside>
+    </div>
+    <div id="toast" class="toast hidden" role="status"></div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

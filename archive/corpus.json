@@ -1,0 +1,139 @@
+{
+  "version": "6.0.0-RESURRECTION",
+  "metadata": {
+    "project": "Words of Istanbul",
+    "essays": 16,
+    "matrix_nodes": 19,
+    "last_sync": "2026-05-16"
+  },
+  "essays": [
+    {
+      "id": "iki-kitanin-kimlik-bunlimi",
+      "path": "01_psikoloji-ve-huzun/iki-kitanin-kimlik-bunlimi.md",
+      "title": "🌉 İki Kıtanın Kimlik Bunalımı: Arafta Bir Şehir",
+      "pillar": "01_psikoloji-ve-huzun",
+      "layer": "Psikoloji",
+      "mood": "Hüzün"
+    },
+    {
+      "id": "kaosun-icindeki-guzellik",
+      "path": "01_psikoloji-ve-huzun/kaosun-icindeki-guzellik.md",
+      "title": "🌪️ Kaosun İçindeki Güzellik: İstanbul'un Ritmi",
+      "pillar": "01_psikoloji-ve-huzun",
+      "layer": "Psikoloji",
+      "mood": "Hüzün"
+    },
+    {
+      "id": "melankoli-ve-yikinti-estetigi",
+      "path": "01_psikoloji-ve-huzun/melankoli-ve-yikinti-estetigi.md",
+      "title": "🏚️ Melankoli ve Yıkıntı Estetiği: İstanbul'un Görünmez Yaraları",
+      "pillar": "01_psikoloji-ve-huzun",
+      "layer": "Psikoloji",
+      "mood": "Hüzün"
+    },
+    {
+      "id": "dunya-liderleri-ve-diplomatlar",
+      "path": "02_imparatorluklar-ve-siyaset/dunya-liderleri-ve-diplomatlar.md",
+      "title": "🌍 Dünya Liderleri ve Diplomatlar: İstanbul'un Görkemli Yankıları",
+      "pillar": "02_imparatorluklar-ve-siyaset",
+      "layer": "İmparatorluk",
+      "mood": "Güç"
+    },
+    {
+      "id": "osmanli-ihtisami",
+      "path": "02_imparatorluklar-ve-siyaset/osmanli-ihtisami.md",
+      "title": "🕌 Osmanlı İhtişamı: Dersaadet ve Cihan Hakimiyeti",
+      "pillar": "02_imparatorluklar-ve-siyaset",
+      "layer": "İmparatorluk",
+      "mood": "Güç"
+    },
+    {
+      "id": "roma-ve-bizans-donemi",
+      "path": "02_imparatorluklar-ve-siyaset/roma-ve-bizans-donemi.md",
+      "title": "⚔️ Roma ve Bizans Dönemi: Dünya İmparatorluğu'nun Başkenti",
+      "pillar": "02_imparatorluklar-ve-siyaset",
+      "layer": "İmparatorluk",
+      "mood": "Güç"
+    },
+    {
+      "id": "divan-edebiyatinda-dersaadet",
+      "path": "03_edebiyat-ve-siir/divan-edebiyatinda-dersaadet.md",
+      "title": "🖋️ Divan Edebiyatında Dersaadet: Şiirin Altın Çağı",
+      "pillar": "03_edebiyat-ve-siir",
+      "layer": "Edebiyat",
+      "mood": "Şiir"
+    },
+    {
+      "id": "modern-turk-siirinin-baskenti",
+      "path": "03_edebiyat-ve-siir/modern-turk-siirinin-baskenti.md",
+      "title": "🌊 Modern Türk Şiirinin Başkenti: Yeni Bir İstanbul Tahayyülü",
+      "pillar": "03_edebiyat-ve-siir",
+      "layer": "Edebiyat",
+      "mood": "Şiir"
+    },
+    {
+      "id": "seyyahlarin-ve-kasiflerin-notlari",
+      "path": "03_edebiyat-ve-siir/seyyahlarin-ve-kasiflerin-notlari.md",
+      "title": "📜 Seyyahların ve Kaşiflerin Notları: Zamanın Tozlu Sayfaları",
+      "pillar": "03_edebiyat-ve-siir",
+      "layer": "Edebiyat",
+      "mood": "Şiir"
+    },
+    {
+      "id": "yabanci-yazarlar-ve-oryantalizm",
+      "path": "03_edebiyat-ve-siir/yabanci-yazarlar-ve-oryantalizm.md",
+      "title": "🎩 Yabancı Yazarlar ve Oryantalizm: Batı'nın İstanbul Tasviri",
+      "pillar": "03_edebiyat-ve-siir",
+      "layer": "Edebiyat",
+      "mood": "Şiir"
+    },
+    {
+      "id": "martilar-ve-vapurlar",
+      "path": "04_sehrin-sesleri-ve-yuzleri/martilar-ve-vapurlar.md",
+      "title": "🚢 Martılar ve Vapurlar: Denizin Üstündeki Hayat",
+      "pillar": "04_sehrin-sesleri-ve-yuzleri",
+      "layer": "Şehir",
+      "mood": "Gündelik"
+    },
+    {
+      "id": "sokak-kedileri-ve-esnaf",
+      "path": "04_sehrin-sesleri-ve-yuzleri/sokak-kedileri-ve-esnaf.md",
+      "title": "🐈 Sokak Kedileri ve Esnaf: Mahallenin Görünmez Muhafızları",
+      "pillar": "04_sehrin-sesleri-ve-yuzleri",
+      "layer": "Şehir",
+      "mood": "Gündelik"
+    },
+    {
+      "id": "altin-boynuz-ve-hazineler",
+      "path": "05_mitoloji-ve-efsaneler/altin-boynuz-ve-hazineler.md",
+      "title": "🔱 Altın Boynuz ve Hazineler: Haliç'in Derin Sırları",
+      "pillar": "05_mitoloji-ve-efsaneler",
+      "layer": "Mitoloji",
+      "mood": "Efsane"
+    },
+    {
+      "id": "ayasofya-ve-yeralti-dehlizleri",
+      "path": "05_mitoloji-ve-efsaneler/ayasofya-ve-yeralti-dehlizleri.md",
+      "title": "⛪ Ayasofya ve Yeraltı Dehlizleri: Kutsal Hikmet'in Gizli Labirenti",
+      "pillar": "05_mitoloji-ve-efsaneler",
+      "layer": "Mitoloji",
+      "mood": "Efsane"
+    },
+    {
+      "id": "byzantion-kurulus-efsanesi",
+      "path": "05_mitoloji-ve-efsaneler/byzantion-kurulus-efsanesi.md",
+      "title": "🏺 Byzantion Kuruluş Efsanesi: Kehanetin İşaret Ettiği Şehir",
+      "pillar": "05_mitoloji-ve-efsaneler",
+      "layer": "Mitoloji",
+      "mood": "Efsane"
+    },
+    {
+      "id": "kiz-kulesi-ve-bogazin-sirlari",
+      "path": "05_mitoloji-ve-efsaneler/kiz-kulesi-ve-bogazin-sirlari.md",
+      "title": "🗼 Kız Kulesi ve Boğazın Sırları: Yalnızlığın ve Kehanetin Kulesi",
+      "pillar": "05_mitoloji-ve-efsaneler",
+      "layer": "Mitoloji",
+      "mood": "Efsane"
+    }
+  ]
+}
