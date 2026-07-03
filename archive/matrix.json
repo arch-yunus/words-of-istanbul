@@ -2,13 +2,61 @@
   "version": "6.0.0-RESURRECTION",
   "metadata": {
     "project": "Words of Istanbul",
-    "total_insights": 19,
-    "essays": 16,
-    "last_sync": "2026-05-16"
+    "total_insights": 37,
+    "essays": 25,
+    "last_sync": "2026-07-04"
   },
   "matrix": [
     {
       "id": "n1",
+      "source": "01_psikoloji-ve-huzun/galata-koprusunde-bekleyisin-psikolojisi.md",
+      "essay_id": "galata-koprusunde-bekleyisin-psikolojisi",
+      "layer": "Psikoloji",
+      "content": "\"Galata Köprüsü'nde beklemek, İstanbul'un geçmişiyle geleceği arasında asılı kalıp, şimdiki zamanın ağırlığından kurtulma çabasıdır.\"",
+      "category": "🎣 Galata Köprüsü'nde Bekleyişin Psikolojisi",
+      "mood": "Hüzün",
+      "strat": 8,
+      "depth": 9,
+      "impact": 9
+    },
+    {
+      "id": "n2",
+      "source": "01_psikoloji-ve-huzun/galata-koprusunde-bekleyisin-psikolojisi.md",
+      "essay_id": "galata-koprusunde-bekleyisin-psikolojisi",
+      "layer": "Psikoloji",
+      "content": "\"İstanbul'da deniz, insana sadece derinliğiyle değil; kıyısında bekleyenlerin sabrıyla da kendi hikâyesini anlatır.\"",
+      "category": "🎣 Galata Köprüsü'nde Bekleyişin Psikolojisi",
+      "mood": "Hüzün",
+      "strat": 8,
+      "depth": 9,
+      "impact": 8
+    },
+    {
+      "id": "n3",
+      "source": "01_psikoloji-ve-huzun/halic-sisleri-ve-yalnizlik.md",
+      "essay_id": "halic-sisleri-ve-yalnizlik",
+      "layer": "Psikoloji",
+      "content": "\"Haliç'in sisi, şehrin geçmişte kalan tüm kırık hayallerini bugünün üzerine örten kadife bir perdedir.\"",
+      "category": "🌫️ Haliç Sisleri ve İstanbul'un Yalnızlığı",
+      "mood": "Hüzün",
+      "strat": 8,
+      "depth": 9,
+      "impact": 9
+    },
+    {
+      "id": "n4",
+      "source": "01_psikoloji-ve-huzun/halic-sisleri-ve-yalnizlik.md",
+      "essay_id": "halic-sisleri-ve-yalnizlik",
+      "layer": "Psikoloji",
+      "content": "\"İstanbul'da sis, suyun ve karanın değil; hafıza ile unutuşun kucaklaşmasıdır.\"",
+      "category": "🌫️ Haliç Sisleri ve İstanbul'un Yalnızlığı",
+      "mood": "Hüzün",
+      "strat": 8,
+      "depth": 8,
+      "impact": 8
+    },
+    {
+      "id": "n5",
       "source": "01_psikoloji-ve-huzun/iki-kitanin-kimlik-bunlimi.md",
       "essay_id": "iki-kitanin-kimlik-bunlimi",
       "layer": "Psikoloji",
@@ -20,7 +68,7 @@
       "impact": 9
     },
     {
-      "id": "n2",
+      "id": "n6",
       "source": "01_psikoloji-ve-huzun/kaosun-icindeki-guzellik.md",
       "essay_id": "kaosun-icindeki-guzellik",
       "layer": "Psikoloji",
@@ -32,7 +80,7 @@
       "impact": 9
     },
     {
-      "id": "n3",
+      "id": "n7",
       "source": "01_psikoloji-ve-huzun/melankoli-ve-yikinti-estetigi.md",
       "essay_id": "melankoli-ve-yikinti-estetigi",
       "layer": "Psikoloji",
@@ -44,7 +92,7 @@
       "impact": 9
     },
     {
-      "id": "n4",
+      "id": "n8",
       "source": "02_imparatorluklar-ve-siyaset/dunya-liderleri-ve-diplomatlar.md",
       "essay_id": "dunya-liderleri-ve-diplomatlar",
       "layer": "İmparatorluk",
@@ -56,7 +104,7 @@
       "impact": 10
     },
     {
-      "id": "n5",
+      "id": "n9",
       "source": "02_imparatorluklar-ve-siyaset/osmanli-ihtisami.md",
       "essay_id": "osmanli-ihtisami",
       "layer": "İmparatorluk",
@@ -68,7 +116,7 @@
       "impact": 10
     },
     {
-      "id": "n6",
+      "id": "n10",
       "source": "02_imparatorluklar-ve-siyaset/roma-ve-bizans-donemi.md",
       "essay_id": "roma-ve-bizans-donemi",
       "layer": "İmparatorluk",
@@ -80,7 +128,79 @@
       "impact": 10
     },
     {
-      "id": "n7",
+      "id": "n11",
+      "source": "02_imparatorluklar-ve-siyaset/saray-bahcelerinden-sokaklara.md",
+      "essay_id": "saray-bahcelerinden-sokaklara",
+      "layer": "İmparatorluk",
+      "content": "\"İstanbul'da iktidar, yüksek sarayların tahtlarında değil; o sarayların gölgesini barındıran taş sokakların hafızasında saklıdır.\"",
+      "category": "🏛️ Saray Bahçelerinden Sokaklara: Gücün İzleri",
+      "mood": "Güç",
+      "strat": 9,
+      "depth": 10,
+      "impact": 10
+    },
+    {
+      "id": "n12",
+      "source": "02_imparatorluklar-ve-siyaset/saray-bahcelerinden-sokaklara.md",
+      "essay_id": "saray-bahcelerinden-sokaklara",
+      "layer": "İmparatorluk",
+      "content": "\"Bizans surları ve Osmanlı sarayları, taşlaşmış birer iradenin eseridir; ancak İstanbul'un ruhu, bu taşların arasından sızan yabani otlar gibidir.\"",
+      "category": "🏛️ Saray Bahçelerinden Sokaklara: Gücün İzleri",
+      "mood": "Güç",
+      "strat": 9,
+      "depth": 10,
+      "impact": 9
+    },
+    {
+      "id": "n13",
+      "source": "02_imparatorluklar-ve-siyaset/yedikule-zindanlari-ve-karanlik-guc.md",
+      "essay_id": "yedikule-zindanlari-ve-karanlik-guc",
+      "layer": "İmparatorluk",
+      "content": "\"Yedikule, gücün doruğuna ulaşanların, o gücün karanlık yüzüyle yüzleştiği ve tarih sahnesinden sessizce silindiği soğuk bir taştır.\"",
+      "category": "🏰 Yedikule Zindanları ve Karanlık Güç",
+      "mood": "Güç",
+      "strat": 9,
+      "depth": 10,
+      "impact": 10
+    },
+    {
+      "id": "n14",
+      "source": "02_imparatorluklar-ve-siyaset/yedikule-zindanlari-ve-karanlik-guc.md",
+      "essay_id": "yedikule-zindanlari-ve-karanlik-guc",
+      "layer": "İmparatorluk",
+      "content": "\"İstanbul'da taht kurmak ne kadar görkemliyse, o tahtın gölgesindeki Yedikule'de kaybolmak da o kadar kaçınılmazdır.\"",
+      "category": "🏰 Yedikule Zindanları ve Karanlık Güç",
+      "mood": "Güç",
+      "strat": 9,
+      "depth": 10,
+      "impact": 9
+    },
+    {
+      "id": "n15",
+      "source": "03_edebiyat-ve-siir/ahmet-hamdi-tanpinar-ve-istanbulun-zamani.md",
+      "essay_id": "ahmet-hamdi-tanpinar-ve-istanbulun-zamani",
+      "layer": "Edebiyat",
+      "content": "\"İstanbul'da mazi, arkamızda kalan bir şey değildir; o, her köşe başında, her eski taşın gölgesinde bizi bekleyen bir şimdiki zamandır.\"",
+      "category": "⏳ Ahmet Hamdi Tanpınar ve İstanbul'un Huzursuz Z",
+      "mood": "Şiir",
+      "strat": 9,
+      "depth": 10,
+      "impact": 10
+    },
+    {
+      "id": "n16",
+      "source": "03_edebiyat-ve-siir/ahmet-hamdi-tanpinar-ve-istanbulun-zamani.md",
+      "essay_id": "ahmet-hamdi-tanpinar-ve-istanbulun-zamani",
+      "layer": "Edebiyat",
+      "content": "\"Biz İstanbul'u sevmiyoruz, biz İstanbul'da kaybolan kendi gençliğimizi ve yıkılan bir rüyanın enkazını arıyoruz.\"",
+      "category": "⏳ Ahmet Hamdi Tanpınar ve İstanbul'un Huzursuz Z",
+      "mood": "Şiir",
+      "strat": 9,
+      "depth": 10,
+      "impact": 9
+    },
+    {
+      "id": "n17",
       "source": "03_edebiyat-ve-siir/divan-edebiyatinda-dersaadet.md",
       "essay_id": "divan-edebiyatinda-dersaadet",
       "layer": "Edebiyat",
@@ -92,7 +212,7 @@
       "impact": 10
     },
     {
-      "id": "n8",
+      "id": "n18",
       "source": "03_edebiyat-ve-siir/divan-edebiyatinda-dersaadet.md",
       "essay_id": "divan-edebiyatinda-dersaadet",
       "layer": "Edebiyat",
@@ -104,7 +224,7 @@
       "impact": 9
     },
     {
-      "id": "n9",
+      "id": "n19",
       "source": "03_edebiyat-ve-siir/modern-turk-siirinin-baskenti.md",
       "essay_id": "modern-turk-siirinin-baskenti",
       "layer": "Edebiyat",
@@ -116,7 +236,7 @@
       "impact": 10
     },
     {
-      "id": "n10",
+      "id": "n20",
       "source": "03_edebiyat-ve-siir/modern-turk-siirinin-baskenti.md",
       "essay_id": "modern-turk-siirinin-baskenti",
       "layer": "Edebiyat",
@@ -128,7 +248,7 @@
       "impact": 9
     },
     {
-      "id": "n11",
+      "id": "n21",
       "source": "03_edebiyat-ve-siir/modern-turk-siirinin-baskenti.md",
       "essay_id": "modern-turk-siirinin-baskenti",
       "layer": "Edebiyat",
@@ -140,7 +260,7 @@
       "impact": 9
     },
     {
-      "id": "n12",
+      "id": "n22",
       "source": "03_edebiyat-ve-siir/seyyahlarin-ve-kasiflerin-notlari.md",
       "essay_id": "seyyahlarin-ve-kasiflerin-notlari",
       "layer": "Edebiyat",
@@ -152,7 +272,7 @@
       "impact": 10
     },
     {
-      "id": "n13",
+      "id": "n23",
       "source": "03_edebiyat-ve-siir/yabanci-yazarlar-ve-oryantalizm.md",
       "essay_id": "yabanci-yazarlar-ve-oryantalizm",
       "layer": "Edebiyat",
@@ -164,7 +284,55 @@
       "impact": 10
     },
     {
-      "id": "n14",
+      "id": "n24",
+      "source": "04_sehrin-sesleri-ve-yuzleri/boza-saticilari-ve-sokak-sesleri.md",
+      "essay_id": "boza-saticilari-ve-sokak-sesleri",
+      "layer": "Şehir",
+      "content": "\"Gece sokaktan geçen bozacı, uykusuz İstanbullulara yalnız olmadıklarını fısıldayan gecenin nöbetçi şairidir.\"",
+      "category": "🥛 Boza Satıcıları ve İstanbul'un Gece Sesleri",
+      "mood": "Gündelik",
+      "strat": 7,
+      "depth": 8,
+      "impact": 8
+    },
+    {
+      "id": "n25",
+      "source": "04_sehrin-sesleri-ve-yuzleri/boza-saticilari-ve-sokak-sesleri.md",
+      "essay_id": "boza-saticilari-ve-sokak-sesleri",
+      "layer": "Şehir",
+      "content": "\"İstanbul'un gece sesleri, gündüzün örttüğü gerçek ruhunun karanlıkta fısıldadığı şarkılardır.\"",
+      "category": "🥛 Boza Satıcıları ve İstanbul'un Gece Sesleri",
+      "mood": "Gündelik",
+      "strat": 7,
+      "depth": 8,
+      "impact": 7
+    },
+    {
+      "id": "n26",
+      "source": "04_sehrin-sesleri-ve-yuzleri/eminonunun-insan-seli-ve-telasi.md",
+      "essay_id": "eminonunun-insan-seli-ve-telasi",
+      "layer": "Şehir",
+      "content": "\"Eminönü, İstanbul'un ne kadar canlı, ne kadar yorulmak bilmez ve ne kadar insan dolu bir kalp olduğunu her saniye haykıran bir meydandır.\"",
+      "category": "🚢 Eminönü'nün İnsan Seli ve Günlük Telaş",
+      "mood": "Gündelik",
+      "strat": 7,
+      "depth": 8,
+      "impact": 8
+    },
+    {
+      "id": "n27",
+      "source": "04_sehrin-sesleri-ve-yuzleri/eminonunun-insan-seli-ve-telasi.md",
+      "essay_id": "eminonunun-insan-seli-ve-telasi",
+      "layer": "Şehir",
+      "content": "\"Eminönü'nün karmaşasında kaybolmak, İstanbul'un o devasa, ortak nefesine kendi küçük soluğunu katmaktır.\"",
+      "category": "🚢 Eminönü'nün İnsan Seli ve Günlük Telaş",
+      "mood": "Gündelik",
+      "strat": 7,
+      "depth": 8,
+      "impact": 7
+    },
+    {
+      "id": "n28",
       "source": "04_sehrin-sesleri-ve-yuzleri/martilar-ve-vapurlar.md",
       "essay_id": "martilar-ve-vapurlar",
       "layer": "Şehir",
@@ -176,7 +344,7 @@
       "impact": 8
     },
     {
-      "id": "n15",
+      "id": "n29",
       "source": "04_sehrin-sesleri-ve-yuzleri/sokak-kedileri-ve-esnaf.md",
       "essay_id": "sokak-kedileri-ve-esnaf",
       "layer": "Şehir",
@@ -188,7 +356,7 @@
       "impact": 8
     },
     {
-      "id": "n16",
+      "id": "n30",
       "source": "05_mitoloji-ve-efsaneler/altin-boynuz-ve-hazineler.md",
       "essay_id": "altin-boynuz-ve-hazineler",
       "layer": "Mitoloji",
@@ -200,7 +368,7 @@
       "impact": 10
     },
     {
-      "id": "n17",
+      "id": "n31",
       "source": "05_mitoloji-ve-efsaneler/ayasofya-ve-yeralti-dehlizleri.md",
       "essay_id": "ayasofya-ve-yeralti-dehlizleri",
       "layer": "Mitoloji",
@@ -212,7 +380,7 @@
       "impact": 10
     },
     {
-      "id": "n18",
+      "id": "n32",
       "source": "05_mitoloji-ve-efsaneler/byzantion-kurulus-efsanesi.md",
       "essay_id": "byzantion-kurulus-efsanesi",
       "layer": "Mitoloji",
@@ -224,7 +392,7 @@
       "impact": 10
     },
     {
-      "id": "n19",
+      "id": "n33",
       "source": "05_mitoloji-ve-efsaneler/kiz-kulesi-ve-bogazin-sirlari.md",
       "essay_id": "kiz-kulesi-ve-bogazin-sirlari",
       "layer": "Mitoloji",
@@ -234,6 +402,54 @@
       "strat": 9,
       "depth": 9,
       "impact": 10
+    },
+    {
+      "id": "n34",
+      "source": "05_mitoloji-ve-efsaneler/yedi-tepenin-gizli-efsaneleri.md",
+      "essay_id": "yedi-tepenin-gizli-efsaneleri",
+      "layer": "Mitoloji",
+      "content": "\"Yedi tepe, göğün yedi katını İstanbul toprağında donduran mistik birer mühürdür.\"",
+      "category": "⛰️ Yedi Tepenin Gizli Efsaneleri",
+      "mood": "Efsane",
+      "strat": 9,
+      "depth": 10,
+      "impact": 10
+    },
+    {
+      "id": "n35",
+      "source": "05_mitoloji-ve-efsaneler/yedi-tepenin-gizli-efsaneleri.md",
+      "essay_id": "yedi-tepenin-gizli-efsaneleri",
+      "layer": "Mitoloji",
+      "content": "\"İstanbul'un tepeleri, bu şehrin gökyüzüne uzattığı yedi parmağıdır; her biri farklı bir efsaneyi göğe fısıldar.\"",
+      "category": "⛰️ Yedi Tepenin Gizli Efsaneleri",
+      "mood": "Efsane",
+      "strat": 9,
+      "depth": 10,
+      "impact": 9
+    },
+    {
+      "id": "n36",
+      "source": "05_mitoloji-ve-efsaneler/yerebatan-sarnici-ve-medusanin-bakisi.md",
+      "essay_id": "yerebatan-sarnici-ve-medusanin-bakisi",
+      "layer": "Mitoloji",
+      "content": "\"Yerebatan Sarnıcı, İstanbul'un sadece göğe yükselen minarelerle değil, toprağın derinliklerine inen sütunlarla da ayakta durduğunu gösteren bir yeraltı tapınağıdır.\"",
+      "category": "🐍 Yerebatan Sarnıcı ve Medusa'nın Bakışı",
+      "mood": "Efsane",
+      "strat": 9,
+      "depth": 10,
+      "impact": 10
+    },
+    {
+      "id": "n37",
+      "source": "05_mitoloji-ve-efsaneler/yerebatan-sarnici-ve-medusanin-bakisi.md",
+      "essay_id": "yerebatan-sarnici-ve-medusanin-bakisi",
+      "layer": "Mitoloji",
+      "content": "\"İstanbul'un altındaki Medusa, bu şehrin sadece üstündeki medeniyeti değil, en derindeki pagan köklerini ve unutulmuş efsanelerini de saklayan sessiz bir bekçidir.\"",
+      "category": "🐍 Yerebatan Sarnıcı ve Medusa'nın Bakışı",
+      "mood": "Efsane",
+      "strat": 9,
+      "depth": 10,
+      "impact": 9
     }
   ]
 }

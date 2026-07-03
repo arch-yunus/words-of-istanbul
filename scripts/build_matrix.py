@@ -106,7 +106,8 @@ def build_matrix(essays: list[dict]) -> list[dict]:
             quotes = [fallback_sentence(text)]
         pk = pillar_key(essay["pillar"])
         layer, mood, base = PILLAR_META.get(pk, ("Genel", "Belirsiz", 7))
-        for i, content in enumerate(quotes[:3]):
+        limit = 50 if essay["id"] == "kullanici-gozlemleri" else 3
+        for i, content in enumerate(quotes[:limit]):
             n += 1
             depth = min(10, base + (1 if len(content) > 80 else 0))
             nodes.append(

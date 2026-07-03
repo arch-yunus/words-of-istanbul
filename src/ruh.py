@@ -216,6 +216,181 @@ def run_server(port: int, open_browser: bool) -> None:
             print("\nDurduruldu.")
 
 
+def run_interactive() -> None:
+    import subprocess
+    while True:
+        os.system("cls" if os.name == "nt" else "clear")
+        print("\033[1;33m" + SOUL_BANNER + "\033[0m")
+        print("\033[1;36m  --- [ İNTERAKTİF ŞEHİR PORTALI ] ---\033[0m")
+        print("  [1] Oracle (Günün Kahini) - Anlık İçgörü")
+        print("  [2] Dérive (Rastgele Rota) - 3 Duraklı Yürüyüş")
+        print("  [3] Scan (Arama) - Matrix & Corpus Keşfi")
+        print("  [4] Monitor (Şehir Durumu) - Canlı Göstergeler")
+        print("  [5] Stats (Metrikler) - Veri Analizi")
+        print("  [6] Corpus (Kütüphane) - Denemeleri Oku")
+        print("  [7] Gözlem Ekle (Yeni Kayıt) - Şehri Sen Yaz")
+        print("  [0] Çıkış\n")
+        
+        choice = input("\033[1;32m  Seçiminiz [0-7]: \033[0m").strip()
+        
+        if choice == "0":
+            print("\n  Güle güle, İstanbul seni bekler...")
+            break
+        elif choice == "1":
+            os.system("cls" if os.name == "nt" else "clear")
+            print("\033[1;33m🔮 İSTANBUL'UN KAHİNİ (ORACLE) 🔮\033[0m\n")
+            matrix = load_matrix()["matrix"]
+            if matrix:
+                display_insight(random.choice(matrix), immersive=True)
+            else:
+                print("  Matrix boş.")
+            input("\n  Devam etmek için [Enter]'a basın...")
+        elif choice == "2":
+            os.system("cls" if os.name == "nt" else "clear")
+            print("\033[1;36m🚶 DÉRIVE — PSİKOMİTOLOJİK ROTA 🚶\033[0m\n")
+            matrix = load_matrix()["matrix"]
+            if len(matrix) >= 3:
+                route = random.sample(matrix, 3)
+                for i, node in enumerate(route, 1):
+                    print(f"\n\033[1;33m📍 Durak {i}/3: {node['layer'].upper()} ({node['mood']})\033[0m")
+                    print(f"   ∟ Kategori: {node['category']}")
+                    stream_text(f"   📜 \"{node['content']}\"")
+                    print(f"   ∟ Kaynak: {node['source']}")
+                    if i < 3:
+                        cmd = input("\n  Sonraki durak için [Enter]'a basın (veya çıkmak için 'q'): ").strip().lower()
+                        if cmd == 'q':
+                            break
+                else:
+                    print("\n\033[1;32m✨ Rota başarıyla tamamlandı. Şehri hisset.\033[0m")
+            else:
+                print("  Yeterli düğüm yok.")
+            input("\n  Ana menüye dönmek için [Enter]'a basın...")
+        elif choice == "3":
+            os.system("cls" if os.name == "nt" else "clear")
+            print("\033[1;35m🔍 MATRİX VE CORPUS ARAMASI 🔍\033[0m\n")
+            q = input("  Aranacak kelime: ").strip()
+            if q:
+                matrix = load_matrix()["matrix"]
+                mh = [m for m in matrix if matrix_matches(m, q)]
+                ch = search_corpus(q)
+                print(f"\n  ✅ {len(mh)} matrix düğümü, {len(ch)} corpus dosyası bulundu.\n")
+                if ch:
+                    print("\033[1;36m  📂 Corpus Eşleşmeleri:\033[0m")
+                    for rel, ex in ch:
+                        print(f"     • {rel}: {ex}")
+                if mh:
+                    print("\n\033[1;33m  📜 Matrix Eşleşmeleri:\033[0m")
+                    for m in mh:
+                        display_insight(m, immersive=False)
+                if not mh and not ch:
+                    print("  ❌ Eşleşme bulunamadı.")
+            input("\n  Devam etmek için [Enter]'a basın...")
+        elif choice == "4":
+            os.system("cls" if os.name == "nt" else "clear")
+            print("\033[1;32m⚡ ŞEHİR RUHU MONITORÜ ⚡\033[0m\n")
+            matrix = load_matrix()["matrix"]
+            if matrix:
+                avg = sum(m.get("impact", 5) for m in matrix) / len(matrix)
+                moods = [m["mood"] for m in matrix]
+                dom_mood = max(set(moods), key=moods.count).upper()
+                print(f"  📊 ŞEHİR SOUL INDEX  : {avg:.2f}/10")
+                print(f"  🎭 BASKIN DUYGU HALİ : {dom_mood}")
+                print(f"  🕸️ TOPLAM DÜĞÜM      : {len(matrix)}")
+                print(f"  📚 CORPUS DENEME     : {len(iter_corpus_md())}")
+                print("\n  --- SON EKLENEN İÇGÖRÜLERDEN ESİNTİLER ---")
+                for _ in range(min(3, len(matrix))):
+                    print(f"  • \"{random.choice(matrix)['content'][:75]}...\"")
+            else:
+                print("  Veri bulunamadı.")
+            input("\n  Devam etmek için [Enter]'a basın...")
+        elif choice == "5":
+            os.system("cls" if os.name == "nt" else "clear")
+            matrix = load_matrix()["matrix"]
+            print_stats(matrix)
+            input("\n  Devam etmek için [Enter]'a basın...")
+        elif choice == "6":
+            while True:
+                os.system("cls" if os.name == "nt" else "clear")
+                print("\033[1;33m📚 ŞEHİR KÜTÜPHANESİ 📚\033[0m\n")
+                corpus_data = load_json(CORPUS_PATH)
+                essays = corpus_data.get("essays", [])
+                for idx, e in enumerate(essays, 1):
+                    print(f"  [{idx:02d}] {e['title']} ({e['layer']})")
+                print("  [00] Ana Menüye Dön\n")
+                sub = input("  Okumak istediğiniz deneme no: ").strip()
+                if sub == "0" or sub == "00":
+                    break
+                try:
+                    e_idx = int(sub) - 1
+                    if 0 <= e_idx < len(essays):
+                        selected = essays[e_idx]
+                        os.system("cls" if os.name == "nt" else "clear")
+                        print("\033[1;36m" + "="*72 + "\033[0m")
+                        read_essay(selected["id"])
+                        print("\033[1;36m" + "="*72 + "\033[0m")
+                        input("\n  Kütüphaneye dönmek için [Enter]'a basın...")
+                    else:
+                        print("  Geçersiz numara.")
+                        time.sleep(1)
+                except ValueError:
+                    print("  Lütfen bir sayı girin.")
+                    time.sleep(1)
+        elif choice == "7":
+            os.system("cls" if os.name == "nt" else "clear")
+            print("\033[1;33m✍️ YENİ ŞEHİR GÖZLEMİ EKLE ✍️\033[0m\n")
+            quote = input("  İstanbul gözleminizi/sözünüzü yazın:\n  > ").strip()
+            if not quote:
+                print("  Boş gözlem eklenemez.")
+                time.sleep(1.5)
+                continue
+            
+            print("\n  Bu gözlem hangi tarihsel/kültürel katmana ait?")
+            print("  [1] Psikoloji (Hüzün, kimlik, melankoli)")
+            print("  [2] İmparatorluk (Tarih, saray, diplomasi)")
+            print("  [3] Edebiyat (Şiir, seyyahlar, divan)")
+            print("  [4] Şehir (Gündelik hayat, kediler, sesler)")
+            print("  [5] Mitoloji (Efsaneler, tılsımlar, kadim sırlar)")
+            
+            l_choice = input("  Seçiminiz [1-5]: ").strip()
+            layers_map = {
+                "1": ("01_psikoloji-ve-huzun", "Psikoloji"),
+                "2": ("02_imparatorluklar-ve-siyaset", "İmparatorluk"),
+                "3": ("03_edebiyat-ve-siir", "Edebiyat"),
+                "4": ("04_sehrin-sesleri-ve-yuzleri", "Şehir"),
+                "5": ("05_mitoloji-ve-efsaneler", "Mitoloji")
+            }
+            
+            p_dir, layer_name = layers_map.get(l_choice, ("04_sehrin-sesleri-ve-yuzleri", "Şehir"))
+            
+            mood = input("\n  Hissedilen Duygu/Ruh Hali (örn: Hüzün, Güç, Şiir, Gündelik, Efsane): ").strip()
+            if not mood:
+                mood = "Belirsiz"
+                
+            target_file_name = "kullanici-gozlemleri.md"
+            target_path = os.path.join(BASE_DIR, p_dir, target_file_name)
+            exists = os.path.isfile(target_path)
+            
+            try:
+                with open(target_path, "a", encoding="utf-8") as f:
+                    if not exists:
+                        f.write(f"# ✍️ Kullanıcı Gözlemleri: {layer_name}\n\n")
+                        f.write(f"Kullanıcılar tarafından eklenen anlık İstanbul {layer_name.lower()} kayıtları.\n\n")
+                    f.write(f"## Gözlem Kaydı ({time.strftime('%Y-%m-%d %H:%M')})\n\n")
+                    f.write(f"> *{quote}*\n\n")
+                    f.write(f"- **Katman**: {layer_name}\n")
+                    f.write(f"- **Duygu**: {mood}\n\n")
+                    f.write("---\n\n")
+                
+                print("\n  ⌛ Matrix yeniden derleniyor...")
+                script = os.path.join(BASE_DIR, "scripts", "build_matrix.py")
+                subprocess.check_call([sys.executable, script])
+                print("\n\033[1;32m  ✓ Kayıt başarıyla eklendi ve Matrix güncellendi!\033[0m")
+            except Exception as e:
+                print(f"  ❌ Hata oluştu: {e}")
+            
+            input("\n  Devam etmek için [Enter]'a basın...")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Istanbul Soul Engine v6.0-RESURRECTION")
     parser.add_argument("--oracle", action="store_true", help="Rastgele matrix düğümü")
@@ -239,6 +414,12 @@ def main() -> None:
         "--rebuild",
         action="store_true",
         help="scripts/build_matrix.py çalıştır",
+    )
+    parser.add_argument(
+        "-i",
+        "--interactive",
+        action="store_true",
+        help="İnteraktif terminal arayüzünü başlat",
     )
 
     args = parser.parse_args()
@@ -281,6 +462,14 @@ def main() -> None:
         run_server(args.serve, open_browser=not args.no_browser)
         return
 
+    has_action = (args.oracle or args.scan or args.monitor or args.derive or 
+                  args.stats or args.corpus or args.read or args.validate or 
+                  args.serve is not None)
+
+    if args.interactive or not has_action:
+        run_interactive()
+        return
+
     print(SOUL_BANNER)
 
     if args.oracle:
@@ -312,9 +501,6 @@ def main() -> None:
         print("ROUTE (Dérive):")
         for i, n in enumerate(route, 1):
             print(f"  {i}. [{n['layer']}] {n['content'][:65]}…")
-    else:
-        parser.print_help()
-
 
 if __name__ == "__main__":
     main()

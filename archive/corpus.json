@@ -2,11 +2,27 @@
   "version": "6.0.0-RESURRECTION",
   "metadata": {
     "project": "Words of Istanbul",
-    "essays": 16,
-    "matrix_nodes": 19,
-    "last_sync": "2026-05-16"
+    "essays": 25,
+    "matrix_nodes": 37,
+    "last_sync": "2026-07-04"
   },
   "essays": [
+    {
+      "id": "galata-koprusunde-bekleyisin-psikolojisi",
+      "path": "01_psikoloji-ve-huzun/galata-koprusunde-bekleyisin-psikolojisi.md",
+      "title": "🎣 Galata Köprüsü'nde Bekleyişin Psikolojisi",
+      "pillar": "01_psikoloji-ve-huzun",
+      "layer": "Psikoloji",
+      "mood": "Hüzün"
+    },
+    {
+      "id": "halic-sisleri-ve-yalnizlik",
+      "path": "01_psikoloji-ve-huzun/halic-sisleri-ve-yalnizlik.md",
+      "title": "🌫️ Haliç Sisleri ve İstanbul'un Yalnızlığı",
+      "pillar": "01_psikoloji-ve-huzun",
+      "layer": "Psikoloji",
+      "mood": "Hüzün"
+    },
     {
       "id": "iki-kitanin-kimlik-bunlimi",
       "path": "01_psikoloji-ve-huzun/iki-kitanin-kimlik-bunlimi.md",
@@ -56,6 +72,30 @@
       "mood": "Güç"
     },
     {
+      "id": "saray-bahcelerinden-sokaklara",
+      "path": "02_imparatorluklar-ve-siyaset/saray-bahcelerinden-sokaklara.md",
+      "title": "🏛️ Saray Bahçelerinden Sokaklara: Gücün İzleri",
+      "pillar": "02_imparatorluklar-ve-siyaset",
+      "layer": "İmparatorluk",
+      "mood": "Güç"
+    },
+    {
+      "id": "yedikule-zindanlari-ve-karanlik-guc",
+      "path": "02_imparatorluklar-ve-siyaset/yedikule-zindanlari-ve-karanlik-guc.md",
+      "title": "🏰 Yedikule Zindanları ve Karanlık Güç",
+      "pillar": "02_imparatorluklar-ve-siyaset",
+      "layer": "İmparatorluk",
+      "mood": "Güç"
+    },
+    {
+      "id": "ahmet-hamdi-tanpinar-ve-istanbulun-zamani",
+      "path": "03_edebiyat-ve-siir/ahmet-hamdi-tanpinar-ve-istanbulun-zamani.md",
+      "title": "⏳ Ahmet Hamdi Tanpınar ve İstanbul'un Huzursuz Zamanı",
+      "pillar": "03_edebiyat-ve-siir",
+      "layer": "Edebiyat",
+      "mood": "Şiir"
+    },
+    {
       "id": "divan-edebiyatinda-dersaadet",
       "path": "03_edebiyat-ve-siir/divan-edebiyatinda-dersaadet.md",
       "title": "🖋️ Divan Edebiyatında Dersaadet: Şiirin Altın Çağı",
@@ -86,6 +126,22 @@
       "pillar": "03_edebiyat-ve-siir",
       "layer": "Edebiyat",
       "mood": "Şiir"
+    },
+    {
+      "id": "boza-saticilari-ve-sokak-sesleri",
+      "path": "04_sehrin-sesleri-ve-yuzleri/boza-saticilari-ve-sokak-sesleri.md",
+      "title": "🥛 Boza Satıcıları ve İstanbul'un Gece Sesleri",
+      "pillar": "04_sehrin-sesleri-ve-yuzleri",
+      "layer": "Şehir",
+      "mood": "Gündelik"
+    },
+    {
+      "id": "eminonunun-insan-seli-ve-telasi",
+      "path": "04_sehrin-sesleri-ve-yuzleri/eminonunun-insan-seli-ve-telasi.md",
+      "title": "🚢 Eminönü'nün İnsan Seli ve Günlük Telaş",
+      "pillar": "04_sehrin-sesleri-ve-yuzleri",
+      "layer": "Şehir",
+      "mood": "Gündelik"
     },
     {
       "id": "martilar-ve-vapurlar",
@@ -131,6 +187,22 @@
       "id": "kiz-kulesi-ve-bogazin-sirlari",
       "path": "05_mitoloji-ve-efsaneler/kiz-kulesi-ve-bogazin-sirlari.md",
       "title": "🗼 Kız Kulesi ve Boğazın Sırları: Yalnızlığın ve Kehanetin Kulesi",
+      "pillar": "05_mitoloji-ve-efsaneler",
+      "layer": "Mitoloji",
+      "mood": "Efsane"
+    },
+    {
+      "id": "yedi-tepenin-gizli-efsaneleri",
+      "path": "05_mitoloji-ve-efsaneler/yedi-tepenin-gizli-efsaneleri.md",
+      "title": "⛰️ Yedi Tepenin Gizli Efsaneleri",
+      "pillar": "05_mitoloji-ve-efsaneler",
+      "layer": "Mitoloji",
+      "mood": "Efsane"
+    },
+    {
+      "id": "yerebatan-sarnici-ve-medusanin-bakisi",
+      "path": "05_mitoloji-ve-efsaneler/yerebatan-sarnici-ve-medusanin-bakisi.md",
+      "title": "🐍 Yerebatan Sarnıcı ve Medusa'nın Bakışı",
       "pillar": "05_mitoloji-ve-efsaneler",
       "layer": "Mitoloji",
       "mood": "Efsane"
