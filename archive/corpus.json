@@ -2,8 +2,8 @@
   "version": "6.0.0-RESURRECTION",
   "metadata": {
     "project": "Words of Istanbul",
-    "essays": 25,
-    "matrix_nodes": 37,
+    "essays": 30,
+    "matrix_nodes": 47,
     "last_sync": "2026-07-04"
   },
   "essays": [
@@ -32,6 +32,14 @@
       "mood": "Hüzün"
     },
     {
+      "id": "istiklal-caddesinde-kalabalik-ve-yabancilasmasi",
+      "path": "01_psikoloji-ve-huzun/istiklal-caddesinde-kalabalik-ve-yabancilasmasi.md",
+      "title": "🚶 İstiklal Caddesi'nde Kalabalık ve Yabancılaşma",
+      "pillar": "01_psikoloji-ve-huzun",
+      "layer": "Psikoloji",
+      "mood": "Hüzün"
+    },
+    {
       "id": "kaosun-icindeki-guzellik",
       "path": "01_psikoloji-ve-huzun/kaosun-icindeki-guzellik.md",
       "title": "🌪️ Kaosun İçindeki Güzellik: İstanbul'un Ritmi",
@@ -51,6 +59,14 @@
       "id": "dunya-liderleri-ve-diplomatlar",
       "path": "02_imparatorluklar-ve-siyaset/dunya-liderleri-ve-diplomatlar.md",
       "title": "🌍 Dünya Liderleri ve Diplomatlar: İstanbul'un Görkemli Yankıları",
+      "pillar": "02_imparatorluklar-ve-siyaset",
+      "layer": "İmparatorluk",
+      "mood": "Güç"
+    },
+    {
+      "id": "fetih-ve-kuresel-donusum",
+      "path": "02_imparatorluklar-ve-siyaset/fetih-ve-kuresel-donusum.md",
+      "title": "🏰 1453: Fetih ve Küresel Dönüşüm",
       "pillar": "02_imparatorluklar-ve-siyaset",
       "layer": "İmparatorluk",
       "mood": "Güç"
@@ -128,6 +144,14 @@
       "mood": "Şiir"
     },
     {
+      "id": "yahya-kemal-ve-eyup-melankolisi",
+      "path": "03_edebiyat-ve-siir/yahya-kemal-ve-eyup-melankolisi.md",
+      "title": "🌲 Yahya Kemal ve Eyüp Mezarlıklarının Melankolisi",
+      "pillar": "03_edebiyat-ve-siir",
+      "layer": "Edebiyat",
+      "mood": "Şiir"
+    },
+    {
       "id": "boza-saticilari-ve-sokak-sesleri",
       "path": "04_sehrin-sesleri-ve-yuzleri/boza-saticilari-ve-sokak-sesleri.md",
       "title": "🥛 Boza Satıcıları ve İstanbul'un Gece Sesleri",
@@ -147,6 +171,14 @@
       "id": "martilar-ve-vapurlar",
       "path": "04_sehrin-sesleri-ve-yuzleri/martilar-ve-vapurlar.md",
       "title": "🚢 Martılar ve Vapurlar: Denizin Üstündeki Hayat",
+      "pillar": "04_sehrin-sesleri-ve-yuzleri",
+      "layer": "Şehir",
+      "mood": "Gündelik"
+    },
+    {
+      "id": "sahaflar-carsisi-ve-kagit-kokusu",
+      "path": "04_sehrin-sesleri-ve-yuzleri/sahaflar-carsisi-ve-kagit-kokusu.md",
+      "title": "📚 Sahaflar Çarşısı ve Kâğıdın Kokusu",
       "pillar": "04_sehrin-sesleri-ve-yuzleri",
       "layer": "Şehir",
       "mood": "Gündelik"
@@ -187,6 +219,14 @@
       "id": "kiz-kulesi-ve-bogazin-sirlari",
       "path": "05_mitoloji-ve-efsaneler/kiz-kulesi-ve-bogazin-sirlari.md",
       "title": "🗼 Kız Kulesi ve Boğazın Sırları: Yalnızlığın ve Kehanetin Kulesi",
+      "pillar": "05_mitoloji-ve-efsaneler",
+      "layer": "Mitoloji",
+      "mood": "Efsane"
+    },
+    {
+      "id": "sehzadebasi-ve-karakol-tilsimi",
+      "path": "05_mitoloji-ve-efsaneler/sehzadebasi-ve-karakol-tilsimi.md",
+      "title": "🟢 Şehzadebaşı ve Şehrin Merkezindeki Tılsımlı Sütun",
       "pillar": "05_mitoloji-ve-efsaneler",
       "layer": "Mitoloji",
       "mood": "Efsane"

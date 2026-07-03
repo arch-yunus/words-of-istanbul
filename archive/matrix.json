@@ -2,8 +2,8 @@
   "version": "6.0.0-RESURRECTION",
   "metadata": {
     "project": "Words of Istanbul",
-    "total_insights": 37,
-    "essays": 25,
+    "total_insights": 47,
+    "essays": 30,
     "last_sync": "2026-07-04"
   },
   "matrix": [
@@ -69,6 +69,30 @@
     },
     {
       "id": "n6",
+      "source": "01_psikoloji-ve-huzun/istiklal-caddesinde-kalabalik-ve-yabancilasmasi.md",
+      "essay_id": "istiklal-caddesinde-kalabalik-ve-yabancilasmasi",
+      "layer": "Psikoloji",
+      "content": "\"İstiklal Caddesi'nde yalnız kalmak, çölde yalnız kalmaktan daha derindir; çünkü etrafınızdaki binlerce insan yalnızlığınızın en büyük şahididir.\"",
+      "category": "🚶 İstiklal Caddesi'nde Kalabalık ve Yabancılaşma",
+      "mood": "Hüzün",
+      "strat": 8,
+      "depth": 9,
+      "impact": 9
+    },
+    {
+      "id": "n7",
+      "source": "01_psikoloji-ve-huzun/istiklal-caddesinde-kalabalik-ve-yabancilasmasi.md",
+      "essay_id": "istiklal-caddesinde-kalabalik-ve-yabancilasmasi",
+      "layer": "Psikoloji",
+      "content": "\"Pera'nın taş kaldırımlarında yürüyen her insan, kendi geçmişiyle şehrin geleceği arasında sessiz bir hesaplaşma yaşar.\"",
+      "category": "🚶 İstiklal Caddesi'nde Kalabalık ve Yabancılaşma",
+      "mood": "Hüzün",
+      "strat": 8,
+      "depth": 9,
+      "impact": 8
+    },
+    {
+      "id": "n8",
       "source": "01_psikoloji-ve-huzun/kaosun-icindeki-guzellik.md",
       "essay_id": "kaosun-icindeki-guzellik",
       "layer": "Psikoloji",
@@ -80,7 +104,7 @@
       "impact": 9
     },
     {
-      "id": "n7",
+      "id": "n9",
       "source": "01_psikoloji-ve-huzun/melankoli-ve-yikinti-estetigi.md",
       "essay_id": "melankoli-ve-yikinti-estetigi",
       "layer": "Psikoloji",
@@ -92,7 +116,7 @@
       "impact": 9
     },
     {
-      "id": "n8",
+      "id": "n10",
       "source": "02_imparatorluklar-ve-siyaset/dunya-liderleri-ve-diplomatlar.md",
       "essay_id": "dunya-liderleri-ve-diplomatlar",
       "layer": "İmparatorluk",
@@ -104,7 +128,31 @@
       "impact": 10
     },
     {
-      "id": "n9",
+      "id": "n11",
+      "source": "02_imparatorluklar-ve-siyaset/fetih-ve-kuresel-donusum.md",
+      "essay_id": "fetih-ve-kuresel-donusum",
+      "layer": "İmparatorluk",
+      "content": "\"Fatih, Konstantinopolis'i aldığında sadece surları yıkmadı; Doğu ile Batı arasındaki orta çağ duvarlarını da yıkarak yeni bir çağın kapısını araladı.\"",
+      "category": "🏰 1453: Fetih ve Küresel Dönüşüm",
+      "mood": "Güç",
+      "strat": 9,
+      "depth": 10,
+      "impact": 10
+    },
+    {
+      "id": "n12",
+      "source": "02_imparatorluklar-ve-siyaset/fetih-ve-kuresel-donusum.md",
+      "essay_id": "fetih-ve-kuresel-donusum",
+      "layer": "İmparatorluk",
+      "content": "\"İstanbul'un fethi, bir medeniyetin diğerini yok etmesi değil; kadim Roma mirasının Türk-İslam estetiğiyle yeniden yorumlanmasıdır.\"",
+      "category": "🏰 1453: Fetih ve Küresel Dönüşüm",
+      "mood": "Güç",
+      "strat": 9,
+      "depth": 10,
+      "impact": 9
+    },
+    {
+      "id": "n13",
       "source": "02_imparatorluklar-ve-siyaset/osmanli-ihtisami.md",
       "essay_id": "osmanli-ihtisami",
       "layer": "İmparatorluk",
@@ -116,7 +164,7 @@
       "impact": 10
     },
     {
-      "id": "n10",
+      "id": "n14",
       "source": "02_imparatorluklar-ve-siyaset/roma-ve-bizans-donemi.md",
       "essay_id": "roma-ve-bizans-donemi",
       "layer": "İmparatorluk",
@@ -128,7 +176,7 @@
       "impact": 10
     },
     {
-      "id": "n11",
+      "id": "n15",
       "source": "02_imparatorluklar-ve-siyaset/saray-bahcelerinden-sokaklara.md",
       "essay_id": "saray-bahcelerinden-sokaklara",
       "layer": "İmparatorluk",
@@ -140,7 +188,7 @@
       "impact": 10
     },
     {
-      "id": "n12",
+      "id": "n16",
       "source": "02_imparatorluklar-ve-siyaset/saray-bahcelerinden-sokaklara.md",
       "essay_id": "saray-bahcelerinden-sokaklara",
       "layer": "İmparatorluk",
@@ -152,7 +200,7 @@
       "impact": 9
     },
     {
-      "id": "n13",
+      "id": "n17",
       "source": "02_imparatorluklar-ve-siyaset/yedikule-zindanlari-ve-karanlik-guc.md",
       "essay_id": "yedikule-zindanlari-ve-karanlik-guc",
       "layer": "İmparatorluk",
@@ -164,7 +212,7 @@
       "impact": 10
     },
     {
-      "id": "n14",
+      "id": "n18",
       "source": "02_imparatorluklar-ve-siyaset/yedikule-zindanlari-ve-karanlik-guc.md",
       "essay_id": "yedikule-zindanlari-ve-karanlik-guc",
       "layer": "İmparatorluk",
@@ -176,7 +224,7 @@
       "impact": 9
     },
     {
-      "id": "n15",
+      "id": "n19",
       "source": "03_edebiyat-ve-siir/ahmet-hamdi-tanpinar-ve-istanbulun-zamani.md",
       "essay_id": "ahmet-hamdi-tanpinar-ve-istanbulun-zamani",
       "layer": "Edebiyat",
@@ -188,7 +236,7 @@
       "impact": 10
     },
     {
-      "id": "n16",
+      "id": "n20",
       "source": "03_edebiyat-ve-siir/ahmet-hamdi-tanpinar-ve-istanbulun-zamani.md",
       "essay_id": "ahmet-hamdi-tanpinar-ve-istanbulun-zamani",
       "layer": "Edebiyat",
@@ -200,7 +248,7 @@
       "impact": 9
     },
     {
-      "id": "n17",
+      "id": "n21",
       "source": "03_edebiyat-ve-siir/divan-edebiyatinda-dersaadet.md",
       "essay_id": "divan-edebiyatinda-dersaadet",
       "layer": "Edebiyat",
@@ -212,7 +260,7 @@
       "impact": 10
     },
     {
-      "id": "n18",
+      "id": "n22",
       "source": "03_edebiyat-ve-siir/divan-edebiyatinda-dersaadet.md",
       "essay_id": "divan-edebiyatinda-dersaadet",
       "layer": "Edebiyat",
@@ -224,7 +272,7 @@
       "impact": 9
     },
     {
-      "id": "n19",
+      "id": "n23",
       "source": "03_edebiyat-ve-siir/modern-turk-siirinin-baskenti.md",
       "essay_id": "modern-turk-siirinin-baskenti",
       "layer": "Edebiyat",
@@ -236,7 +284,7 @@
       "impact": 10
     },
     {
-      "id": "n20",
+      "id": "n24",
       "source": "03_edebiyat-ve-siir/modern-turk-siirinin-baskenti.md",
       "essay_id": "modern-turk-siirinin-baskenti",
       "layer": "Edebiyat",
@@ -248,7 +296,7 @@
       "impact": 9
     },
     {
-      "id": "n21",
+      "id": "n25",
       "source": "03_edebiyat-ve-siir/modern-turk-siirinin-baskenti.md",
       "essay_id": "modern-turk-siirinin-baskenti",
       "layer": "Edebiyat",
@@ -260,7 +308,7 @@
       "impact": 9
     },
     {
-      "id": "n22",
+      "id": "n26",
       "source": "03_edebiyat-ve-siir/seyyahlarin-ve-kasiflerin-notlari.md",
       "essay_id": "seyyahlarin-ve-kasiflerin-notlari",
       "layer": "Edebiyat",
@@ -272,7 +320,7 @@
       "impact": 10
     },
     {
-      "id": "n23",
+      "id": "n27",
       "source": "03_edebiyat-ve-siir/yabanci-yazarlar-ve-oryantalizm.md",
       "essay_id": "yabanci-yazarlar-ve-oryantalizm",
       "layer": "Edebiyat",
@@ -284,7 +332,31 @@
       "impact": 10
     },
     {
-      "id": "n24",
+      "id": "n28",
+      "source": "03_edebiyat-ve-siir/yahya-kemal-ve-eyup-melankolisi.md",
+      "essay_id": "yahya-kemal-ve-eyup-melankolisi",
+      "layer": "Edebiyat",
+      "content": "\"Biz ölülerimizle birlikte yaşarız; Eyüp'ün selvileri altında yatanlar, bugün İstanbul sokaklarında yürüyenlerden daha az İstanbullu değildir.\"",
+      "category": "🌲 Yahya Kemal ve Eyüp Mezarlıklarının Melankolis",
+      "mood": "Şiir",
+      "strat": 9,
+      "depth": 10,
+      "impact": 10
+    },
+    {
+      "id": "n29",
+      "source": "03_edebiyat-ve-siir/yahya-kemal-ve-eyup-melankolisi.md",
+      "essay_id": "yahya-kemal-ve-eyup-melankolisi",
+      "layer": "Edebiyat",
+      "content": "\"Eyüp sırtlarında gün batarken, servi gölgeleri uzar ve İstanbul'un fatihlerinin, şairlerinin ruhları Boğaz rüzgarıyla şehre yayılır.\"",
+      "category": "🌲 Yahya Kemal ve Eyüp Mezarlıklarının Melankolis",
+      "mood": "Şiir",
+      "strat": 9,
+      "depth": 10,
+      "impact": 9
+    },
+    {
+      "id": "n30",
       "source": "04_sehrin-sesleri-ve-yuzleri/boza-saticilari-ve-sokak-sesleri.md",
       "essay_id": "boza-saticilari-ve-sokak-sesleri",
       "layer": "Şehir",
@@ -296,7 +368,7 @@
       "impact": 8
     },
     {
-      "id": "n25",
+      "id": "n31",
       "source": "04_sehrin-sesleri-ve-yuzleri/boza-saticilari-ve-sokak-sesleri.md",
       "essay_id": "boza-saticilari-ve-sokak-sesleri",
       "layer": "Şehir",
@@ -308,7 +380,7 @@
       "impact": 7
     },
     {
-      "id": "n26",
+      "id": "n32",
       "source": "04_sehrin-sesleri-ve-yuzleri/eminonunun-insan-seli-ve-telasi.md",
       "essay_id": "eminonunun-insan-seli-ve-telasi",
       "layer": "Şehir",
@@ -320,7 +392,7 @@
       "impact": 8
     },
     {
-      "id": "n27",
+      "id": "n33",
       "source": "04_sehrin-sesleri-ve-yuzleri/eminonunun-insan-seli-ve-telasi.md",
       "essay_id": "eminonunun-insan-seli-ve-telasi",
       "layer": "Şehir",
@@ -332,7 +404,7 @@
       "impact": 7
     },
     {
-      "id": "n28",
+      "id": "n34",
       "source": "04_sehrin-sesleri-ve-yuzleri/martilar-ve-vapurlar.md",
       "essay_id": "martilar-ve-vapurlar",
       "layer": "Şehir",
@@ -344,7 +416,31 @@
       "impact": 8
     },
     {
-      "id": "n29",
+      "id": "n35",
+      "source": "04_sehrin-sesleri-ve-yuzleri/sahaflar-carsisi-ve-kagit-kokusu.md",
+      "essay_id": "sahaflar-carsisi-ve-kagit-kokusu",
+      "layer": "Şehir",
+      "content": "\"Sahaflar Çarşısı'nda kokladığınız şey sadece kâğıt değil; İstanbul'un yüzyıllar boyunca biriktirdiği fikirlerin, aşkların ve hayal kırıklıklarının kokusudur.\"",
+      "category": "📚 Sahaflar Çarşısı ve Kâğıdın Kokusu",
+      "mood": "Gündelik",
+      "strat": 7,
+      "depth": 8,
+      "impact": 8
+    },
+    {
+      "id": "n36",
+      "source": "04_sehrin-sesleri-ve-yuzleri/sahaflar-carsisi-ve-kagit-kokusu.md",
+      "essay_id": "sahaflar-carsisi-ve-kagit-kokusu",
+      "layer": "Şehir",
+      "content": "\"Her eski kitap, içinde en az iki hikâye barındırır: Biri yazarın yazdığı, diğeri ise okuyucunun sayfalar arasında bıraktığı kendi hayatı.\"",
+      "category": "📚 Sahaflar Çarşısı ve Kâğıdın Kokusu",
+      "mood": "Gündelik",
+      "strat": 7,
+      "depth": 8,
+      "impact": 7
+    },
+    {
+      "id": "n37",
       "source": "04_sehrin-sesleri-ve-yuzleri/sokak-kedileri-ve-esnaf.md",
       "essay_id": "sokak-kedileri-ve-esnaf",
       "layer": "Şehir",
@@ -356,7 +452,7 @@
       "impact": 8
     },
     {
-      "id": "n30",
+      "id": "n38",
       "source": "05_mitoloji-ve-efsaneler/altin-boynuz-ve-hazineler.md",
       "essay_id": "altin-boynuz-ve-hazineler",
       "layer": "Mitoloji",
@@ -368,7 +464,7 @@
       "impact": 10
     },
     {
-      "id": "n31",
+      "id": "n39",
       "source": "05_mitoloji-ve-efsaneler/ayasofya-ve-yeralti-dehlizleri.md",
       "essay_id": "ayasofya-ve-yeralti-dehlizleri",
       "layer": "Mitoloji",
@@ -380,7 +476,7 @@
       "impact": 10
     },
     {
-      "id": "n32",
+      "id": "n40",
       "source": "05_mitoloji-ve-efsaneler/byzantion-kurulus-efsanesi.md",
       "essay_id": "byzantion-kurulus-efsanesi",
       "layer": "Mitoloji",
@@ -392,7 +488,7 @@
       "impact": 10
     },
     {
-      "id": "n33",
+      "id": "n41",
       "source": "05_mitoloji-ve-efsaneler/kiz-kulesi-ve-bogazin-sirlari.md",
       "essay_id": "kiz-kulesi-ve-bogazin-sirlari",
       "layer": "Mitoloji",
@@ -404,7 +500,31 @@
       "impact": 10
     },
     {
-      "id": "n34",
+      "id": "n42",
+      "source": "05_mitoloji-ve-efsaneler/sehzadebasi-ve-karakol-tilsimi.md",
+      "essay_id": "sehzadebasi-ve-karakol-tilsimi",
+      "layer": "Mitoloji",
+      "content": "\"Mimar Sinan'ın yerleştirdiği o yeşil sütun, İstanbul'un hem fiziksel hem de ruhani dengesini Ayasofya ve surlar arasında sabitleyen gizli bir çividir.\"",
+      "category": "🟢 Şehzadebaşı ve Şehrin Merkezindeki Tılsımlı Sü",
+      "mood": "Efsane",
+      "strat": 9,
+      "depth": 10,
+      "impact": 10
+    },
+    {
+      "id": "n43",
+      "source": "05_mitoloji-ve-efsaneler/sehzadebasi-ve-karakol-tilsimi.md",
+      "essay_id": "sehzadebasi-ve-karakol-tilsimi",
+      "layer": "Mitoloji",
+      "content": "\"İstanbul'un tılsımları, sadece mermer sütunlarda değil; o sütunların altında yatan yeraltı dehlizlerinin karanlığında uyuyan kadim sırlarında gizlidir.\"",
+      "category": "🟢 Şehzadebaşı ve Şehrin Merkezindeki Tılsımlı Sü",
+      "mood": "Efsane",
+      "strat": 9,
+      "depth": 10,
+      "impact": 9
+    },
+    {
+      "id": "n44",
       "source": "05_mitoloji-ve-efsaneler/yedi-tepenin-gizli-efsaneleri.md",
       "essay_id": "yedi-tepenin-gizli-efsaneleri",
       "layer": "Mitoloji",
@@ -416,7 +536,7 @@
       "impact": 10
     },
     {
-      "id": "n35",
+      "id": "n45",
       "source": "05_mitoloji-ve-efsaneler/yedi-tepenin-gizli-efsaneleri.md",
       "essay_id": "yedi-tepenin-gizli-efsaneleri",
       "layer": "Mitoloji",
@@ -428,7 +548,7 @@
       "impact": 9
     },
     {
-      "id": "n36",
+      "id": "n46",
       "source": "05_mitoloji-ve-efsaneler/yerebatan-sarnici-ve-medusanin-bakisi.md",
       "essay_id": "yerebatan-sarnici-ve-medusanin-bakisi",
       "layer": "Mitoloji",
@@ -440,7 +560,7 @@
       "impact": 10
     },
     {
-      "id": "n37",
+      "id": "n47",
       "source": "05_mitoloji-ve-efsaneler/yerebatan-sarnici-ve-medusanin-bakisi.md",
       "essay_id": "yerebatan-sarnici-ve-medusanin-bakisi",
       "layer": "Mitoloji",
