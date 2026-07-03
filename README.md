@@ -21,6 +21,13 @@
 
 **Words of Istanbul (İstanbul'un Sözleri)**; İstanbul'un binlerce yıllık tarihini, kültürel katmanlarını, sokak seslerini, edebi mirasını ve efsanelerini bir araya getiren **corpus-tabanlı bir şehir belleği ve psikocoğrafi keşif motorudur**. 
 
+> 🌊 **İstanbul'un Ebedi Tahtı:**  
+> *"Sana dün bir tepeden baktım aziz İstanbul!  
+> Görmedim gezmediğim, sevmediğim hiçbir yer.  
+> Ömrüm oldukça, gönül tahtına keyfince kurul!  
+> Sade bir semtini sevmek bile bir ömre değer."*  
+> — **Yahya Kemal Beyatlı**
+
 Proje, şehrin soyut ruhunu ve somut gerçekliğini beş ana tema (sütun) altında sınıflandırarak dijital bir arşive dönüştürür. Geliştirilen **Soul Engine (RUH)** aracı sayesinde, bu arşiv üzerinde anlık aramalar yapabilir, rastgele içgörüler (Oracle) üretebilir, 3 duraklı yürüyüş rotaları (Dérive) tasarlayabilir ve tüm bu verileri dinamik bir web arayüzü üzerinden görselleştirebilirsiniz.
 
 ---
@@ -92,6 +99,14 @@ graph TD
     RE -->|Çalıştırır| TM[Terminal - İnteraktif Mod]
 ```
 
+> 🕊️ **İstanbul Deyince...**  
+> *"İstanbul deyince aklıma martı gelir  
+> Yarısı gümüş, yarısı köpük  
+> Yarısı balık yarısı kuş  
+> İstanbul deyince aklıma masal gelir  
+> Bir masalın mermer kapısı..."*  
+> — **Bedri Rahmi Eyüboğlu**
+
 ---
 
 ## ⚙️ Soul Engine (RUH) CLI Kullanımı
@@ -125,6 +140,13 @@ graph TD
 * **[6] Corpus (Kütüphane)**: Denemeler arasında gezerek doğrudan terminal üzerinden okuma yapmanızı sağlar.
 * **[7] Gözlem Ekle (Yeni Kayıt)**: Şehre dair kendi gözleminizi yazmanızı sağlar. Seçtiğiniz katmana göre `kullanici-gozlemleri.md` dosyası oluşturulur/güncellenir ve veritabanı otomatik olarak yeniden derlenir.
 
+> 🌧️ **Şehrin Hüzünlü Ağrısı:**  
+> *"çünkü sen istanbul'sun gözlerin eylül sonu  
+> sisler bulvarı'nda boynunu büktün mü  
+> yağmur döker eylül döker yaprak döker  
+> ağlarsın istanbul ağrısı ince ince..."*  
+> — **Attilâ İlhan**
+
 ---
 
 ## 🖥️ Web Dashboard (Kontrol Paneli)
@@ -142,6 +164,13 @@ Projenin web arayüzü, verileri modern ve dinamik bir biçimde sunar:
 python src/ruh.py --serve
 ```
 Sunucu başladığında tarayıcınızda otomatik olarak [http://127.0.0.1:8765/dashboard/index.html](http://127.0.0.1:8765/dashboard/index.html) adresi açılacaktır.
+
+> 🍂 **İstanbul Rüzgarı:**  
+> *"İstanbul deyince bir rüzgar eser  
+> Tatlı bir meltem gibi, ılık ılık.  
+> İstanbul deyince akla gelen  
+> Bir sevdadır, bir dostluktur, bir yalnızlık..."*  
+> — **Ümit Yaşar Oğuzcan**
 
 ---
 
