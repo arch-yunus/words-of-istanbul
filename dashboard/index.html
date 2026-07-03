@@ -29,6 +29,7 @@
                 <button type="button" id="oracle" class="btn">Oracle</button>
                 <button type="button" id="derive" class="btn">Dérive</button>
             </div>
+            <div id="interactive-display" class="interactive-display hidden"></div>
             <div class="pillars" id="pillars"></div>
         </main>
 
@@ -38,6 +39,14 @@
             <p id="empty" class="empty hidden">Eşleşme yok.</p>
         </aside>
     </div>
+    
+    <div id="reader-modal" class="modal hidden" role="dialog" aria-modal="true">
+        <div class="modal-content">
+            <button type="button" class="modal-close" id="modal-close-btn" aria-label="Kapat">&times;</button>
+            <div id="reader-body" class="reader-body"></div>
+        </div>
+    </div>
+
     <div id="toast" class="toast hidden" role="status"></div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="app.js"></script>

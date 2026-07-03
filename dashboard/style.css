@@ -150,19 +150,289 @@ body {
 
 .toast {
     position: fixed;
-    bottom: 1rem;
+    bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
     max-width: 90%;
-    padding: 0.75rem 1rem;
-    background: rgba(0,0,0,0.9);
-    border: 1px solid var(--border);
-    border-radius: 10px;
+    padding: 0.75rem 1.25rem;
+    background: rgba(11, 11, 18, 0.95);
+    border: 1px solid var(--gold);
+    border-radius: 8px;
     font-size: 0.85rem;
-    z-index: 99;
+    z-index: 999;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    animation: fadeInUp 0.3s ease-out;
+}
+
+/* --- Interactive Display Styles --- */
+.interactive-display {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+    border: 1px dashed var(--gold);
+    border-radius: 12px;
+    padding: 1.5rem;
+    position: relative;
+    animation: slideDown 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.display-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: transparent;
+    border: none;
+    color: var(--muted);
+    font-size: 1.2rem;
+    cursor: pointer;
+    line-height: 1;
+}
+.display-close:hover { color: var(--gold); }
+
+.oracle-display-card h4,
+.derive-display-card h4 {
+    font-family: var(--serif);
+    color: var(--gold);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.oracle-quote {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    color: #f0f0f5;
+    margin-bottom: 1rem;
+    border-left: 2px solid var(--gold);
+    padding-left: 1rem;
+}
+
+.display-meta {
+    font-size: 0.75rem;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.display-meta button {
+    background: transparent;
+    border: none;
+    color: var(--gold);
+    cursor: pointer;
+    font-size: 0.75rem;
+    text-decoration: underline;
+    font-family: var(--sans);
+}
+.display-meta button:hover { color: #fff; }
+
+/* Derive Route Styles */
+.derive-route {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.derive-step {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.derive-step:hover {
+    background: rgba(197, 160, 89, 0.05);
+    border-color: var(--gold);
+    transform: translateX(4px);
+}
+
+.derive-step-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: var(--gold);
+    letter-spacing: 0.06em;
+    margin-bottom: 0.35rem;
+}
+
+.derive-step-content {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #ddd;
+    line-height: 1.4;
+}
+
+.derive-arrow {
+    text-align: center;
+    color: var(--gold);
+    font-size: 1.2rem;
+    line-height: 1;
+    margin: -0.25rem 0;
+}
+
+/* --- Reader Modal Styles --- */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(3, 3, 6, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+.modal-content {
+    background: #09090f;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    width: 90%;
+    max-width: 720px;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 2.5rem;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.8);
+    scrollbar-width: thin;
+    scrollbar-color: var(--gold) transparent;
+}
+
+.modal-content::-webkit-scrollbar {
+    width: 6px;
+}
+.modal-content::-webkit-scrollbar-thumb {
+    background: var(--gold);
+    border-radius: 3px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    background: transparent;
+    border: none;
+    color: var(--muted);
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+.modal-close:hover { color: var(--gold); }
+
+/* --- Reader Typographical Styles --- */
+.reader-body {
+    color: #e2e2e9;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.reader-body h1 {
+    font-family: var(--serif);
+    color: var(--gold);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1rem;
+}
+
+.reader-body h2 {
+    font-family: var(--serif);
+    color: var(--gold);
+    font-size: 1.35rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.reader-body h3 {
+    font-family: var(--serif);
+    color: #e5c38c;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.reader-body p {
+    margin-bottom: 1.25rem;
+    text-align: justify;
+}
+
+.reader-body blockquote {
+    background: rgba(197, 160, 89, 0.03);
+    border-left: 3px solid var(--gold);
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.reader-body blockquote p {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #f5f5f5;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.reader-body ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.reader-body li {
+    margin-bottom: 0.5rem;
+}
+
+.reader-body li strong {
+    color: var(--gold);
+}
+
+.reader-body hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+    margin: 2rem 0;
+}
+
+.reader-body em {
+    color: #fff;
+}
+
+/* --- Animations --- */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translate(-50%, 20px); }
+    to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-15px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 @media (max-width: 960px) {
     #app { grid-template-columns: 1fr; }
     .main { order: -1; }
+    .modal-content { padding: 1.5rem; }
 }
+

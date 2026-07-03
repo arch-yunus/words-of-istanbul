@@ -39,10 +39,19 @@ function renderFeed(list) {
             <p class="quote">"${esc(m.content)}"</p>
             <footer>
                 <span>${esc(m.layer)}</span>
-                <a href="../${esc(m.source || '')}" target="_blank" rel="noopener">${esc(m.source || '')}</a>
+                <a href="#" class="feed-essay-link" data-path="${esc(m.source || '')}">${esc(m.source || '')}</a>
             </footer>
         </article>
     `).join('');
+
+    // Bind click events on feed links
+    feed.querySelectorAll('.feed-essay-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const path = link.getAttribute('data-path');
+            if (path) openReader(path);
+        });
+    });
 }
 
 function renderPillars(essays) {
@@ -57,10 +66,19 @@ function renderPillars(essays) {
         <section class="pillar-block">
             <h2>${esc(p)}</h2>
             <ul>${byPillar[p].map(e => `
-                <li><a href="../${esc(e.path)}">${esc(e.title)}</a></li>
+                <li><a href="#" class="essay-link" data-path="${esc(e.path)}">${esc(e.title)}</a></li>
             `).join('')}</ul>
         </section>
     `).join('');
+
+    // Bind click events to open essays in reader modal
+    el.querySelectorAll('.essay-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const path = link.getAttribute('data-path');
+            openReader(path);
+        });
+    });
 }
 
 function renderChart(matrix) {
@@ -82,6 +100,30 @@ function renderChart(matrix) {
     });
 }
 
+function showInteractiveCard(html) {
+    const display = document.getElementById('interactive-display');
+    if (!display) return;
+    display.innerHTML = `
+        <button type="button" class="display-close" id="display-close-btn">&times;</button>
+        ${html}
+    `;
+    display.classList.remove('hidden');
+    
+    // Close button event
+    document.getElementById('display-close-btn')?.addEventListener('click', () => {
+        display.classList.add('hidden');
+        display.innerHTML = '';
+    });
+
+    // Re-bind click events inside the display if there are read buttons
+    display.querySelectorAll('.read-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const path = btn.getAttribute('data-path');
+            if (path) openReader(path);
+        });
+    });
+}
+
 function bindControls(matrix) {
     const q = document.getElementById('q');
     const layer = document.getElementById('layer-filter');
@@ -98,14 +140,182 @@ function bindControls(matrix) {
 
     document.getElementById('oracle')?.addEventListener('click', () => {
         const m = matrix[Math.floor(Math.random() * matrix.length)];
-        toast(`[${m.layer}] ${m.content.slice(0, 100)}…`);
+        const cardHtml = `
+            <div class="oracle-display-card">
+                <h4>🔮 Kahinin Fısıltısı (Oracle)</h4>
+                <div class="oracle-quote">"${esc(m.content)}"</div>
+                <div class="display-meta">
+                    <span>Katman: <strong>${esc(m.layer)}</strong> · Hissiyat: <strong>${esc(m.mood)}</strong></span>
+                    ${m.source ? `<button type="button" class="read-btn" data-path="${esc(m.source)}">Denemeyi Oku →</button>` : ''}
+                </div>
+            </div>
+        `;
+        showInteractiveCard(cardHtml);
+        toast(`[${m.layer}] Kahin bir fısıltı getirdi!`);
     });
+    
     document.getElementById('derive')?.addEventListener('click', () => {
         const pick = [...matrix].sort(() => Math.random() - 0.5).slice(0, 3);
-        toast(pick.map((m, i) => `${i + 1}. ${m.layer}`).join(' → '));
+        const routeHtml = `
+            <div class="derive-display-card">
+                <h4>🚶 Psikocoğrafi Keşif Rotası (Dérive)</h4>
+                <p class="meta" style="margin-bottom: 0.50rem;">Şehir ruhunda kaybolmak için 3 duraklı yürüyüş planı. İncelemek için duraklara tıklayabilirsiniz.</p>
+                <div class="derive-route">
+                    ${pick.map((m, i) => `
+                        <div class="derive-step read-btn" data-path="${esc(m.source)}">
+                            <div class="derive-step-header">
+                                <span>📍 Durak ${i + 1} / 3</span>
+                                <span>${esc(m.layer)} (${esc(m.mood)})</span>
+                            </div>
+                            <div class="derive-step-content">"${esc(m.content)}"</div>
+                        </div>
+                        ${i < 2 ? '<div class="derive-arrow">↓</div>' : ''}
+                    `).join('')}
+                </div>
+            </div>
+        `;
+        showInteractiveCard(routeHtml);
+        toast("Derive rotası hazırlandı. Şehri hisset!");
     });
     apply();
 }
+
+/* --- Document Reader Functions --- */
+async function openReader(path) {
+    if (!path) return;
+    const modal = document.getElementById('reader-modal');
+    const body = document.getElementById('reader-body');
+    if (!modal || !body) return;
+
+    body.innerHTML = '<p style="text-align: center; color: var(--gold); font-family: var(--serif);">Yükleniyor...</p>';
+    modal.classList.remove('hidden');
+
+    try {
+        const res = await fetch(`../${path}`);
+        if (!res.ok) throw new Error('Yüklenemedi');
+        const md = await res.text();
+        body.innerHTML = parseMarkdown(md);
+    } catch (err) {
+        body.innerHTML = `<p style="text-align: center; color: #ff5555;">Hata: Metin yüklenemedi. (${esc(err.message)})</p>`;
+    }
+}
+
+function parseMarkdown(md) {
+    const lines = md.split('\n');
+    let output = [];
+    let inList = false;
+    let inBlockquote = false;
+    
+    for (let line of lines) {
+        let trimmed = line.trim();
+        
+        // Headers
+        if (trimmed.startsWith('# ')) {
+            if (inList) { output.push('</ul>'); inList = false; }
+            if (inBlockquote) { output.push('</blockquote>'); inBlockquote = false; }
+            output.push(`<h1>${esc(trimmed.substring(2))}</h1>`);
+            continue;
+        }
+        if (trimmed.startsWith('## ')) {
+            if (inList) { output.push('</ul>'); inList = false; }
+            if (inBlockquote) { output.push('</blockquote>'); inBlockquote = false; }
+            output.push(`<h2>${esc(trimmed.substring(3))}</h2>`);
+            continue;
+        }
+        if (trimmed.startsWith('### ')) {
+            if (inList) { output.push('</ul>'); inList = false; }
+            if (inBlockquote) { output.push('</blockquote>'); inBlockquote = false; }
+            output.push(`<h3>${esc(trimmed.substring(4))}</h3>`);
+            continue;
+        }
+        
+        // HR line
+        if (trimmed === '---') {
+            if (inList) { output.push('</ul>'); inList = false; }
+            if (inBlockquote) { output.push('</blockquote>'); inBlockquote = false; }
+            output.push('<hr>');
+            continue;
+        }
+        
+        // Blockquotes
+        if (trimmed.startsWith('>')) {
+            if (inList) { output.push('</ul>'); inList = false; }
+            let quoteText = trimmed.replace(/^>\s*/, '').trim();
+            // Remove leading/trailing bold or italic markups
+            quoteText = quoteText.replace(/^\*+\s*/, '').replace(/\*+\s*$/, '');
+            quoteText = quoteText.replace(/^"+\s*/, '').replace(/"+\s*$/, '');
+            if (!inBlockquote) {
+                output.push('<blockquote>');
+                inBlockquote = true;
+            }
+            output.push(`<p>${esc(quoteText)}</p>`);
+            continue;
+        } else {
+            if (inBlockquote) {
+                output.push('</blockquote>');
+                inBlockquote = false;
+            }
+        }
+        
+        // List items
+        if (trimmed.startsWith('- ') || trimmed.startsWith('* ')) {
+            let itemText = trimmed.substring(2).trim();
+            // Parse bold inside list item
+            itemText = itemText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            if (!inList) {
+                output.push('<ul>');
+                inList = true;
+            }
+            output.push(`<li>${itemText}</li>`);
+            continue;
+        } else {
+            if (inList) {
+                output.push('</ul>');
+                inList = false;
+            }
+        }
+        
+        // Empty lines
+        if (trimmed === '') {
+            continue;
+        }
+        
+        // Paragraph
+        let para = esc(trimmed);
+        para = para.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        para = para.replace(/\*(.*?)\*/g, '<em>$1</em>');
+        output.push(`<p>${para}</p>`);
+    }
+    
+    if (inList) output.push('</ul>');
+    if (inBlockquote) output.push('</blockquote>');
+    
+    return output.join('\n');
+}
+
+// Modal control events
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('reader-modal');
+    
+    // Close button click
+    document.getElementById('modal-close-btn')?.addEventListener('click', () => {
+        modal.classList.add('hidden');
+    });
+
+    // Outside click close
+    modal?.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.classList.add('hidden');
+        }
+    });
+
+    // ESC key close
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal && !modal.classList.contains('hidden')) {
+            modal.classList.add('hidden');
+        }
+    });
+});
 
 async function init() {
     try {
