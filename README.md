@@ -39,6 +39,32 @@ Projenin temelini oluşturan makaleler ve edebi denemeler, İstanbul'un farklı 
 
 ---
 
+## 📜 Şehrin Fısıltıları: Seçme Alıntılar
+
+Projede yer alan farklı katmanlardan derlenmiş, İstanbul'un ruhunu yansıtan bazı seçme alıntılar:
+
+> 🎣 **Psikoloji & Hüzün**:  
+> *"Galata Köprüsü'nde beklemek, İstanbul'un geçmişiyle geleceği arasında asılı kalıp, şimdiki zamanın ağırlığından kurtulma çabasıdır."*  
+> — [Galata Köprüsü'nde Bekleyişin Psikolojisi](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/01_psikoloji-ve-huzun/galata-koprusunde-bekleyisin-psikolojisi.md)
+
+> ⚔️ **İmparatorluk & Siyaset**:  
+> *"Konstantinopolis bir şehir değildir, o bütün dünyadır; orada olan her şey, tarihin kendisidir."*  
+> — [Roma ve Bizans Dönemi](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/02_imparatorluklar-ve-siyaset/roma-ve-bizans-donemi.md)
+
+> 🖋️ **Edebiyat & Şiir**:  
+> *"İstanbul'u dinliyorum, gözlerim kapalı / Önce hafiften bir rüzgar esiyor / Yavaş yavaş sallanıyor / Yapraklar ağaçlarda..."*  
+> — **Orhan Veli Kanık**, [Modern Türk Şiirinin Başkenti](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/03_edebiyat-ve-siir/modern-turk-siirinin-baskenti.md)
+
+> ☕ **Şehrin Sesleri & Gündelik**:  
+> *"Sahaflar Çarşısı'nda kokladığınız şey sadece kâğıt değil; İstanbul'un yüzyıllar boyunca biriktirdiği fikirlerin, aşkların ve hayal kırıklıklarının kokusudur."*  
+> — [Sahaflar Çarşısı ve Kâğıdın Kokusu](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/04_sehrin-sesleri-ve-yuzleri/sahaflar-carsisi-ve-kagit-kokusu.md)
+
+> 🔮 **Mitoloji & Efsaneler**:  
+> *"Mimar Sinan'ın yerleştirdiği o yeşil sütun, İstanbul'un hem fiziksel hem de ruhani dengesini Ayasofya ve surlar arasında sabitleyen gizli bir çividir."*  
+> — [Şehzadebaşı ve Şehrin Merkezindeki Tılsımlı Sütun](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/05_mitoloji-ve-efsaneler/sehzadebasi-ve-karakol-tilsimi.md)
+
+---
+
 ## 🕸️ Mimari Yapı ve Bilgi Akışı
 
 Proje, statik Markdown dosyalarından beslenen ve dinamik olarak derlenen bir veritabanı yapısına sahiptir:
