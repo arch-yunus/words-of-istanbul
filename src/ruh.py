@@ -202,10 +202,114 @@ def read_essay(slug: str) -> None:
     sys.exit(1)
 
 
+class SoulEngineHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
+    def do_POST(self):
+        if self.path == "/api/observation":
+            content_length = int(self.headers.get('Content-Length', 0))
+            post_data = self.rfile.read(content_length)
+            try:
+                data = json.loads(post_data.decode('utf-8'))
+                quote = data.get("quote", "").strip()
+                l_choice = data.get("layer_choice", "").strip()
+                mood = data.get("mood", "").strip()
+                
+                if not quote:
+                    self.send_error_response(400, "Gözlem metni boş olamaz.")
+                    return
+                
+                layers_map = {
+                    "1": ("01_psikoloji-ve-huzun", "Psikoloji"),
+                    "2": ("02_imparatorluklar-ve-siyaset", "İmparatorluk"),
+                    "3": ("03_edebiyat-ve-siir", "Edebiyat"),
+                    "4": ("04_sehrin-sesleri-ve-yuzleri", "Şehir"),
+                    "5": ("05_mitoloji-ve-efsaneler", "Mitoloji")
+                }
+                
+                p_dir, layer_name = None, None
+                if l_choice in layers_map:
+                    p_dir, layer_name = layers_map[l_choice]
+                else:
+                    for val in layers_map.values():
+                        if val[1].lower() == l_choice.lower():
+                            p_dir, layer_name = val[0], val[1]
+                            break
+                            
+                if not p_dir:
+                    p_dir = "04_sehrin-sesleri-ve-yuzleri"
+                    layer_name = "Şehir"
+                    
+                if not mood:
+                    mood = "Belirsiz"
+                    
+                matched_dir = None
+                for d in PILLAR_DIRS:
+                    if os.path.basename(d).startswith(p_dir[:3]):
+                        matched_dir = d
+                        break
+                if not matched_dir:
+                    matched_dir = os.path.join(BASE_DIR, p_dir)
+                    
+                target_file_name = "kullanici-gozlemleri.md"
+                target_path = os.path.join(matched_dir, target_file_name)
+                exists = os.path.isfile(target_path)
+                
+                with open(target_path, "a", encoding="utf-8") as f:
+                    if not exists:
+                        f.write(f"# ✍️ Kullanıcı Gözlemleri: {layer_name}\n\n")
+                        f.write(f"Kullanıcılar tarafından eklenen anlık İstanbul {layer_name.lower()} kayıtları.\n\n")
+                    f.write(f"## Gözlem Kaydı ({time.strftime('%Y-%m-%d %H:%M')})\n\n")
+                    f.write(f"> *{quote}*\n\n")
+                    f.write(f"- **Katman**: {layer_name}\n")
+                    f.write(f"- **Duygu**: {mood}\n\n")
+                    f.write("---\n\n")
+                
+                # Rebuild matrix
+                import subprocess
+                script = os.path.join(BASE_DIR, "scripts", "build_matrix.py")
+                subprocess.check_call([sys.executable, script])
+                
+                # Load new matrix data to send back
+                matrix_data = load_matrix()
+                response_bytes = json.dumps({
+                    "success": True,
+                    "message": "Gözlem başarıyla eklendi ve veritabanı derlendi.",
+                    "data": matrix_data
+                }, ensure_ascii=False).encode('utf-8')
+                
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.send_header("Content-Length", str(len(response_bytes)))
+                self.end_headers()
+                self.wfile.write(response_bytes)
+            except Exception as e:
+                self.send_error_response(500, f"Sunucu hatası: {str(e)}")
+        else:
+            self.send_error(404, "Dosya bulunamadı")
+            
+    def send_error_response(self, code: int, msg: str):
+        response_bytes = json.dumps({"success": False, "error": msg}, ensure_ascii=False).encode('utf-8')
+        self.send_response(code)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Content-Length", str(len(response_bytes)))
+        self.end_headers()
+        self.wfile.write(response_bytes)
+        
+    def do_OPTIONS(self):
+        self.send_response(200)
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Methods", "POST, GET, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type")
+        self.end_headers()
+
+
 def run_server(port: int, open_browser: bool) -> None:
     os.chdir(BASE_DIR)
     url = f"http://127.0.0.1:{port}/dashboard/index.html"
-    with socketserver.TCPServer(("", port), http.server.SimpleHTTPRequestHandler) as httpd:
+    # Allow port reuse to avoid 'Address already in use' errors during rapid restarts
+    socketserver.TCPServer.allow_reuse_address = True
+    with socketserver.TCPServer(("", port), SoulEngineHTTPRequestHandler) as httpd:
         print(f"Serving: {BASE_DIR}")
         print(f"Dashboard: {url}")
         if open_browser:

@@ -9,33 +9,100 @@
 </head>
 <body>
     <div id="app">
-        <aside class="panel">
-            <div class="panel-header">Metrikler</div>
-            <div class="widget">
+        <aside class="panel left-panel">
+            <div class="panel-header">METRİKLER</div>
+            <div class="widget metrics-widget">
                 <p id="meta-line" class="meta"></p>
-                <canvas id="moodChart" aria-label="Katman dağılımı"></canvas>
-                <p id="essay-count" class="meta"></p>
+                <div class="chart-container">
+                    <canvas id="moodChart" aria-label="Katman dağılımı"></canvas>
+                </div>
+                <p id="essay-count" class="meta-sub"></p>
+            </div>
+            
+            <div class="panel-header">ŞEHRİ SEN YAZ</div>
+            <div class="widget form-widget">
+                <form id="contrib-form" class="contrib-form" autocomplete="off">
+                    <div class="form-group">
+                        <label for="c-quote">İstanbul Gözleminiz / Sözünüz</label>
+                        <textarea id="c-quote" placeholder="Şehre dair bir fısıltı, bir an, bir his yazın..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="c-layer">Kültürel Katman</label>
+                        <select id="c-layer" required>
+                            <option value="1">Psikoloji (Hüzün, Melankoli)</option>
+                            <option value="2">İmparatorluk (Tarih, Güç)</option>
+                            <option value="3">Edebiyat (Şiir, Seyyahlar)</option>
+                            <option value="4" selected>Şehir (Gündelik Hayat, Sesler)</option>
+                            <option value="5">Mitoloji (Efsaneler, Tılsımlar)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="c-mood">Hissedilen Duygu / Ruh Hali</label>
+                        <input type="text" id="c-mood" placeholder="Örn: Hüzün, Şiirsel, Efsanevi, Melankoli" required>
+                    </div>
+                    <button type="submit" id="contrib-submit" class="btn submit-btn">Matrix'e Mühürle</button>
+                </form>
             </div>
         </aside>
 
         <main class="main">
             <header class="hero">
+                <div class="hero-overlay"></div>
                 <h1>WORDS OF ISTANBUL</h1>
-                <p class="tagline">v6.0 — RESURRECTION</p>
+                <p class="tagline">v6.5 — THE LIVING SOUL MATRIX</p>
             </header>
             <div class="toolbar">
-                <input type="search" id="q" placeholder="Ara: hüzün, boğaz, Yahya Kemal…" autocomplete="off">
+                <div class="search-wrapper">
+                    <span class="search-icon">🔍</span>
+                    <input type="search" id="q" placeholder="Ara: hüzün, boğaz, Yahya Kemal…" autocomplete="off">
+                </div>
                 <select id="layer-filter"><option value="">Tüm katmanlar</option></select>
-                <button type="button" id="oracle" class="btn">Oracle</button>
-                <button type="button" id="derive" class="btn">Dérive</button>
+                <button type="button" id="oracle" class="btn action-btn">🔮 Oracle</button>
+                <button type="button" id="derive" class="btn action-btn">🚶 Dérive</button>
             </div>
+            
+            <div class="canvas-card">
+                <div class="canvas-header">
+                    <span class="canvas-title">🕸️ RUH MATRİS TAKIMYILDIZI (CONSTELLATION)</span>
+                    <div class="canvas-controls">
+                        <button type="button" id="graph-physics-btn" class="graph-ctrl-btn active" title="Fiziksel Hareketi Aç/Kapa">Physics</button>
+                        <button type="button" id="graph-lines-btn" class="graph-ctrl-btn active" title="Bağlantı Çizgilerini Göster/Gizle">Lines</button>
+                        <button type="button" id="graph-reset-btn" class="graph-ctrl-btn" title="Görünümü Sıfırla">Reset</button>
+                    </div>
+                </div>
+                <div class="canvas-container">
+                    <canvas id="constellationCanvas"></canvas>
+                    <div id="graph-tooltip" class="graph-tooltip hidden"></div>
+                </div>
+                <div id="node-detail-card" class="node-detail-card empty-detail">
+                    <div class="detail-placeholder">Detayları görmek için takımyıldızından bir yıldıza veya sağdaki listeden bir karta tıklayın.</div>
+                    <div class="detail-content hidden">
+                        <div class="detail-header">
+                            <span id="detail-layer" class="detail-badge"></span>
+                            <span id="detail-mood" class="detail-mood"></span>
+                        </div>
+                        <p id="detail-quote" class="detail-quote"></p>
+                        <div class="detail-footer">
+                            <div class="detail-stats">
+                                <span class="stat-item">Etki: <strong id="detail-impact"></strong></span>
+                                <span class="stat-item">Derinlik: <strong id="detail-depth"></strong></span>
+                                <span class="stat-item">Strateji: <strong id="detail-strat"></strong></span>
+                            </div>
+                            <button type="button" id="detail-read-btn" class="btn detail-read-btn">Denemeyi Oku →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div id="interactive-display" class="interactive-display hidden"></div>
+            
+            <div class="section-title">📚 KÜLTÜREL SÜTUNLAR VE DENEMELER</div>
             <div class="pillars" id="pillars"></div>
         </main>
 
-        <aside class="panel">
-            <div class="panel-header">Matrix akışı</div>
-            <div class="widget feed" id="feed"></div>
+        <aside class="panel right-panel">
+            <div class="panel-header">MATRIX AKIŞI</div>
+            <div class="widget feed-widget" id="feed"></div>
             <p id="empty" class="empty hidden">Eşleşme yok.</p>
         </aside>
     </div>
