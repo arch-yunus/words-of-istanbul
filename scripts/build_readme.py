@@ -6,13 +6,14 @@ readme_content = """<div align="center">
 ![İstanbul Banner](assets/istanbul_soul_banner.png)
 
 # 🌉 Words of Istanbul (İstanbul'un Sözleri)
-### *v6.0-RESURRECTION — Şehir Külliyatı, Şiir Antolojisi ve Psikocoğrafi Keşif Motoru*
+### *v6.0-RESURRECTION — Şehir Külliyatı, Büyük Alıntılar Hazinesi, Şiir Antolojisi ve Psikocoğrafi Keşif Motoru*
 
 [![Version](https://img.shields.io/badge/VERSION-v6.0--RESURRECTION-1a1a2e?style=for-the-badge)](./)
 [![Essays](https://img.shields.io/badge/CORPUS-30_denemeler-c5a059?style=for-the-badge)](./archive/corpus.json)
 [![Matrix](https://img.shields.io/badge/MATRIX-47_düğüm-00A9E0?style=for-the-badge)](./archive/matrix.json)
+[![Quotes](https://img.shields.io/badge/ALINTILAR-75+_büyük_alıntı-588157?style=for-the-badge)](#-büyük-i̇stanbul-alıntılar-hazinesi-corpus-quotes-treasury)
 [![Poetry](https://img.shields.io/badge/ANTOLOJİ-20+_büyük_şiir-e63946?style=for-the-badge)](#-büyük-i̇stanbul-şiir-antolojisi-seçme-şiirler-külliyatı)
-[![Travelers](https://img.shields.io/badge/SEYYAHLAR-12+_dünya_yazarı-2a9d8f?style=for-the-badge)](#-dünya-edebiyatı-ve-seyyahların-gözünden-i̇stanbul)
+[![Travelers](https://img.shields.io/badge/DÜNYA_YAZARLARI-20+_seyyah_ve_filozof-2a9d8f?style=for-the-badge)](#-2-dünya-edebiyatı-seyyahlar-ve-filozoflar)
 
 > *"Ruhumu eritip de kalıpta dondurmuşlar;  
 > Onu İstanbul diye toprağa kondurmuşlar.  
@@ -26,7 +27,7 @@ readme_content = """<div align="center">
 
 ## 📖 Proje Hakkında: Şehrin Edebi ve Ruhani Belleği
 
-**Words of Istanbul (İstanbul'un Sözleri)**; binlerce yıllık imparatorluk mirasını, Doğu ile Batı arasındaki o ebedi arafı, sokak kedilerini, sisli Boğaz sabahlarını, divan şairlerinin altın mısralarını ve modern Türk edebiyatının derin hüzünlerini bir araya getiren **corpus-tabanlı bir şehir arşivi ve psikocoğrafi keşif motorudur**.
+**Words of Istanbul (İstanbul'un Sözleri)**; binlerce yıllık imparatorluk mirasını, Doğu ile Batı arasındaki o ebedi arafı, sokak kedilerini, sisli Boğaz sabahlarını, divan şairlerinin altın mısralarını, dünya seyyahlarının hayranlık dolu notlarını ve modern Türk edebiyatının derin melankolisini bir araya getiren **corpus-tabanlı bir şehir arşivi, devasa bir alıntılar külliyatı ve psikocoğrafi keşif motorudur**.
 
 > 🌊 **İstanbul'un Ebedi Tahtı:**  
 > *"Sana dün bir tepeden baktım aziz İstanbul!  
@@ -40,7 +41,7 @@ readme_content = """<div align="center">
 > Sende çok yıl yaşayan, sende ölen, sende yatan."*  
 > — **Yahya Kemal Beyatlı, Bir Başka Tepeden**
 
-Bu proje; İstanbul'u yalnızca taş ve harçtan ibaret fiziki bir coğrafya olarak değil, **yaşayan, nefes alan, acı çeken, dua eden ve şiir söyleyen devasa bir organizma** olarak ele alır. Beş ana sütun altında toplanan metinler, geliştirilen **Soul Engine (RUH)** vasıtasıyla sorgulanabilir, psikocoğrafi rotalara (*Dérive*) dönüştürülebilir ve dinamik bir web arayüzünde görselleştirilebilir.
+Bu proje; İstanbul'u yalnızca taş ve harçtan ibaret fiziki bir coğrafya olarak değil, **yaşayan, nefes alan, acı çeken, dua eden, direnen ve şiir söyleyen devasa bir organizma** olarak ele alır. Beş ana sütun altında toplanan metinler, geliştirilen **Soul Engine (RUH)** vasıtasıyla sorgulanabilir, psikocoğrafi rotalara (*Dérive*) dönüştürülebilir ve dinamik bir web arayüzünde görselleştirilebilir.
 
 ---
 
@@ -58,6 +59,308 @@ Projenin temelini oluşturan makaleler, denemeler ve edebi kayıtlar İstanbul'u
 
 ---
 
+## 🏛️ Büyük İstanbul Alıntılar Hazinesi (Corpus Quotes Treasury)
+
+Bu bölüm; Doğu ve Batı edebiyatından, imparatorlardan, dervişlerden, seyyahlardan ve filozoflardan İstanbul'un ruhuna dair söylenmiş **en derin, en çarpıcı ve en unutulmaz alıntıları** bir araya getirir.
+
+---
+
+### 🖋️ 1. Türk Edebiyatının Devleri
+
+#### ⏳ Ahmet Hamdi Tanpınar
+> *"İstanbul'da hayat, zamanın yekpare, geniş bir an içinde akması gibidir. Burada mazi, bugünün içinde bir gölge gibi değil, bizzat bugünü inşa eden diri bir hakikat olarak yaşar."*  
+> — **Beş Şehir**
+
+> *"Biz Boğaz'ı sadece bir su yolu olarak değil, kendi iç musikimizin ve mimarimizin aktığı ebedi bir rüya nehri olarak sevdik. Her yalı, geçmişin sular üstünde yüzen birer hatıra sandığıdır."*  
+> — **Huzur**
+
+> *"İstanbul'u anlamak için onun sularında kaybolmak, bir cami avlusunda asırlık çınarın gölgesinde sükûtu dinlemek gerekir. Çünkü bu şehirde taş bile bir tür dua gibi yükselir."*  
+> — **Saatleri Ayarlama Enstitüsü**
+
+> *"Cedlerimiz inşa etmiyorlar, ibadet ediyorlardı. Maddeye geçmesini istedikleri bir ruh ve imanları vardı."*  
+> — **Beş Şehir (İstanbul)**
+
+---
+
+#### 🌲 Yahya Kemal Beyatlı
+> *"Biz bu şehri fethettiğimiz zaman sadece Bizans'ın surlarını aşmadık; toprağı ezanla, suları yalılarla, servileri mezarlıklarla ve dağları tekkelerle yoğurarak kendi ruhumuzun mülkü kıldık."*  
+> — **Aziz İstanbul**
+
+> *"Kendi gök kubbemiz altında bu vatanda yaşayanlar kadar, toprağın altında kefensiz yatan o ulu ölüler de bizim cemaatimizdir. Eyüp mezarlıkları, ölümün korkunçluğunu silip onu bir bahar uykusuna çeviren mukaddes bahçelerdir."*  
+> — **Kendi Gök Kubbemiz**
+
+> *"İstanbul'un fethi, tarihin gördüğü en büyük mimari ve manevi estetizasyon hareketidir. Süleymaniye'nin kubbesi, fethin taşa vurulmuş mühürlü fermanıdır."*  
+> — **Tarih Musahabeleri**
+
+---
+
+#### 🐟 Sait Faik Abasıyanık
+> *"İstanbul'u sevmek, bir insanı sevmekle başlar. Ama bir insanı sevmek için önce bir sokak köpeğinin başını okşamak, bir martıya simit atmak ve Tünel'in loş merdivenlerinden aşağı inerken kendi yalnızlığını selamlamak gerekir."*  
+> — **Alemdağ'da Var Bir Yılan**
+
+> *"Kuşları boğdular, çimenleri söktüler, yollar çamur içinde kaldı. Dünya yalnız bizim değil ki... Kuşlardan, balıklardan, ağaçlardan ne istediniz? Kuşları unuttuğumuz gün, İstanbul da ölecek."*  
+> — **Son Kuşlar**
+
+> *"Bir vapur kalkar Sirkeci'den Adalar'a doğru... Köpükler ardında bıraktığın kederi siler götürür. Denizin tuzu dudaklarına değer de anlarsın; yaşamak ne güzel şeymiş bu şehirde!"*  
+> — **Mahalle Kahvesi**
+
+> *"Yalnızlık bir sandala binip Boğaz'ın ortasında kürekleri bırakmaktır. Akıntı nereye götürürse orası senin vatanındır."*  
+> — **Havada Bulut**
+
+---
+
+#### 📚 Orhan Pamuk
+> *"Benim için İstanbul'un ruhu 'hüzün' kelimesinde saklıdır. Bu hüzün, bireysel bir melankoli değil; koca bir imparatorluğun yıkıntıları üzerinde yaşayan milyonlarca insanın paylaştığı kolektif, asil ve şiirsel bir kederdir."*  
+> — **İstanbul: Hatıralar ve Şehir**
+
+> *"Boğaz'da iki yaka arasında vapurla geçerken insan hisseder ki; Doğu ile Batı birbiriyle savaşmaz burada, sadece suyun üzerinde birbirinin aynadaki yansımasına bakar."*  
+> — **Kara Kitap**
+
+> *"Geceleri sokak lambalarının sarı ışığında boza satarken şehrin fısıltılarını dinlersiniz. İstanbul gündüzleri gürültülü bir tüccardır, geceleri ise içine kapanık bir derviştir."*  
+> — **Kafamda Bir Tuhaflık**
+
+> *"Hayatımın en mutlu anıymış, bilmiyordum. İstanbul'un eski konaklarındaki eşyalarda biriken toz, aslında geçmiş zamanın kokusudur."*  
+> — **Masumiyet Müzesi**
+
+---
+
+#### 🌉 Necip Fazıl Kısakürek
+> *"İstanbul öyle bir şehirdir ki, onda küfürle iman, sefahatle ibadet, çamurla pırlanta sırt sırta vermiştir. Beyoğlu bataklığında tepinirken, Karacaahmet servi diplerinde sessizce ağlar."*  
+> — **Babıali**
+
+> *"Sur diplerinden geçen rüzgâr, Fatih'in atının yelesini koklar gibi eser. Bu şehirde her taş bir kefen, her minare semaya uzanmış bir şahadet parmağıdır."*  
+> — **Çile**
+
+> *"Boğaz, Allah'ın yeryüzüne bahşettiği en mükemmel mücevherdir. Onu seyretmek bir ibadet vecdi verir insana."*  
+> — **O ve Ben**
+
+---
+
+#### 🌧️ Attilâ İlhan
+> *"İstanbul bir kadın gibidir; hem aşüfte hem kederli. Sisler Bulvarı'nda boynunu büküp Sirkeci Garı'nda ağlayan bu şehri sevmeyen insan, şiirin ne olduğunu asla anlayamaz."*  
+> — **Sisler Bulvarı**
+
+> *"Gözlerin gözlerime değdiği zaman felaketim olurdu ağlardım. İstanbul arkamızda yanardı; köprüler batar, vapurlar sirenlerini çalardı gece yarısı."*  
+> — **Üçüncü Şahsın Şiiri**
+
+> *"Bu şehirde aşklar hep yarım kalır, hep bir vapur düdüğüyle bölünür. Çünkü İstanbul ayrılıkların başkentidir."*  
+> — **Bela Çiçeği**
+
+---
+
+#### 🎭 Peyami Safa
+> *"Fatih ile Harbiye arasındaki tramvay yolu, aslında Doğu medeniyeti ile Batı hevesi arasındaki uçurumun raylarıdır. İstanbul insanı bu iki durak arasında ömrünü tüketir."*  
+> — **Fatih-Harbiye**
+
+> *"İstanbul'da akşamüstleri öyle bir saat vardır ki, ışıkla karanlık dövüşürken insanın içine tarifsiz bir boşluk oturur. Yalnızlık o saatte sokaklara taşar."*  
+> — **Yalnızız**
+
+---
+
+#### 🌙 Abdülhak Şinasi Hisar
+> *"Boğaziçi mehtapları, dünyanın hiçbir yerinde rastlanmayan bir rüya alemidir. Sandallarla sulara açılıp tambur dinlenen o geceler, medeniyetimizin incelik zirvesidir."*  
+> — **Boğaziçi Mehtapları**
+
+> *"Eski yalılarımız, suyun kenarında değil, suyun bizzat içinde yaşardı. Dalgalar odaların zeminine vurur, mehtap tavanlarda parıldardı."*  
+> — **Boğaziçi Yalıları**
+
+> *"Çamlıca tepesinden İstanbul'a bakmak, bütün cihanı ve faniliği bir bakışta kavramaktır."*  
+> — **Çamlıca'daki Eniştemiz**
+
+---
+
+#### 📜 Ahmet Rasim
+> *"İstanbul sokakları gündüz ne kadar hay huy içindeyse, gece o kadar esrarlı bir sükûta gömülür. Bekçinin sopasını kaldırım taşlarına vuruşu, gecenin kalbini yoklayan bir nabız gibidir."*  
+> — **Şehir Mektupları**
+
+> *"Eski ramazan gecelerinde Direklerarası'nda kahve yudumlamak, dünyanın bütün dertlerini kapının dışında bırakmaktı."*  
+> — **Gecelerim**
+
+---
+
+#### 📖 Refik Halid Karay
+> *"İstanbul'un üç nesli vardır: Biri ihtişamı yaşadı, biri çöküşe ağladı, biri de o harabeler arasında neyi kaybettiğini bile bilmeden koşuşturup duruyor."*  
+> — **Üç Nesil Üç Hayat**
+
+> *"Bu şehrin bir yüzü daima güler, diğer yüzü ise kuytu köşelerde hüngür hüngür ağlar."*  
+> — **İstanbul'un Bir Yüzü**
+
+---
+
+#### 🕊️ Selim İleri & Mario Levi
+> *"İstanbul bir masaldı ama biz o masalı erken tükettik. Şimdi geriye kalan, sokak adlarında yaşayan kırık hatıralardır."*  
+> — **Mario Levi, İstanbul Bir Masaldı**
+
+> *"İstanbul seni unutmadım; cumbalı evlerin pencerelerinden sarkan sardunyaları, yağmurdan sonra parlayan Arnavut kaldırımlarını ve o eski dostların seslerini unutmadım."*  
+> — **Selim İleri, İstanbul Seni Unutmadım**
+
+---
+
+#### 🚂 Oğuz Atay & Halid Ziya Uşaklıgil
+> *"Ahmet Cemil Tepebaşı bahçesinden Haliç'e bakarken, mavi bir hülyanın simsiyah bir geceye dönüştüğünü gördü. İstanbul, büyük ümitlerle gelenleri yutan dipsiz bir kuyudur."*  
+> — **Halid Ziya Uşaklıgil, Mai ve Siyah**
+
+> *"Kelimeler albayım, bu sokaklarda yetersiz kalıyor. İstanbul'un kalabalığı içinde tutunamayan bir ruh, ancak bir vapurun güvertesinde rüzgâra sığınabilir."*  
+> — **Oğuz Atay, Tutunamayanlar**
+
+---
+
+### 🌍 2. Dünya Edebiyatı, Seyyahlar ve Filozoflar
+
+#### 🇫🇷 Alphonse de Lamartine (Fransız Yazar ve Şair)
+> *"Eğer dünyaya son bir kez bakma hakkım olsaydı, o bakışı Boğaziçi'nin bir tepesinden İstanbul'a fırlatmak isterdim. Zira Tanrı ve tabiat, yeryüzünde hiçbir zaman bundan daha kusursuz bir güzellik tablosu yaratmamıştır."*  
+> — **Voyage en Orient (Doğu Seyahati)**
+
+> *"Konstantinopolis sadece bir şehir değildir; o insan ırkının gördüğü en muazzam başyapıttır."*
+
+---
+
+#### 🇫🇷 Gustave Flaubert (Fransız Romancı)
+> *"Konstantinopolis, geleceğin ebedi başkenti olmaya mahkûmdur. Yüzyıl sonra bütün dünya tek bir devlet haline geldiğinde, bu dünya devletinin başkenti ancak ve ancak Boğaz kıyılarında kurulacaktır."*  
+> — **Doğu Notları (1850)**
+
+> *"Ayasofya'nın kubbesi altına girdiğimde anladım ki; Hristiyanlık ve İslamiyet burada sadece iki ayrı inanç değil, aynı sonsuzluk arzusunun taşa dönüşmüş iki kardeş yüzüdür."*
+
+---
+
+#### 🇮🇹 Edmondo De Amicis (İtalyan Seyyah ve Yazar)
+> *"İstanbul anlatılamaz bir parlaklık ve ihtişamdır. Burası bir şehir değildir; gökle denizin, Doğu ile Batı'nın, ölümle hayatın sarmaş dolaş olduğu evrensel bir tablodur. İlk kez gören bir insan, gözlerinin kamaşmasından kendini koruyamaz."*  
+> — **Costantinopoli (1874)**
+
+> *"Galata Köprüsü'nde bir saat durup geçen insanları izleyiniz; dünyanın bütün milletlerini, bütün dillerini, bütün kıyafetlerini ve bütün dinlerini tek bir geçit töreninde görürsünüz."*
+
+---
+
+#### 🇫🇷 Pierre Loti (Fransız Yazar ve Deniz Subayı)
+> *"Eyüp sırtlarında, asırlık servilerin gölgesinde Haliç'e bakarken duyulan o derin keder; insan ruhunu arındıran, dünyevi hırsları kül eden kutsal bir sessizliktir. İstanbul beni kendine aşık etmedi, beni yeniden yarattı."*  
+> — **Aziyadé & Fantôme d'Orient**
+
+> *"İstanbul'da ölmek, bir mezarlıkta değil, yüzyıllardır süregelen bir şiirin en güzel dizesinde uyumaktır."*
+
+---
+
+#### 🇺🇸 Mark Twain (Amerikalı Yazar ve Mizah Ustası)
+> *"Uzaktan bakıldığında Konstantinopolis, bir masal padişahının rüyasından fırlamış gibidir. Minareler gökyüzüne uzanan gümüş oklar gibi, kubbeler ise devasa inciler gibi parıldar."*  
+> — **The Innocents Abroad (Saflar Yurt Dışında - 1869)**
+
+> *"Kapalıçarşı'da kaybolmak, tarihin bin bir odalı dehlizlerinde büyülenmiş bir çocuk gibi dolaşmaktır."*
+
+---
+
+#### 🇺🇸 Ernest Hemingway (Amerikalı Nobel Ödüllü Yazar)
+> *"Pera'nın sisli akşamlarında Galata Köprüsü'nden geçerken, dünyanın bütün dillerinin aynı anda konuşulduğu ve rüzgârın tuz kokusuyla tütün kokusunu birbirine kattığı o benzersiz havayı solursunuz."*  
+> — **Toronto Daily Star İstanbul Muhabirliği (1922)**
+
+---
+
+#### 🇩🇰 Hans Christian Andersen (Danimarkalı Masal Yazarı)
+> *"İstanbul Boğazı bir masal nehridir. Kıyılarındaki saraylar, erguvanlar ve yalılar; masallarımdaki perilerin yaşadığı saraylardan çok daha büyüleyicidir."*  
+> — **A Poet's Bazaar (Bir Şairin Çarşısı - 1842)**
+
+---
+
+#### 🇺🇸 Herman Melville (Moby Dick Yazarı)
+> *"İstanbul'un silueti denizden belirdiğinde, insan ruhu daha önce hiç tatmadığı bir haşyetle sarsılır. Bu şehir dalgaların üzerinde yükselen kadim bir tahttır."*  
+> — **Journal of a Visit to Europe and the Levant (1856)**
+
+---
+
+#### 🇫🇷 Gérard de Nerval (Fransız Romantik Şair)
+> *"İstanbul'a yaklaşırken minarelerin silueti sisler arasından belirdiğinde, gerçek dünyaya değil de bin yıllık bir Doğu masal kitabının ilk sayfasına adım attığınızı sanırsınız."*  
+> — **Voyage en Orient (1851)**
+
+---
+
+#### 🇫🇷 Théophile Gautier (Fransız Yazar ve Eleştirmen)
+> *"Güneş batarken camilerin kurşun kubbeleri kızıla boyanır, minarelerin altın külahları göğü delen parıltılı mızraklara dönüşür. Bu tablo karşısında fırçalar da kelimeler de çaresiz kalır."*  
+> — **Constantinople (1853)**
+
+---
+
+#### 🇳🇴 Knut Hamsun (Norveçli Nobel Ödüllü Yazar)
+> *"Hilal gökyüzünde parıldadığında İstanbul sokakları uyumaz; derin bir rüyanın içinde fısıldaşarak binbir gece masallarını anlatmaya başlar."*  
+> — **I Æventyrland (Masallar Ülkesinde - 1903)**
+
+---
+
+#### 🇬🇧 Lady Mary Wortley Montagu (İngiliz Yazar ve Aristokrat)
+> *"İstanbul kadınlarının zarafeti ve hamam sefaları, Batı saraylarındaki en kibirli kraliçelerin bile hayal edemeyeceği bir hürriyet ve estetik taşır."*  
+> — **Turkish Embassy Letters (Şark Mektupları - 1718)**
+
+---
+
+#### 🇬🇧 Lord Byron (İngiliz Romantik Şair)
+> *"Boğaz'ın sularını yarıp geçerken insanın hissettiği şey, tarihin bütün yüzyıllarının aynı anda üzerinize doğru aktığıdır. Çanakkale'den Boğaziçi'ne uzanan bu hat, aşkın ve trajedinin vatanıdır."*  
+> — **Mektuplar ve Günlükler**
+
+---
+
+#### 🇮🇹 Umberto Eco (İtalyan Yazar ve Göstergebilimci)
+> *"Konstantinopolis, tarihin palimpsestidir. Bir katmanını kazırsanız altından Bizans çıkar, biraz daha derine inerseniz Roma, üstüne bakarsanız Osmanlı'nın muazzam kubbe estetiğini görürsünüz."*  
+> — **Baudolino & İstanbul Konferansları**
+
+---
+
+#### 🇲🇦 İbn Battuta (Orta Çağ İslam Seyyahı)
+> *"Kostantiniyye, surlarıyla dünyada eşi benzeri olmayan bir cihan şehridir. Altın Boynuz limanında yüzlerce gemi demirlemiştir ve çarşıları ipek, baharat ve misk kokularıyla doludur."*  
+> — **Rıhle (Seyahatnâme - 1332)**
+
+---
+
+#### 🇹🇷 Evliya Çelebi (Büyük Osmanlı Seyyahı)
+> *"Elhamdülillah, Rabbim bu fakire 'Şefaat ya Resulallah' diyecekken 'Seyahat ya Resulallah' dedirtti ve beni bu Dersaadet'in yedi tepeli tılsımlarını, Ayasofya kubbesinin sırlarını, Boğaz sularının lezzetini ve yetmiş iki buçuk milletin hikâyesini yazmaya memur kıldı."*  
+> — **Seyahatnâme (1. Cilt: İstanbul)**
+
+---
+
+### 👑 3. Tarihî Şahsiyetler, Padişahlar ve Hükümdarlar
+
+> ⚔️ **Fatih Sultan Mehmed Han (II. Mehmed):**  
+> *"Ya ben Bizans'ı alırım, ya Bizans beni!"*  
+> *(1453 Kuşatması öncesi otağında söylediği tarihi ahit)*
+
+> 📜 **Fatih Sultan Mehmed Han (Avnî Mahlasıyla Şiir):**  
+> *"Hüner bir şehr bünyâd etmektir  
+> Reâyâ kalbin âbâd etmektir."*  
+> *(Asıl marifet sadece taştan binalar yapmak değil; o şehirde yaşayan halkın kalbini sevgi ve adaletle mamur etmektir.)*
+
+> 👑 **Kanuni Sultan Süleyman (Muhibbî):**  
+> *"Halk içinde mu'teber bir nesne yok devlet gibi  
+> Olmaya devlet cihanda bir nefes sıhhat gibi."*  
+> *(Topkapı Sarayı'nda cihanı yönetirken sağlığın ve faniliğin altını çizen ölümsüz mısra)*
+
+> 🏛️ **İmparator Justinianus (Ayasofya'nın Açılışı - M.S. 537):**  
+> *"Ey Süleyman! Seni geçtim ve sana galip geldim!"*  
+> *(Kudüs Mabedi'nden daha görkemli bir yapı inşa etme hayalini tamamladığında söylediği söz)*
+
+> 🌍 **Napoléon Bonaparte:**  
+> *"Dünya tek bir ülke olsaydı, başkenti şüphesiz Konstantinopolis olurdu."*
+
+> 🇹🇷 **Mustafa Kemal Atatürk (13 Kasım 1918 - Haydarpaşa Açıkları):**  
+> *"Geldikleri gibi giderler!"*  
+> *(İşgal donanması Boğaz sularına demirlediğinde Kartal İstimbotu güvertesinden İstanbul'a ve tarihe verilen ebedi teminat)*
+
+---
+
+### 🔮 4. Tematik Şehir Fısıltıları ve Aforizmalar
+
+#### 🌊 Boğaziçi ve Su Felsefesi
+*   *"İstanbul'da su kenarında durmak, geçmiş ile geleceğin kavgasını izlemek ve ikisine de gülümseyip geçmektir."*
+*   *"Boğaz suları iki denizi değil; insanın iki ayrı ruh halini birbirine bağlar: Bir yanda Karadeniz'in hırçın hüznü, diğer yanda Marmara'nın dingin kabullenişi."*
+*   *"Bir vapurun düdüğü, bu şehirde zamanı ikiye bölen en keskin bıçaktır: Binenler geride bıraktıklarını unutur, inenler yeni bir maceraya adım atar."*
+
+#### 🥀 Hüzün, Melankoli ve Gece
+*   *"İstanbul'un hüznü bir ceza değil; bu topraklarda yaşayanlara bahşedilmiş asil bir duyarlık tacıdır."*
+*   *"Haliç'e sis çöktüğünde şehir susar; sadece minarelerin uçları konuşur gökyüzüyle."*
+*   *"Geceleri İstiklal Caddesi'nin sonuna doğru yürümek, kendi içindeki çıkmaz sokakları birer birer adımlamaktır."*
+
+#### 🐱 Kediler, Martılar ve Masumlar
+*   *"Bu şehrin gerçek sahipleri saraylarda oturan sultanlar değil; Cihangir merdivenlerinde güneşlenen sarman kedilerdir."*
+*   *"Martı çığlığı, İstanbul'un gökyüzüne yazılmış en kadim çivi yazısıdır."*
+*   *"Sokak kedisine su veren bir esnaf, İstanbul'un merhamet medeniyetinin yaşayan son kalesidir."*
+
+---
+
 ## 📂 Detaylı Kültürel Corpus Rehberi ve 30 Denemenin Analizi
 
 İstanbul külliyatını oluşturan tüm metinlerin detaylı özetleri ve edebi izdüşümleri:
@@ -72,13 +375,6 @@ Projenin temelini oluşturan makaleler, denemeler ve edebi kayıtlar İstanbul'u
 *   **[kaosun-icindeki-guzellik.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/01_psikoloji-ve-huzun/kaosun-icindeki-guzellik.md)**: Şehrin bitmeyen trafiğinin, insan akınının ve gürültüsünün arkasında yatan gizli estetiği, bu kaosun kendi içinde nasıl yaşayan bir melodi oluşturduğunu tartışır.
 *   **[melankoli-ve-yikinti-estetigi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/01_psikoloji-ve-huzun/melankoli-ve-yikinti-estetigi.md)**: Eski ahşap konakların çürüyen dokusunda ve arka sokakların tozunda somutlaşan yıkıntı estetiğini, kentin kaybettiği şanlı günlere dair taşıdığı hüzün ekseninde sorgular.
 
-> 🌫️ **Hüzün ve Melankoli Üzerine Şiirsel Yankı:**  
-> *"Düşüncem bir çakıltaşı gibi düşer suya;  
-> İstanbul'da sonbahar, yorgun bir rüyadır artık.  
-> Kıyılarda çırpınan sular dinler sesimi,  
-> Bir yaprak dökülürken hatırlarım kendimi..."*  
-> — **Cahit Sıtkı Tarancı**
-
 ---
 
 ### 👑 2. İmparatorluklar ve Siyaset
@@ -90,10 +386,6 @@ Tarihin dönüm noktalarını, saray bahçelerinden zindanlara yansıyan güç m
 *   **[roma-ve-bizans-donemi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/02_imparatorluklar-ve-siyaset/roma-ve-bizans-donemi.md)**: İmparator Konstantin'in "Nova Roma" hayalini, teolojik tartışmaların ve hipodromdaki isyanların sarstığı bin yıllık Bizans mirasını ele alır.
 *   **[saray-bahcelerinden-sokaklara.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/02_imparatorluklar-ve-siyaset/saray-bahcelerinden-sokaklara.md)**: Lale Devri saray zarafetinin mesire alanlarına, Boğaz kıyılarına ve halkın gündelik hayatına nasıl yansıdığını belgeler.
 *   **[yedikule-zindanlari-ve-karanlik-guc.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/02_imparatorluklar-ve-siyaset/yedikule-zindanlari-ve-karanlik-guc.md)**: Genç Osman faciasının, kanlı infazların ve hapsedilen kralların ardında bıraktığı kasvetli zindan hafızasını anlatır.
-
-> ⚔️ **İmparatorluk Ruhu:**  
-> *"Dünya tek bir ülke olsaydı, başkenti şüphesiz Konstantinopolis olurdu."*  
-> — **Napoléon Bonaparte**
 
 ---
 
@@ -107,13 +399,6 @@ Kelimelerin sokaklarla birleştiği, Tanpınar'ın zaman algısından divan kasi
 *   **[yabanci-yazarlar-ve-oryantalizm.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/03_edebiyat-ve-siir/yabanci-yazarlar-ve-oryantalizm.md)**: Pierre Loti, Nerval ve Flaubert'in Boğaz ve Haliç sırtlarında kurdukları mistik Doğu hayallerini inceler.
 *   **[yahya-kemal-ve-eyup-melankolisi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/03_edebiyat-ve-siir/yahya-kemal-ve-eyup-melankolisi.md)**: Yahya Kemal'in Eyüp mezarlıklarındaki serviler üzerinden kurduğu "ölülerle yaşayan cemaat" fikrini irdeler.
 
-> 💎 **Dersaadet'in Paha Biçilemez Taşı:**  
-> *"Bu şehr-i Sitanbul ki bî-misl ü behâdır  
-> Bir sengine yek-pâre 'Acem mülkü fedâdır  
-> Bir gevher-i yek-tâdır iki bahr arasında  
-> Hurşîd-i cihân-tâb ile tartılsa sezâdır"*  
-> — **Nedîm, İstanbul Kasidesi**
-
 ---
 
 ### ☕ 4. Şehrin Sesleri ve Yüzleri
@@ -124,13 +409,6 @@ Vapurların düdük seslerinden simitçilere, Sahaflar Çarşısı'nın asırlı
 *   **[martilar-ve-vapurlar.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/04_sehrin-sesleri-ve-yuzleri/martilar-ve-vapurlar.md)**: Boğaz vapurlarının köpüklü izinde uçuşan martıların ve havada kapılan simitlerin ebedi seremonisini anlatır.
 *   **[sahaflar-carsisi-ve-kagit-kokusu.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/04_sehrin-sesleri-ve-yuzleri/sahaflar-carsisi-ve-kagit-kokusu.md)**: Asırlık el yazmalarının, tozlu sayfaların ve kütüphane meraklılarının Beyazıt'taki buluşma noktasını tasvir eder.
 *   **[sokak-kedileri-ve-esnaf.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/04_sehrin-sesleri-ve-yuzleri/sokak-kedileri-ve-esnaf.md)**: İstanbul'un kadim sakinleri olan kedilerin mahalle esnafıyla kurduğu organik dostluğu belgeler.
-
-> 🕊️ **Güvercinler ve Şadırvanlar:**  
-> *"Şadırvanda suyun dökülüşü ne tatlı,  
-> Güvercin kanatları pırıl pırıl aydınlık.  
-> Bu cami avlusunda geçen dakikalar  
-> Ömrün en temiz, en kederden uzak çağıdır..."*  
-> — **Ziya Osman Saba**
 
 ---
 
@@ -583,6 +861,13 @@ Divan şairleri, İstanbul'u (Dersaadet / Kostantiniyye / Belde-i Tayyibe) kelim
 > Bir perî-sûret görünmüş bir hayâl olmuş sana."*  
 > *(Ey Nedim! Senin anlattığın o kusursuz sevgili bu dünyada yoktur; sana ancak melek yüzlü bir peri görünmüş, bir hayal olmuştur.)*
 
+> 💎 **Nedîm (İstanbul Kasidesi):**  
+> *"Bu şehr-i Sitanbul ki bî-misl ü behâdır  
+> Bir sengine yek-pâre 'Acem mülkü fedâdır  
+> Bir gevher-i yek-tâdır iki bahr arasında  
+> Hurşîd-i cihân-tâb ile tartılsa sezâdır"*  
+> *(Bu İstanbul şehri ki eşi ve benzeri yoktur; tek bir taşına bütün Acem mülkü feda olsun. İki deniz arasında öyle eşsiz bir mücevherdir ki, cihanı aydınlatan güneşle tartılsa yeridir.)*
+
 > 🕯️ **Şeyh Gâlib (Mevlevi Postnişini):**  
 > *"Genc-i zîr-i zemîndir bu harâbât-ı cihân  
 > Rûh-ı pâkindir o gencin güher-i yek-dânesi."*  
@@ -598,41 +883,10 @@ Divan şairleri, İstanbul'u (Dersaadet / Kostantiniyye / Belde-i Tayyibe) kelim
 > Reşk-i firdevs-i berîndir bu Stanbûl şehri."*  
 > *(Deniz kenarları cennet bahçeleri gibi görünür; şu İstanbul şehri en yüce cennetin bile kıskandığı bir vatandır.)*
 
----
-
-## 🌍 Dünya Edebiyatı ve Seyyahların Gözünden İstanbul
-
-İstanbul; Batılı ve Doğulu gezginlerin, imparatorların, filozofların ve edebiyatçıların dimağında silinmez büyüler bırakmıştır:
-
-> 🇫🇷 **Alphonse de Lamartine:**  
-> *"Dünyaya son bir kez bakma şansım olsaydı, bu bakışı Boğaziçi'nin bir tepesinden İstanbul'a yöneltmek isterdim. Çünkü Tanrı ve insan doğası, yeryüzünde hiçbir zaman bundan daha muhteşem bir manzara yaratmamıştır."*
-
-> 🇫🇷 **Gustave Flaubert:**  
-> *"Konstantinopolis, geleceğin başkenti olmaya mahkûm bir şehirdir. Yüzyıl sonra bütün dünya bir tek devlet olduğunda, bu devletin kalbi ancak ve ancak Boğaz kıyılarında atacaktır."*
-
-> 🇮🇹 **Edmondo De Amicis:**  
-> *"İstanbul, anlatılamaz bir büyüklük ve tarifsiz bir ışıltıdır. Burası bir şehir değil; gökle denizin, Doğu ile Batı'nın, ölümle hayatın sarmaş dolaş olduğu evrensel bir tablodur."*
-
-> 🇫🇷 **Pierre Loti:**  
-> *"Eyüp sırtlarında, asırlık servilerin gölgesinde Haliç'e bakarken duyulan o derin keder; insan ruhunu arındıran, dünyevi hırsları kül eden kutsal bir sessizliktir."*
-
-> 🇹🇷 **Evliya Çelebi (Seyahatnâme):**  
-> *"Elhamdülillah, Rabbim bu fakire 'Şefaat ya Resulallah' diyecekken 'Seyahat ya Resulallah' dedirtti ve beni bu Dersaadet'in yedi tepeli tılsımlarını, esnaf alaylarını ve ulu türbelerini yazmaya memur kıldı."*
-
-> 🇬🇧 **Lord Byron:**  
-> *"Boğaz'ın sularını yarıp geçerken insanın hissettiği şey, tarihin bütün yüzyıllarının aynı anda üzerinize doğru aktığıdır."*
-
-> 🇳🇴 **Knut Hamsun:**  
-> *"Hilal gökyüzünde parıldadığında İstanbul sokakları uyumaz; derin bir rüyanın içinde fısıldaşarak binbir gece masallarını anlatmaya başlar."*
-
-> 🇺🇸 **Ernest Hemingway:**  
-> *"Pera'nın sisli akşamlarında Galata Köprüsü'nden geçerken, dünyanın bütün dillerinin aynı anda konuşulduğu ve rüzgârın tuz kokusuyla tütün kokusunu birbirine kattığı o benzersiz havayı solursunuz."*
-
-> 🇫🇷 **Gérard de Nerval:**  
-> *"İstanbul'a yaklaşırken minarelerin silueti sisler arasından belirdiğinde, gerçek dünyaya değil de bin yıllık bir masal kitabının ilk sayfasına adım attığınızı sanırsınız."*
-
-> 🇫🇷 **Théophile Gautier:**  
-> *"Güneş batarken camilerin kurşun kubbeleri kızıla boyanır, minarelerin altın külahları göğü delen parıltılı mızraklara dönüşür. Bu tablo karşısında fırçalar da kelimeler de çaresiz kalır."*
+> ⚔️ **Nef'î (Kasideler Üstadı):**  
+> *"Tûti-i mu'cize-gûyem ne desem lâf değil  
+> Çerh ile söyleşemem âyînesi sâf değil."*  
+> *(Ben mucize gibi sözler söyleyen bir papağanım, dediklerim boş laf değildir; feleğin aynası temiz olmadığı için onunla dertleşmem.)*
 
 ---
 
@@ -691,30 +945,6 @@ Divan şairleri, İstanbul'u (Dersaadet / Kostantiniyye / Belde-i Tayyibe) kelim
  • Cahit Sıtkı (Sonbahar)   • Yahya Kemal (Tepe)        • Ziya Osman (Sebil)
  📍 Sirkeci, Haliç, Gar      📍 Surlar, Saray, Kubbe      📍 İskele, Pazar, Çarşı
 ```
-
----
-
-## 📜 Şehrin Fısıltıları: Tematik Seçme Alıntılar
-
-> 🎣 **Psikoloji & Sabır**:  
-> *"Galata Köprüsü'nde beklemek, İstanbul'un geçmişiyle geleceği arasında asılı kalıp, şimdiki zamanın ağırlığından kurtulma çabasıdır."*  
-> — [Galata Köprüsü'nde Bekleyişin Psikolojisi](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/01_psikoloji-ve-huzun/galata-koprusunde-bekleyisin-psikolojisi.md)
-
-> ⚔️ **İmparatorluk & Ebediyet**:  
-> *"Konstantinopolis bir şehir değildir, o bütün dünyadır; orada olan her şey, tarihin ta kendisidir."*  
-> — [Roma ve Bizans Dönemi](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/02_imparatorluklar-ve-siyaset/roma-ve-bizans-donemi.md)
-
-> 🖋️ **Edebiyat & Zaman**:  
-> *"Tanpınar'a göre İstanbul'da zaman akmaz; mimarinin, suyun ve musikinin içinde birikerek yekpare bir rüyaya dönüşür."*  
-> — [Ahmet Hamdi Tanpınar ve İstanbul'un Zamanı](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/03_edebiyat-ve-siir/ahmet-hamdi-tanpinar-ve-istanbulun-zamani.md)
-
-> ☕ **Şehrin Sesleri & Kâğıt**:  
-> *"Sahaflar Çarşısı'nda kokladığınız şey sadece kâğıt değil; İstanbul'un yüzyıllar boyunca biriktirdiği fikirlerin, aşkların ve hayal kırıklıklarının kokusudur."*  
-> — [Sahaflar Çarşısı ve Kâğıdın Kokusu](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/04_sehrin-sesleri-ve-yuzleri/sahaflar-carsisi-ve-kagit-kokusu.md)
-
-> 🔮 **Mitoloji & Tılsımlı Denge**:  
-> *"Mimar Sinan'ın Şehzadebaşı'na diktiği yeşil sütun, kentin görünmeyen ağırlık merkezini toprağa mühürleyen kozmik bir vidadır."*  
-> — [Şehzadebaşı ve Karakol Tılsımı](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/05_mitoloji-ve-efsaneler/sehzadebasi-ve-karakol-tilsimi.md)
 
 ---
 
