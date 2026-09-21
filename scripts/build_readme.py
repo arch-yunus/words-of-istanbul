@@ -11,9 +11,9 @@ readme_content = """<div align="center">
 [![Version](https://img.shields.io/badge/VERSION-v6.0--RESURRECTION-1a1a2e?style=for-the-badge)](./)
 [![Essays](https://img.shields.io/badge/CORPUS-30_denemeler-c5a059?style=for-the-badge)](./archive/corpus.json)
 [![Matrix](https://img.shields.io/badge/MATRIX-47_düğüm-00A9E0?style=for-the-badge)](./archive/matrix.json)
+[![Visuals](https://img.shields.io/badge/GÖRSELLER-5_özgün_banner-ffb703?style=for-the-badge)](#-beş-kültürel-sütun)
 [![Quotes](https://img.shields.io/badge/ALINTILAR-75+_büyük_alıntı-588157?style=for-the-badge)](#-büyük-i̇stanbul-alıntılar-hazinesi-corpus-quotes-treasury)
 [![Poetry](https://img.shields.io/badge/ANTOLOJİ-20+_büyük_şiir-e63946?style=for-the-badge)](#-büyük-i̇stanbul-şiir-antolojisi-seçme-şiirler-külliyatı)
-[![Travelers](https://img.shields.io/badge/DÜNYA_YAZARLARI-20+_seyyah_ve_filozof-2a9d8f?style=for-the-badge)](#-2-dünya-edebiyatı-seyyahlar-ve-filozoflar)
 
 > *"Ruhumu eritip de kalıpta dondurmuşlar;  
 > Onu İstanbul diye toprağa kondurmuşlar.  
@@ -363,9 +363,16 @@ Bu bölüm; Doğu ve Batı edebiyatından, imparatorlardan, dervişlerden, seyya
 
 ## 📂 Detaylı Kültürel Corpus Rehberi ve 30 Denemenin Analizi
 
-İstanbul külliyatını oluşturan tüm metinlerin detaylı özetleri ve edebi izdüşümleri:
+İstanbul külliyatını oluşturan tüm metinlerin detaylı özetleri, tematik görselleri ve edebi izdüşümleri:
 
 ### 🥀 1. Psikoloji ve Hüzün
+
+<div align="center">
+
+![Psikoloji ve Hüzün Banner](assets/pillar_01_psychology.jpg)
+
+</div>
+
 İki kıtanın kıyısında asılı kalmış ruhların melankolisini ve kozmopolit yabancılaşmayı konu edinen denemeler:
 
 *   **[galata-koprusunde-bekleyisin-psikolojisi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/01_psikoloji-ve-huzun/galata-koprusunde-bekleyisin-psikolojisi.md)**: Galata Köprüsü üstündeki balıkçıların sabır ritüelini ele alır. Oltayı suya bırakmak, kentsel gürültünün ortasında zamanı durdurma ve zihni dinlendirme çabası, iki kıta arasında tarafsız bir bölge inşasıdır.
@@ -378,6 +385,13 @@ Bu bölüm; Doğu ve Batı edebiyatından, imparatorlardan, dervişlerden, seyya
 ---
 
 ### 👑 2. İmparatorluklar ve Siyaset
+
+<div align="center">
+
+![İmparatorluklar ve Siyaset Banner](assets/pillar_02_imperial.jpg)
+
+</div>
+
 Tarihin dönüm noktalarını, saray bahçelerinden zindanlara yansıyan güç mücadelesini ve cihan devletlerinin izlerini taşıyan belgeler:
 
 *   **[dunya-liderleri-ve-diplomatlar.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/02_imparatorluklar-ve-siyaset/dunya-liderleri-ve-diplomatlar.md)**: Boğaz kıyılarındaki elçilik binalarından saray dehlizlerine kadar uzanan diplomatik entrikaları ve İstanbul'un jeopolitik ağırlığını belgeler.
@@ -390,6 +404,13 @@ Tarihin dönüm noktalarını, saray bahçelerinden zindanlara yansıyan güç m
 ---
 
 ### 🖋️ 3. Edebiyat ve Şiir
+
+<div align="center">
+
+![Edebiyat ve Şiir Banner](assets/pillar_03_literature.jpg)
+
+</div>
+
 Kelimelerin sokaklarla birleştiği, Tanpınar'ın zaman algısından divan kasidelerine uzanan edebiyat vadisi:
 
 *   **[ahmet-hamdi-tanpinar-ve-istanbulun-zamani.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/03_edebiyat-ve-siir/ahmet-hamdi-tanpinar-ve-istanbulun-zamani.md)**: Tanpınar'ın "Huzur" ve "Beş Şehir" eserlerinde işlenen yekpare anı, musikiyle mimari arasındaki estetik geçişi irdeler.
@@ -402,6 +423,13 @@ Kelimelerin sokaklarla birleştiği, Tanpınar'ın zaman algısından divan kasi
 ---
 
 ### ☕ 4. Şehrin Sesleri ve Yüzleri
+
+<div align="center">
+
+![Şehrin Sesleri ve Yüzleri Banner](assets/pillar_04_citylife.jpg)
+
+</div>
+
 Vapurların düdük seslerinden simitçilere, Sahaflar Çarşısı'nın asırlık tozundan mahalle kedilerine uzanan gündelik ses örüntüleri:
 
 *   **[boza-saticilari-ve-sokak-sesleri.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/04_sehrin-sesleri-ve-yuzleri/boza-saticilari-ve-sokak-sesleri.md)**: Kış gecelerinde sokakları dolduran "Bozaaa!" nidalarının kentin akustik belleğindeki yerini inceler.
@@ -413,6 +441,13 @@ Vapurların düdük seslerinden simitçilere, Sahaflar Çarşısı'nın asırlı
 ---
 
 ### 🔮 5. Mitoloji ve Efsaneler
+
+<div align="center">
+
+![Mitoloji ve Efsaneler Banner](assets/pillar_05_mythology.jpg)
+
+</div>
+
 Yerin yedi kat altındaki sarnıçlardan göğe yükselen minarelere, tılsımlı taşlardan batık hazinelere kadim mitler:
 
 *   **[altin-boynuz-ve-hazineler.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/05_mitoloji-ve-efsaneler/altin-boynuz-ve-hazineler.md)**: Haliç'in dibinde yattığına inanılan Bizans altınlarını ve batık donanmaların efsanesini aktarır.
