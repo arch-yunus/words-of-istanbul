@@ -375,12 +375,12 @@ Bu bölüm; Doğu ve Batı edebiyatından, imparatorlardan, dervişlerden, seyya
 
 İki kıtanın kıyısında asılı kalmış ruhların melankolisini ve kozmopolit yabancılaşmayı konu edinen denemeler:
 
-*   **[galata-koprusunde-bekleyisin-psikolojisi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/01_psikoloji-ve-huzun/galata-koprusunde-bekleyisin-psikolojisi.md)**: Galata Köprüsü üstündeki balıkçıların sabır ritüelini ele alır. Oltayı suya bırakmak, kentsel gürültünün ortasında zamanı durdurma ve zihni dinlendirme çabası, iki kıta arasında tarafsız bir bölge inşasıdır.
-*   **[halic-sisleri-ve-yalnizlik.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/01_psikoloji-ve-huzun/halic-sisleri-ve-yalnizlik.md)**: Haliç üzerine çöken sabah sisinin kentin tarihsel sırlarını saklayarak insanı geçmişin hayaletleriyle ve kendi içsel melankolisiyle baş başa bırakmasını konu edinir.
-*   **[iki-kitanin-kimlik-bunlimi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/01_psikoloji-ve-huzun/iki-kitanin-kimlik-bunlimi.md)**: İstanbul'un ne tam olarak Doğu'ya ne de tamamen Batı'ya ait olamamasından doğan kimlik sancısını, Asya ve Avrupa yakaları arasındaki o coğrafi ve ruhani araf durumunu irdeler.
-*   **[istiklal-caddesinde-kalabalik-ve-yabancilasmasi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/01_psikoloji-ve-huzun/istiklal-caddesinde-kalabalik-ve-yabancilasmasi.md)**: Tarihi tramvay sesleri ve neon ışıklarının çevrelediği Beyoğlu kalabalığında, modern bireyin yaşadığı derin yabancılaşmayı ve kozmopolit yalnızlığı tasvir eder.
-*   **[kaosun-icindeki-guzellik.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/01_psikoloji-ve-huzun/kaosun-icindeki-guzellik.md)**: Şehrin bitmeyen trafiğinin, insan akınının ve gürültüsünün arkasında yatan gizli estetiği, bu kaosun kendi içinde nasıl yaşayan bir melodi oluşturduğunu tartışır.
-*   **[melankoli-ve-yikinti-estetigi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/01_psikoloji-ve-huzun/melankoli-ve-yikinti-estetigi.md)**: Eski ahşap konakların çürüyen dokusunda ve arka sokakların tozunda somutlaşan yıkıntı estetiğini, kentin kaybettiği şanlı günlere dair taşıdığı hüzün ekseninde sorgular.
+*   **[🎣 Galata Köprüsü'nde Bekleyişin Psikolojisi](./01_psikoloji-ve-huzun/galata-koprusunde-bekleyisin-psikolojisi.md)**: Galata Köprüsü üstündeki balıkçıların sabır ritüelini ele alır. Oltayı suya bırakmak, kentsel gürültünün ortasında zamanı durdurma ve zihni dinlendirme çabası, iki kıta arasında tarafsız bir bölge inşasıdır.
+*   **[🌫️ Haliç Sisleri ve İstanbul'un Yalnızlığı](./01_psikoloji-ve-huzun/halic-sisleri-ve-yalnizlik.md)**: Haliç üzerine çöken sabah sisinin kentin tarihsel sırlarını saklayarak insanı geçmişin hayaletleriyle ve kendi içsel melankolisiyle baş başa bırakmasını konu edinir.
+*   **[🌉 İki Kıtanın Kimlik Bunalımı: Arafta Bir Şehir](./01_psikoloji-ve-huzun/iki-kitanin-kimlik-bunlimi.md)**: İstanbul'un ne tam olarak Doğu'ya ne de tamamen Batı'ya ait olamamasından doğan kimlik sancısını, Asya ve Avrupa yakaları arasındaki o coğrafi ve ruhani araf durumunu irdeler.
+*   **[🚶 İstiklal Caddesi'nde Kalabalık ve Yabancılaşma](./01_psikoloji-ve-huzun/istiklal-caddesinde-kalabalik-ve-yabancilasmasi.md)**: Tarihi tramvay sesleri ve neon ışıklarının çevrelediği Beyoğlu kalabalığında, modern bireyin yaşadığı derin yabancılaşmayı ve kozmopolit yalnızlığı tasvir eder.
+*   **[🌪️ Kaosun İçindeki Güzellik: İstanbul'un Ritmi](./01_psikoloji-ve-huzun/kaosun-icindeki-guzellik.md)**: Şehrin bitmeyen trafiğinin, insan akınının ve gürültüsünün arkasında yatan gizli estetiği, bu kaosun kendi içinde nasıl yaşayan bir melodi oluşturduğunu tartışır.
+*   **[🏚️ Melankoli ve Yıkıntı Estetiği: İstanbul'un Görünmez Yaraları](./01_psikoloji-ve-huzun/melankoli-ve-yikinti-estetigi.md)**: Eski ahşap konakların çürüyen dokusunda ve arka sokakların tozunda somutlaşan yıkıntı estetiğini, kentin kaybettiği şanlı günlere dair taşıdığı hüzün ekseninde sorgular.
 
 ---
 
@@ -394,12 +394,12 @@ Bu bölüm; Doğu ve Batı edebiyatından, imparatorlardan, dervişlerden, seyya
 
 Tarihin dönüm noktalarını, saray bahçelerinden zindanlara yansıyan güç mücadelesini ve cihan devletlerinin izlerini taşıyan belgeler:
 
-*   **[dunya-liderleri-ve-diplomatlar.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/02_imparatorluklar-ve-siyaset/dunya-liderleri-ve-diplomatlar.md)**: Boğaz kıyılarındaki elçilik binalarından saray dehlizlerine kadar uzanan diplomatik entrikaları ve İstanbul'un jeopolitik ağırlığını belgeler.
-*   **[fetih-ve-kuresel-donusum.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/02_imparatorluklar-ve-siyaset/fetih-ve-kuresel-donusum.md)**: 1453 Fethi ile şehrin Doğu Roma'dan Osmanlı İmparatorluğu'na geçişini, kentsel ve mimari dönüşümünü inceler.
-*   **[osmanli-ihtisami.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/02_imparatorluklar-ve-siyaset/osmanli-ihtisami.md)**: Topkapı Sarayı'ndaki cihan hakimiyeti iradesini, ulu camilerin gölgesindeki imparatorluk ihtişamını ve estetiği sunar.
-*   **[roma-ve-bizans-donemi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/02_imparatorluklar-ve-siyaset/roma-ve-bizans-donemi.md)**: İmparator Konstantin'in "Nova Roma" hayalini, teolojik tartışmaların ve hipodromdaki isyanların sarstığı bin yıllık Bizans mirasını ele alır.
-*   **[saray-bahcelerinden-sokaklara.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/02_imparatorluklar-ve-siyaset/saray-bahcelerinden-sokaklara.md)**: Lale Devri saray zarafetinin mesire alanlarına, Boğaz kıyılarına ve halkın gündelik hayatına nasıl yansıdığını belgeler.
-*   **[yedikule-zindanlari-ve-karanlik-guc.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/02_imparatorluklar-ve-siyaset/yedikule-zindanlari-ve-karanlik-guc.md)**: Genç Osman faciasının, kanlı infazların ve hapsedilen kralların ardında bıraktığı kasvetli zindan hafızasını anlatır.
+*   **[🌍 Dünya Liderleri ve Diplomatlar: İstanbul'un Görkemli Yankıları](./02_imparatorluklar-ve-siyaset/dunya-liderleri-ve-diplomatlar.md)**: Boğaz kıyılarındaki elçilik binalarından saray dehlizlerine kadar uzanan diplomatik entrikaları ve İstanbul'un jeopolitik ağırlığını belgeler.
+*   **[🏰 1453: Fetih ve Küresel Dönüşüm](./02_imparatorluklar-ve-siyaset/fetih-ve-kuresel-donusum.md)**: 1453 Fethi ile şehrin Doğu Roma'dan Osmanlı İmparatorluğu'na geçişini, kentsel ve mimari dönüşümünü inceler.
+*   **[🕌 Osmanlı İhtişamı: Dersaadet ve Cihan Hakimiyeti](./02_imparatorluklar-ve-siyaset/osmanli-ihtisami.md)**: Topkapı Sarayı'ndaki cihan hakimiyeti iradesini, ulu camilerin gölgesindeki imparatorluk ihtişamını ve estetiği sunar.
+*   **[⚔️ Roma ve Bizans Dönemi: Dünya İmparatorluğu'nun Başkenti](./02_imparatorluklar-ve-siyaset/roma-ve-bizans-donemi.md)**: İmparator Konstantin'in "Nova Roma" hayalini, teolojik tartışmaların ve hipodromdaki isyanların sarstığı bin yıllık Bizans mirasını ele alır.
+*   **[🏛️ Saray Bahçelerinden Sokaklara: Gücün İzleri](./02_imparatorluklar-ve-siyaset/saray-bahcelerinden-sokaklara.md)**: Lale Devri saray zarafetinin mesire alanlarına, Boğaz kıyılarına ve halkın gündelik hayatına nasıl yansıdığını belgeler.
+*   **[🏰 Yedikule Zindanları ve Karanlık Güç](./02_imparatorluklar-ve-siyaset/yedikule-zindanlari-ve-karanlik-guc.md)**: Genç Osman faciasının, kanlı infazların ve hapsedilen kralların ardında bıraktığı kasvetli zindan hafızasını anlatır.
 
 ---
 
@@ -413,12 +413,12 @@ Tarihin dönüm noktalarını, saray bahçelerinden zindanlara yansıyan güç m
 
 Kelimelerin sokaklarla birleştiği, Tanpınar'ın zaman algısından divan kasidelerine uzanan edebiyat vadisi:
 
-*   **[ahmet-hamdi-tanpinar-ve-istanbulun-zamani.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/03_edebiyat-ve-siir/ahmet-hamdi-tanpinar-ve-istanbulun-zamani.md)**: Tanpınar'ın "Huzur" ve "Beş Şehir" eserlerinde işlenen yekpare anı, musikiyle mimari arasındaki estetik geçişi irdeler.
-*   **[divan-edebiyatinda-dersaadet.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/03_edebiyat-ve-siir/divan-edebiyatinda-dersaadet.md)**: Nedim, Baki ve Şeyh Galip gibi divan şairlerinin İstanbul'u nasıl bir cihan mücevheri olarak tasvir ettiklerini sergiler.
-*   **[modern-turk-siirinin-baskenti.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/03_edebiyat-ve-siir/modern-turk-siirinin-baskenti.md)**: Orhan Veli, Yahya Kemal, Necip Fazıl, Attilâ İlhan ve İkinci Yeni şairlerinin İstanbul dizelerini çözümler.
-*   **[seyyahlarin-ve-kasiflerin-notlari.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/03_edebiyat-ve-siir/seyyahlarin-ve-kasiflerin-notlari.md)**: Evliya Çelebi, İbn Battuta ve batılı gezginlerin gözünden kentin egzotik çarşılarını ve hanlarını derler.
-*   **[yabanci-yazarlar-ve-oryantalizm.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/03_edebiyat-ve-siir/yabanci-yazarlar-ve-oryantalizm.md)**: Pierre Loti, Nerval ve Flaubert'in Boğaz ve Haliç sırtlarında kurdukları mistik Doğu hayallerini inceler.
-*   **[yahya-kemal-ve-eyup-melankolisi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/03_edebiyat-ve-siir/yahya-kemal-ve-eyup-melankolisi.md)**: Yahya Kemal'in Eyüp mezarlıklarındaki serviler üzerinden kurduğu "ölülerle yaşayan cemaat" fikrini irdeler.
+*   **[⏳ Ahmet Hamdi Tanpınar ve İstanbul'un Huzursuz Zamanı](./03_edebiyat-ve-siir/ahmet-hamdi-tanpinar-ve-istanbulun-zamani.md)**: Tanpınar'ın "Huzur" ve "Beş Şehir" eserlerinde işlenen yekpare anı, musikiyle mimari arasındaki estetik geçişi irdeler.
+*   **[🖋️ Divan Edebiyatında Dersaadet: Şiirin Altın Çağı](./03_edebiyat-ve-siir/divan-edebiyatinda-dersaadet.md)**: Nedim, Baki ve Şeyh Galip gibi divan şairlerinin İstanbul'u nasıl bir cihan mücevheri olarak tasvir ettiklerini sergiler.
+*   **[🌊 Modern Türk Şiirinin Başkenti: Yeni Bir İstanbul Tahayyülü](./03_edebiyat-ve-siir/modern-turk-siirinin-baskenti.md)**: Orhan Veli, Yahya Kemal, Necip Fazıl, Attilâ İlhan ve İkinci Yeni şairlerinin İstanbul dizelerini çözümler.
+*   **[📜 Seyyahların ve Kaşiflerin Notları: Zamanın Tozlu Sayfaları](./03_edebiyat-ve-siir/seyyahlarin-ve-kasiflerin-notlari.md)**: Evliya Çelebi, İbn Battuta ve batılı gezginlerin gözünden kentin egzotik çarşılarını ve hanlarını derler.
+*   **[🎩 Yabancı Yazarlar ve Oryantalizm: Batı'nın İstanbul Tasviri](./03_edebiyat-ve-siir/yabanci-yazarlar-ve-oryantalizm.md)**: Pierre Loti, Nerval ve Flaubert'in Boğaz ve Haliç sırtlarında kurdukları mistik Doğu hayallerini inceler.
+*   **[🌲 Yahya Kemal ve Eyüp Mezarlıklarının Melankolisi](./03_edebiyat-ve-siir/yahya-kemal-ve-eyup-melankolisi.md)**: Yahya Kemal'in Eyüp mezarlıklarındaki serviler üzerinden kurduğu "ölülerle yaşayan cemaat" fikrini irdeler.
 
 ---
 
@@ -432,11 +432,11 @@ Kelimelerin sokaklarla birleştiği, Tanpınar'ın zaman algısından divan kasi
 
 Vapurların düdük seslerinden simitçilere, Sahaflar Çarşısı'nın asırlık tozundan mahalle kedilerine uzanan gündelik ses örüntüleri:
 
-*   **[boza-saticilari-ve-sokak-sesleri.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/04_sehrin-sesleri-ve-yuzleri/boza-saticilari-ve-sokak-sesleri.md)**: Kış gecelerinde sokakları dolduran "Bozaaa!" nidalarının kentin akustik belleğindeki yerini inceler.
-*   **[eminonunun-insan-seli-ve-telasi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/04_sehrin-sesleri-ve-yuzleri/eminonunun-insan-seli-ve-telasi.md)**: Baharat kokuları, işportacı bağırışları ve vapur iskelelerindeki telaşla Eminönü Meydanı'nın nabzını tutar.
-*   **[martilar-ve-vapurlar.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/04_sehrin-sesleri-ve-yuzleri/martilar-ve-vapurlar.md)**: Boğaz vapurlarının köpüklü izinde uçuşan martıların ve havada kapılan simitlerin ebedi seremonisini anlatır.
-*   **[sahaflar-carsisi-ve-kagit-kokusu.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/04_sehrin-sesleri-ve-yuzleri/sahaflar-carsisi-ve-kagit-kokusu.md)**: Asırlık el yazmalarının, tozlu sayfaların ve kütüphane meraklılarının Beyazıt'taki buluşma noktasını tasvir eder.
-*   **[sokak-kedileri-ve-esnaf.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/04_sehrin-sesleri-ve-yuzleri/sokak-kedileri-ve-esnaf.md)**: İstanbul'un kadim sakinleri olan kedilerin mahalle esnafıyla kurduğu organik dostluğu belgeler.
+*   **[🥛 Boza Satıcıları ve İstanbul'un Gece Sesleri](./04_sehrin-sesleri-ve-yuzleri/boza-saticilari-ve-sokak-sesleri.md)**: Kış gecelerinde sokakları dolduran "Bozaaa!" nidalarının kentin akustik belleğindeki yerini inceler.
+*   **[🚢 Eminönü'nün İnsan Seli ve Günlük Telaş](./04_sehrin-sesleri-ve-yuzleri/eminonunun-insan-seli-ve-telasi.md)**: Baharat kokuları, işportacı bağırışları ve vapur iskelelerindeki telaşla Eminönü Meydanı'nın nabzını tutar.
+*   **[🚢 Martılar ve Vapurlar: Denizin Üstündeki Hayat](./04_sehrin-sesleri-ve-yuzleri/martilar-ve-vapurlar.md)**: Boğaz vapurlarının köpüklü izinde uçuşan martıların ve havada kapılan simitlerin ebedi seremonisini anlatır.
+*   **[📚 Sahaflar Çarşısı ve Kâğıdın Kokusu](./04_sehrin-sesleri-ve-yuzleri/sahaflar-carsisi-ve-kagit-kokusu.md)**: Asırlık el yazmalarının, tozlu sayfaların ve kütüphane meraklılarının Beyazıt'taki buluşma noktasını tasvir eder.
+*   **[🐈 Sokak Kedileri ve Esnaf: Mahallenin Görünmez Muhafızları](./04_sehrin-sesleri-ve-yuzleri/sokak-kedileri-ve-esnaf.md)**: İstanbul'un kadim sakinleri olan kedilerin mahalle esnafıyla kurduğu organik dostluğu belgeler.
 
 ---
 
@@ -450,13 +450,13 @@ Vapurların düdük seslerinden simitçilere, Sahaflar Çarşısı'nın asırlı
 
 Yerin yedi kat altındaki sarnıçlardan göğe yükselen minarelere, tılsımlı taşlardan batık hazinelere kadim mitler:
 
-*   **[altin-boynuz-ve-hazineler.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/05_mitoloji-ve-efsaneler/altin-boynuz-ve-hazineler.md)**: Haliç'in dibinde yattığına inanılan Bizans altınlarını ve batık donanmaların efsanesini aktarır.
-*   **[ayasofya-ve-yeralti-dehlizleri.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/05_mitoloji-ve-efsaneler/ayasofya-ve-yeralti-dehlizleri.md)**: Ayasofya'nın altındaki gizli tünellerin, şifalı kuyuların ve kıyamet kehanetlerinin izini sürer.
-*   **[byzantion-kurulus-efsanesi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/05_mitoloji-ve-efsaneler/byzantion-kurulus-efsanesi.md)**: Kral Byzas'ın "Körler Ülkesi" kehanetiyle Sarayburnu'nda attığı ilk şehrin temelini konu alır.
-*   **[kiz-kulesi-ve-bogazin-sirlari.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/05_mitoloji-ve-efsaneler/kiz-kulesi-ve-bogazin-sirlari.md)**: Yılan kehanetiyle korunan prensesin kederini ve Leandros ile Hero'nun ölümsüz aşkını anlatır.
-*   **[sehzadebasi-ve-karakol-tilsimi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/05_mitoloji-ve-efsaneler/sehzadebasi-ve-karakol-tilsimi.md)**: Mimar Sinan'ın şehrin geometrik merkezine diktiği tılsımlı yeşil mermer sütunun gizemini sunar.
-*   **[yedi-tepenin-gizli-efsaneleri.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/05_mitoloji-ve-efsaneler/yedi-tepenin-gizli-efsaneleri.md)**: Roma ve Osmanlı'nın yedi tepesi üzerine kurulu mabedlerin ve koruyucu sütunların tılsımlarını inceler.
-*   **[yerebatan-sarnici-ve-medusanin-bakisi.md](file:///g:/Diğer bilgisayarlar/Dizüstü Bilgisayarım/github repolarım/words-of-istanbul/05_mitoloji-ve-efsaneler/yerebatan-sarnici-ve-medusanin-bakisi.md)**: Yüzlerce mermer sütunun taşıdığı karanlık sarnıçta ters duran Medusa başlarının mistik bekçiliğini anlatır.
+*   **[🔱 Altın Boynuz ve Hazineler: Haliç'in Derin Sırları](./05_mitoloji-ve-efsaneler/altin-boynuz-ve-hazineler.md)**: Haliç'in dibinde yattığına inanılan Bizans altınlarını ve batık donanmaların efsanesini aktarır.
+*   **[⛪ Ayasofya ve Yeraltı Dehlizleri: Kutsal Hikmet'in Gizli Labirenti](./05_mitoloji-ve-efsaneler/ayasofya-ve-yeralti-dehlizleri.md)**: Ayasofya'nın altındaki gizli tünellerin, şifalı kuyuların ve kıyamet kehanetlerinin izini sürer.
+*   **[🏺 Byzantion Kuruluş Efsanesi: Kehanetin İşaret Ettiği Şehir](./05_mitoloji-ve-efsaneler/byzantion-kurulus-efsanesi.md)**: Kral Byzas'ın "Körler Ülkesi" kehanetiyle Sarayburnu'nda attığı ilk şehrin temelini konu alır.
+*   **[🗼 Kız Kulesi ve Boğazın Sırları: Yalnızlığın ve Kehanetin Kulesi](./05_mitoloji-ve-efsaneler/kiz-kulesi-ve-bogazin-sirlari.md)**: Yılan kehanetiyle korunan prensesin kederini ve Leandros ile Hero'nun ölümsüz aşkını anlatır.
+*   **[🟢 Şehzadebaşı ve Şehrin Merkezindeki Tılsımlı Sütun](./05_mitoloji-ve-efsaneler/sehzadebasi-ve-karakol-tilsimi.md)**: Mimar Sinan'ın şehrin geometrik merkezine diktiği tılsımlı yeşil mermer sütunun gizemini sunar.
+*   **[⛰️ Yedi Tepenin Gizli Efsaneleri](./05_mitoloji-ve-efsaneler/yedi-tepenin-gizli-efsaneleri.md)**: Roma ve Osmanlı'nın yedi tepesi üzerine kurulu mabedlerin ve koruyucu sütunların tılsımlarını inceler.
+*   **[🐍 Yerebatan Sarnıcı ve Medusa'nın Bakışı](./05_mitoloji-ve-efsaneler/yerebatan-sarnici-ve-medusanin-bakisi.md)**: Yüzlerce mermer sütunun taşıdığı karanlık sarnıçta ters duran Medusa başlarının mistik bekçiliğini anlatır.
 
 ---
 
@@ -724,19 +724,19 @@ Yerin yedi kat altındaki sarnıçlardan göğe yükselen minarelere, tılsıml�
 ---
 
 ### 🚩 10. İstanbul'da Tevkifhane Avlusunda — Nâzım Hikmet
-> *Yedi tepeli şehrimde*  
-> *davetçisiz bir akşam vakti*  
-> *puslu deniz kıyısında*  
-> *hürriyet türküleri söylerken çocuklar,*  
-> *demir parmaklıkların ardından baktım sana İstanbul.*  
+> *Yedi tepeli şehrimde  
+> davetçisiz bir akşam vakti  
+> puslu deniz kıyısında  
+> hürriyet türküleri söylerken çocuklar,  
+> demir parmaklıkların ardından baktım sana İstanbul.*  
 > 
-> *Başında bir duman,*  
-> *gözlerinde keder,*  
-> *dalgaların kıyıya vuran o eski şarkısı...*  
-> *Ve sen ey sevgili memleketim,*  
-> *minarelerin göğü delen parmaklarıyla*  
-> *benden selam söyle işçilerine, fırıncılarına,*  
-> *şafak vakti denize açılan balıkçılarına!*
+> *Başında bir duman,  
+> gözlerinde keder,  
+> dalgaların kıyıya vuran o eski şarkısı...  
+> Ve sen ey sevgili memleketim,  
+> minarelerin göğü delen parmaklarıyla  
+> benden selam söyle işçilerine, fırıncılarına,  
+> şafak vakti denize açılan balıkçılarına!*
 
 ---
 
