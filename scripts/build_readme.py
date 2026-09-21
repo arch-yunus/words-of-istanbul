@@ -1,4 +1,7 @@
-<div align="center">
+# -*- coding: utf-8 -*-
+import os
+
+readme_content = """<div align="center">
 
 ![İstanbul Banner](assets/istanbul_soul_banner.png)
 
@@ -837,3 +840,12 @@ Yeni bir deneme, alıntı veya şiir eklediğinizde veritabanını güncellemek 
 *Mühürlendi.* 🏛️✨
 
 </div>
+"""
+
+root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+readme_path = os.path.join(root, "README.md")
+
+with open(readme_path, "w", encoding="utf-8") as f:
+    f.write(readme_content.strip() + "\n")
+
+print(f"Successfully generated {readme_path}")
